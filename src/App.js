@@ -3,7 +3,6 @@ import "./App.css";
 import PrimarySearchAppBar from "./Components/UI/PrimarySearchAppBar";
 import SimpleExpansionPanel from "./Components/UI/SimpleExpansionPanel";
 import ProfileIntro from "./Components/UI/ProfileIntro";
-import Chips from "./Components/UI/Chips";
 
 class App extends Component {
   render() {
@@ -17,9 +16,6 @@ class App extends Component {
         </div>
         <div>
           <SimpleExpansionPanel />
-        </div>
-        <div>
-          <Chips />
         </div>
         Contact info
       </div>
