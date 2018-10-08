@@ -139,7 +139,7 @@ class PrimarySearchAppBar extends React.Component {
       >
         <MenuItem>
           <IconButton color="inherit">
-            <Badge className={classes.margin} badgeContent={4} color="secondary">
+            <Badge className={classes.margin} color="secondary">
               <MailIcon />
             </Badge>
           </IconButton>
@@ -147,7 +147,7 @@ class PrimarySearchAppBar extends React.Component {
         </MenuItem>
         <MenuItem>
           <IconButton color="inherit">
-            <Badge className={classes.margin} badgeContent={11} color="secondary">
+            <Badge className={classes.margin} color="secondary">
               <NotificationsIcon />
             </Badge>
           </IconButton>
@@ -170,7 +170,7 @@ class PrimarySearchAppBar extends React.Component {
               <MenuIcon />
             </IconButton>
             <Typography className={classes.title} variant="h6" color="inherit" noWrap>
-              Material-UI
+              Matthew Iverson
             </Typography>
             <div className={classes.search}>
               <div className={classes.searchIcon}>
@@ -187,14 +187,10 @@ class PrimarySearchAppBar extends React.Component {
             <div className={classes.grow} />
             <div className={classes.sectionDesktop}>
               <IconButton color="inherit">
-                <Badge className={classes.margin} badgeContent={4} color="secondary">
                   <MailIcon />
-                </Badge>
               </IconButton>
-              <IconButton color="inherit">
-                <Badge className={classes.margin} badgeContent={17} color="secondary">
+              <IconButton color="inherit"> 
                   <NotificationsIcon />
-                </Badge>
               </IconButton>
               <IconButton
                 aria-owns={isMenuOpen ? 'material-appbar' : null}

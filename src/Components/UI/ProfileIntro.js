@@ -1,21 +1,19 @@
 import React, { Component } from "react";
-
 import { Paper } from "@material-ui/core";
 
 class ProfileIntro extends Component {
   render() {
     return (
-      <div >
+      <div>
         <Paper className="landing-grid">
-        <Paper>
+          <Paper>
             <img
               src="https://www.shareicon.net/download/2015/09/18/103157_man_512x512.png"
               alt="avatar"
               className="avatar-img"
             />
             <div className="banner-text">
-              <h1>Matthew Iverson</h1>
-              <p>"Know how to play the game."</p>
+              <h2>"Know how to play the game."</h2>
               <hr />
               <p>
                 <a
@@ -114,7 +112,7 @@ class ProfileIntro extends Component {
                 </a>
               </div>
             </div>
-            </Paper>
+          </Paper>
         </Paper>
       </div>
     );

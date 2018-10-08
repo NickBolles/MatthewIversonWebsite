@@ -3,6 +3,7 @@ import "./App.css";
 import PrimarySearchAppBar from "./Components/UI/PrimarySearchAppBar";
 import SimpleExpansionPanel from "./Components/UI/SimpleExpansionPanel";
 import ProfileIntro from "./Components/UI/ProfileIntro";
+import Chip from "./Components/UI/ChipsPlayground";
 
 class App extends Component {
   render() {
@@ -11,16 +12,21 @@ class App extends Component {
         <div>
           <PrimarySearchAppBar />
         </div>
-        <h1>Matthew Iverson</h1>
         <div>
           <ProfileIntro />
         </div>
         <div>
           <SimpleExpansionPanel />
         </div>
+        <div>
+        <Chip color="primary" /> 
+        </div>
+        Contact info
       </div>
     );
   }
 }
 
 export default App;
+
+// avatar={<Avatar src="/static/images/uxceo-128.jpg" />}
