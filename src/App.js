@@ -14,6 +14,7 @@ class App extends Component {
         <div>
           <ProfileIntro />
         </div>
+        Projects
         <div>
           <SimpleExpansionPanel />
         </div>
