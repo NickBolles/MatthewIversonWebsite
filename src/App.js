@@ -8,14 +8,14 @@ class App extends Component {
   render() {
     return (
       <div className="App">
-        <div>
+        <div class="container">
           <PrimarySearchAppBar />
         </div>
-        <div>
+        <div class="container">
           <ProfileIntro />
         </div>
         Projects
-        <div>
+        <div class="container">
           <SimpleExpansionPanel />
         </div>
         Contact info
