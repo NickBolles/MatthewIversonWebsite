@@ -6,7 +6,7 @@ import Contact from "./Contact";
 import Resume from "./Resume";
 import Paper from "@material-ui/core/Paper";
 
-class Landing extends Component {
+class Main extends Component {
   render() {
     return (
       <div style={{ width: "100%", margin: "auto" }}>
@@ -144,4 +144,4 @@ class Landing extends Component {
   }
 }
 
-export default Landing;
+export default Main;
