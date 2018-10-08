@@ -46,15 +46,6 @@ const styles = theme => ({
       width: 'auto',
     },
   },
-  searchIcon: {
-    width: theme.spacing.unit * 9,
-    height: '100%',
-    position: 'absolute',
-    pointerEvents: 'none',
-    display: 'flex',
-    alignItems: 'center',
-    justifyContent: 'center',
-  },
   inputRoot: {
     color: 'inherit',
     width: '100%',
@@ -136,9 +127,7 @@ class PrimarySearchAppBar extends React.Component {
       >
         <MenuItem>
           <IconButton color="inherit">
-            <Badge className={classes.margin} color="secondary">
               <MailIcon />
-            </Badge>
           </IconButton>
           <p>Messages</p>
         </MenuItem>
