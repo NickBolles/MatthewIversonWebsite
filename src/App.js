@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import './App.css';
-import Main from "./Components/Main.tsx";
+import PrimarySearchAppBar from "./Components/UI/PrimarySearchAppBar";
 
 class App extends Component {
   render() {
@@ -9,6 +9,7 @@ class App extends Component {
         <header className="App-header">
         Welcome all!
         </header>
+        <div><PrimarySearchAppBar/></div>
       </div>
     );
   }
