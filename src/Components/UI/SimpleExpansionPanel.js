@@ -59,6 +59,68 @@ Porttitor odio semper convallis libero magna et facilisis erat, id hendrerit pul
 	Matthew started programming by learning Python which is a basic back end programming languages which is simple and expendable. Then he proceeded to learn HTML, css, js, react, sql, node, next, etc. Matthew then added Arduinos to understand the deep connection between computers and electricals.
 	Matthew then wanted to learn the bigger picture he did not understand this led him to ethical hacking.
 	Nick Bolles and Joe Bannon were helping guide Matthew to experiment and create rather than ingesting more useless knowledge. Matthew decided to listen after a few months of hearing them say it. Once he decided to make his own projects the time to create was not long enough because Matthew wanted more and more time to create his ideas because of how much he loved to invent.
+                  <h2>Programming Languages</h2>
+                  <Skills
+                  src="https://www.w3.org/html/logo/img/mark-only-icon.png"
+                  skill="HTML5"
+                  progress={100}
+                  />
+                  <Skills
+                  src="https://maxcdn.icons8.com/Share/icon/Logos/css31600.png"
+                  skill="CSS (Cascading Style Sheets)"
+                  progress={90}
+                  />
+                  <Skills
+                  src="http://logo-load.com/uploads/posts/2016-09/javascript-logo.png"
+                  skill="Javascript"
+                  progress={70}
+                  />
+                  <Skills
+                  src="https://cdn0.iconfinder.com/data/icons/superuser-extension-light/512/675277-data_database_sql_query-512.png"
+                  // src="http://tapoueh.org/img/old/sql-logo.png"
+                  skill="SQL"
+                  progress={50}
+                  />
+                  <Skills
+                  src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/0a/Python.svg/768px-Python.svg.png"
+                  skill="Python"
+                  progress={60}
+                  />
+                  <Skills
+                  src="https://dzone.com/storage/temp/4470473-ts-logo.png"
+                  skill="Typescript"
+                  progress={30}
+                  />
+                  <Skills
+                  src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e0/SNice.svg/1200px-SNice.svg.png"
+                  skill="HTML/CSS"
+                  progress={80}
+                  />
+                  <Skills
+                  src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e0/SNice.svg/1200px-SNice.svg.png"
+                  skill="HTML/CSS"
+                  progress={80}
+                  />
+                  <Skills
+                  src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e0/SNice.svg/1200px-SNice.svg.png"
+                  skill="HTML/CSS"
+                  progress={80}
+                  />
+                  <Skills
+                  src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e0/SNice.svg/1200px-SNice.svg.png"
+                  skill="HTML/CSS"
+                  progress={80}
+                  />
+                  <Skills
+                  src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e0/SNice.svg/1200px-SNice.svg.png"
+                  skill="HTML/CSS"
+                  progress={80}
+                  />
+                  <Skills
+                  src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e0/SNice.svg/1200px-SNice.svg.png"
+                  skill="HTML/CSS"
+                  progress={80}
+                  />
           </Typography>
         </ExpansionPanelDetails>
       </ExpansionPanel>
@@ -72,7 +134,87 @@ Porttitor odio semper convallis libero magna et facilisis erat, id hendrerit pul
 	Matthew started programming by learning Python which is a basic back end programming languages which is simple and expendable. Then he proceeded to learn HTML, css, js, react, sql, node, next, etc. Matthew then added Arduinos to understand the deep connection between computers and electricals.
 	Matthew then wanted to learn the bigger picture he did not understand this led him to ethical hacking.
             sit amet blandit leo lobortis eget.
-          <Skills
+                  <Skills
+                  src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e0/SNice.svg/1200px-SNice.svg.png"
+                  skill="HTML/CSS"
+                  progress={80}
+                  />
+                  <Skills
+                  src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e0/SNice.svg/1200px-SNice.svg.png"
+                  skill="HTML/CSS"
+                  progress={80}
+                  />
+                  <Skills
+                  src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e0/SNice.svg/1200px-SNice.svg.png"
+                  skill="HTML/CSS"
+                  progress={80}
+                  />
+                  <Skills
+                  src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e0/SNice.svg/1200px-SNice.svg.png"
+                  skill="HTML/CSS"
+                  progress={80}
+                  />
+                  <Skills
+                  src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e0/SNice.svg/1200px-SNice.svg.png"
+                  skill="HTML/CSS"
+                  progress={80}
+                  />
+                  <Skills
+                  src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e0/SNice.svg/1200px-SNice.svg.png"
+                  skill="HTML/CSS"
+                  progress={80}
+                  />
+                  <Skills
+                  src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e0/SNice.svg/1200px-SNice.svg.png"
+                  skill="HTML/CSS"
+                  progress={80}
+                  />
+                  <Skills
+                  src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e0/SNice.svg/1200px-SNice.svg.png"
+                  skill="HTML/CSS"
+                  progress={80}
+                  />
+                  <Skills
+                  src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e0/SNice.svg/1200px-SNice.svg.png"
+                  skill="HTML/CSS"
+                  progress={80}
+                  />
+                  <Skills
+                  src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e0/SNice.svg/1200px-SNice.svg.png"
+                  skill="HTML/CSS"
+                  progress={80}
+                  />
+                  <Skills
+                  src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e0/SNice.svg/1200px-SNice.svg.png"
+                  skill="HTML/CSS"
+                  progress={80}
+                  />
+                  <Skills
+                  src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e0/SNice.svg/1200px-SNice.svg.png"
+                  skill="HTML/CSS"
+                  progress={80}
+                  />
+                  <Skills
+                  src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e0/SNice.svg/1200px-SNice.svg.png"
+                  skill="HTML/CSS"
+                  progress={80}
+                  />
+                  <Skills
+                  src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e0/SNice.svg/1200px-SNice.svg.png"
+                  skill="HTML/CSS"
+                  progress={80}
+                  />
+                  <Skills
+                  src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e0/SNice.svg/1200px-SNice.svg.png"
+                  skill="HTML/CSS"
+                  progress={80}
+                  />
+                  <Skills
+                  src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e0/SNice.svg/1200px-SNice.svg.png"
+                  skill="HTML/CSS"
+                  progress={80}
+                  />
+                  <Skills
                   src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e0/SNice.svg/1200px-SNice.svg.png"
                   skill="HTML/CSS"
                   progress={80}
