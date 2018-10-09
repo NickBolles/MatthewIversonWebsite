@@ -55,6 +55,11 @@
   padding: 1em;
 }
 
+.PersonalDescriptors {
+  color: #FFFFFF;
+  text-decoration: none;
+}
+
 .social-links {
   display: flex;
   justify-content: space-between;

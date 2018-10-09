@@ -29,6 +29,7 @@ class ProfileIntro extends Component {
                   href="https://www.richardhughesjones.com/ray-dalio-principles-shaper-leadership/"
                   rel="noopener noreferrer"
                   target="_blank"
+                  className="PersonalDescriptors"
                 >
                   Shaper
                 </a>{" "}
@@ -37,6 +38,7 @@ class ProfileIntro extends Component {
                   href="https://donaldrobertson.name/diagram-the-influence-of-socrates-on-stoicism/"
                   rel="noopener noreferrer"
                   target="_blank"
+                  className="PersonalDescriptors"
                 >
                   Stoic
                 </a>{" "}
@@ -45,6 +47,7 @@ class ProfileIntro extends Component {
                   href="https://www.16personalities.com/intj-personality"
                   rel="noopener noreferrer"
                   target="_blank"
+                  className="PersonalDescriptors"
                 >
                   INTJ-A
                 </a>{" "}
@@ -53,6 +56,7 @@ class ProfileIntro extends Component {
                   href="https://youtu.be/h-KHWUq3B7I"
                   rel="noopener noreferrer"
                   target="_blank"
+                  className="PersonalDescriptors"
                 >
                   Entreprenuer
                 </a>{" "}
@@ -61,6 +65,7 @@ class ProfileIntro extends Component {
                   href="https://www.biography.com/people/nikola-tesla-9504443"
                   rel="noopener noreferrer"
                   target="_blank"
+                  className="PersonalDescriptors"
                 >
                   Inventor
                 </a>{" "}
@@ -69,6 +74,7 @@ class ProfileIntro extends Component {
                   href="https://www.matthewiver.com"
                   rel="noopener noreferrer"
                   target="_blank"
+                  className="PersonalDescriptors"
                 >
                   Creative
                 </a>
