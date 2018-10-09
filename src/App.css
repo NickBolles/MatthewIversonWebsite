@@ -18,8 +18,9 @@
   padding-top: 5em;
   transition: all 0.3s ease-in-out;
   position: absolute; 
-  align:center;
-  left: 37%;
+  margin: -180px 0 0 -180px;
+  left: 50%;
+  top: 20%;
 }
 
 .avatar-img:hover {
@@ -32,16 +33,14 @@
 
 .banner-text {
   background-color:#000;
-  opacity: .8;
+  opacity: .85;
   width: 65%;
-  margin: auto;
   padding: 10px;
   border-radius: 15px;
-  position: absolute; 
-  align:center;
-  top: 54%;
-  left: 16%;
-  z-index: 999;
+  position: absolute;
+  margin: -180px 0 0 -180px;
+  left: 28%;
+  top: 70%;
 }
 
 .banner-text h2 {

@@ -15,7 +15,8 @@ import ImportContacts from "@material-ui/icons/ImportContacts";
 const styles = theme => ({
   root: {
     width: "100%",
-    position: "fixed"
+    position: "fixed",
+    zIndex: "999"
   },
   grow: {
     flexGrow: 1
