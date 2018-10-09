@@ -9,6 +9,7 @@ import ExpandMoreIcon from '@material-ui/icons/ExpandMore';
 import Chip from "@material-ui/core/Chip";
 import Avatar from "@material-ui/core/Avatar";
 import LinearProgress from "@material-ui/core/LinearProgress";
+import Skills from "./Skills";
 
 const styles = theme => ({
   root: {
@@ -107,6 +108,7 @@ Porttitor odio semper convallis libero magna et facilisis erat, id hendrerit pul
             <br /> <Chip label="Docker" color="primary" avatar={<Avatar src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e0/SNice.svg/1200px-SNice.svg.png" />} /> <LinearProgress width="100px" variant="determinate" value={50} />
             <br /> <Chip label="Docker" color="primary" avatar={<Avatar src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e0/SNice.svg/1200px-SNice.svg.png" />} /> <LinearProgress width="100px" variant="determinate" value={50} />
             <br /> <Chip label="Docker" color="primary" avatar={<Avatar src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e0/SNice.svg/1200px-SNice.svg.png" />} /> <LinearProgress width="100px" variant="determinate" value={50} />
+          <Skills/>
           </Typography>
         </ExpansionPanelDetails>
       </ExpansionPanel>
