@@ -5,7 +5,6 @@ import Toolbar from "@material-ui/core/Toolbar";
 import IconButton from "@material-ui/core/IconButton";
 import SecurityIcon from "@material-ui/icons/Security";
 import Typography from "@material-ui/core/Typography";
-import { fade } from "@material-ui/core/styles/colorManipulator";
 import { withStyles } from "@material-ui/core/styles";
 import MailIcon from "@material-ui/icons/Mail";
 import ComputerIcon from "@material-ui/icons/Computer";
