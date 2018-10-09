@@ -72,8 +72,4 @@
   width: 60%;
   margin: auto;
   padding-bottom: 10px;
-  transition: 0.3s ease-in-out;
 }
-
-.social-links:hover {
-  transform: scale(1.2);}
