@@ -8,17 +8,20 @@ class App extends Component {
   render() {
     return (
       <div className="App">
-        <div class="container">
+        <div>
           <PrimarySearchAppBar />
         </div>
-        <div class="container">
+        <section id="Profile">
           <ProfileIntro />
-        </div>
+        </section>
         Projects
-        <div class="container">
+        <section id="Bio">
           <SimpleExpansionPanel />
-        </div>
-        Contact info
+        </section>
+        <section id="Contact">
+        Contact
+        </section>
+       
       </div>
     );
   }
