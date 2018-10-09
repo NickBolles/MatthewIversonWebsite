@@ -14,9 +14,14 @@ class App extends Component {
         <section id="Profile">
           <ProfileIntro />
         </section>
+        <section id="Projects">
         Projects
+        </section>
         <section id="Bio">
           <SimpleExpansionPanel />
+        </section>
+        <section id="Books">
+        Favorite Books
         </section>
         <section id="Contact">
         Contact
