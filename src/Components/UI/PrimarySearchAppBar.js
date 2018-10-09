@@ -34,7 +34,7 @@ const styles = theme => ({
     }
   },
   sectionMobile: {
-    display: "flex",
+    display: "none",
     [theme.breakpoints.up("md")]: {
       display: "flex"
     }
@@ -42,27 +42,6 @@ const styles = theme => ({
 });
 
 class PrimarySearchAppBar extends React.Component {
-  state = {
-    anchorEl: null,
-    mobileMoreAnchorEl: null
-  };
-
-  handleProfileMenuOpen = event => {
-    this.setState({ anchorEl: event.currentTarget });
-  };
-
-  handleMenuClose = () => {
-    this.setState({ anchorEl: null });
-    this.handleMobileMenuClose();
-  };
-
-  handleMobileMenuOpen = event => {
-    this.setState({ mobileMoreAnchorEl: event.currentTarget });
-  };
-
-  handleMobileMenuClose = () => {
-    this.setState({ mobileMoreAnchorEl: null });
-  };
 
   render() {
     const { classes } = this.props;
