@@ -8,7 +8,6 @@ import Typography from "@material-ui/core/Typography";
 import { fade } from "@material-ui/core/styles/colorManipulator";
 import { withStyles } from "@material-ui/core/styles";
 import MailIcon from "@material-ui/icons/Mail";
-import NotificationsIcon from "@material-ui/icons/Notifications";
 import ComputerIcon from "@material-ui/icons/Computer";
 import InsertDriveFile from "@material-ui/icons/InsertDriveFile";
 import WorkIcon from "@material-ui/icons/Work";
@@ -126,9 +125,6 @@ class PrimarySearchAppBar extends React.Component {
               </IconButton>
               <IconButton color="inherit">
                 <SecurityIcon />
-              </IconButton>
-              <IconButton color="inherit">
-                <NotificationsIcon />
               </IconButton>
               <IconButton color="inherit">
                 <MailIcon />
