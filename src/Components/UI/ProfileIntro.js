@@ -7,14 +7,23 @@ class ProfileIntro extends Component {
       <div>
         <Paper className="landing-grid">
           <Paper>
+          <img
+              src="https://proxy.duckduckgo.com/iur/?f=1&image_host=http%3A%2F%2Fthewallpaper.co%2Fwp-content%2Fuploads%2F2016%2F10%2FFree-City-1080p-Background-HD-hd-wallpapers-background-photos-apple-artworks-high-definition-wallpaper-for-iphone-free-pictures-1920x1080.jpg&u=https://thewallpaper.co/wp-content/uploads/2016/10/Free-City-1080p-Background-HD-hd-wallpapers-background-photos-apple-artworks-high-definition-wallpaper-for-iphone-free-pictures-1920x1080.jpg"
+              alt="CityBackground"
+              className="City"
+              width= "100%"
+              position="fixed"
+    
+            />
             <img
               src="https://www.shareicon.net/download/2015/09/18/103157_man_512x512.png"
               alt="avatar"
               className="avatar-img"
+              display = 'inline-block' // make it behave like an image
+              position = 'relative'
             />
             <div className="banner-text">
               <h2>"Know how to play the game."</h2>
-              <hr />
               <p>
                 <a
                   href="https://www.richardhughesjones.com/ray-dalio-principles-shaper-leadership/"
