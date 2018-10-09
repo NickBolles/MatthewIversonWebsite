@@ -23,8 +23,20 @@
 }
 
 .avatar-img {
-  height: 350px;
-  padding-top: 7em;
+  height: 360px;
+  padding: 2em;
+  transition: all 0.3s ease-in-out;
+}
+
+.avatar-img:hover {
+  transform: scale(1.1);
+}
+
+.City {
+  background-size: cover;
+  margin: auto;
+  background-attachment: scroll;
+  background-position: 0em;
 }
 
 .banner-text {
