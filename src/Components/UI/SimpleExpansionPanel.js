@@ -72,7 +72,11 @@ Porttitor odio semper convallis libero magna et facilisis erat, id hendrerit pul
 	Matthew started programming by learning Python which is a basic back end programming languages which is simple and expendable. Then he proceeded to learn HTML, css, js, react, sql, node, next, etc. Matthew then added Arduinos to understand the deep connection between computers and electricals.
 	Matthew then wanted to learn the bigger picture he did not understand this led him to ethical hacking.
             sit amet blandit leo lobortis eget.
-          <Skills/>
+          <Skills
+                  src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e0/SNice.svg/1200px-SNice.svg.png"
+                  skill="HTML/CSS"
+                  progress={80}
+                  />
           </Typography>
         </ExpansionPanelDetails>
       </ExpansionPanel>
