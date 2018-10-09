@@ -14,21 +14,21 @@
 }
 
 .avatar-img {
-  height: 360px;
+  height: 300px;
   padding-top: 5em;
   transition: all 0.3s ease-in-out;
-  position: absolute; 
-  margin: -180px 0 0 -180px;
-  left: 50%;
-  top: 20%;
+  position: absolute;
+  left: 40%;
+  top: 10%;
 }
 
 .avatar-img:hover {
-  transform: scale(1.1);
+  transform: scale(1.2);
 }
 
 .City {
   background-size: cover;
+  z-index: -1;
 }
 
 .banner-text {
