@@ -26,7 +26,9 @@ function SimpleExpansionPanel(props) {
       <ExpansionPanel>
         <ExpansionPanelSummary expandIcon={<ExpandMoreIcon />}>
           <Typography className={classes.heading}>
-          Matthew Iverson has an unique and valuable vision towards how he lives. He builds his ideas out beautifully, typically over the doubts and opposition of others. Matthew has solidified his approach to life with the philosphy of stoicism. He loves bringing his ideas to fruition to help aid others in their lives. Matthew has always had a sense of entrepreneurship and creativity in his veins because of his mother who taught him all about them from a young age. His Father taught him about how to deliver on a deal and knowledge of the importance of being able to have a analytical and business mind. Together his parents taught him the foundation of how to create his vision to thrive in business. Matthew loves creating, guiding and inspiring by his actions rather than forcing others into boxes with fear, how other “leaders” create the culture in their business. Matthew strives to create a better existences for all of us.
+          Matthew Iverson has an unique and valuable vision towards how he lives. He builds his ideas out beautifully, typically over the doubts and opposition of others. Matthew has solidified his approach to life with the philosophy of stoicism. 
+He loves bringing his ideas to fruition to help aid others in their lives. Matthew has always had a sense of entrepreneurship and creativity in his veins because of his mother who taught him all about them from a young age. His Father taught him about how to deliver on a deal and knowledge of the importance of being able to have a analytical and business mind. 
+Together his parents taught him the foundation of how to create his vision to thrive in business. Matthew loves creating, guiding and inspiring by his actions rather than forcing others into boxes with fear, how other “leaders” create the culture in their business. Matthew strives to create a better existences for all of us.
           </Typography>
         </ExpansionPanelSummary>
         <ExpansionPanelDetails>
@@ -54,16 +56,32 @@ Porttitor odio semper convallis libero magna et facilisis erat, id hendrerit pul
           </Typography>
           <br />
           <Typography>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse malesuada lacus ex,
-            sit amet blandit leo lobortis eget.
+          Matthew has always loved computers. He enjoys the input output relationship. He is able to understand easily how the cause and effect relationship relate.
+	Matthew loves videos games ever since a young age. He used to play endless hours of hotwheels, construction games and others. Once he became a teenager he learned about PS3. Matthew played with friends in first person shooters and absolutely loved playing modern warfare 2 all the way to little big planet 1,2, and 3 with his sisters.
+	Matthew used to always be curious how the internet worked and would poke around at everything since no one was telling him “NO” when experimenting with the computer. He would download different files and inspect elements because he thought it was neat how the web pages were put together. Matthew experimented so much he broke 2 computers because of the excessive downloading and experimenting at such a young age without understanding security.
+	Matthew has always have an abundance of ideas circulating in his head. He had very little way to create his ideas with out excessive capital to create them. He then turned towards something he always loved but never gave it the attention it deserved. Computers! He decided if he learned programming he would be able to bring his and others ideas to life to promote a better life for everything.
+	Matthew started programming by learning Python which is a basic back end programming languages which is simple and expendable. Then he proceeded to learn HTML, css, js, react, sql, node, next, etc. Matthew then added Arduinos to understand the deep connection between computers and electricals.
+	Matthew then wanted to learn the bigger picture he did not understand this led him to ethical hacking.
+	Nick Bolles and Joe Bannon were helping guide Matthew to experiment and create rather than ingesting more useless knowledge. Matthew decided to listen after a few months of hearing them say it. Once he decided to make his own projects the time to create was not long enough because Matthew wanted more and more time to create his ideas because of how much he loved to invent.
           </Typography>
           <Typography>
             <Chips id="docker"/>
             <Chips />
             <Chips />
             <Chips />
-          </Typography>
-          
+            <Chips id="docker"/>
+            <Chips />
+            <Chips />
+            <Chips />
+            <Chips id="docker"/>
+            <Chips />
+            <Chips />
+            <Chips />
+            <Chips id="docker"/>
+            <Chips />
+            <Chips />
+            <Chips />
+            </Typography>
         </ExpansionPanelDetails>
       </ExpansionPanel>
       <ExpansionPanel>
