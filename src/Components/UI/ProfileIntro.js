@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import { Paper } from "@material-ui/core";
+import ComputerIcon from "@material-ui/icons/Computer";
 
 class ProfileIntro extends Component {
   render() {
@@ -7,20 +8,19 @@ class ProfileIntro extends Component {
       <div>
         <Paper className="landing-grid">
           <Paper>
-          <img
+            <img
               src="https://proxy.duckduckgo.com/iur/?f=1&image_host=http%3A%2F%2Fthewallpaper.co%2Fwp-content%2Fuploads%2F2016%2F10%2FFree-City-1080p-Background-HD-hd-wallpapers-background-photos-apple-artworks-high-definition-wallpaper-for-iphone-free-pictures-1920x1080.jpg&u=https://thewallpaper.co/wp-content/uploads/2016/10/Free-City-1080p-Background-HD-hd-wallpapers-background-photos-apple-artworks-high-definition-wallpaper-for-iphone-free-pictures-1920x1080.jpg"
               alt="CityBackground"
               className="City"
-              width= "100%"
+              width="100%"
               position="fixed"
-    
             />
             <img
               src="https://www.shareicon.net/download/2015/09/18/103157_man_512x512.png"
               alt="avatar"
               className="avatar-img"
-              display = 'inline-block' // make it behave like an image
-              position = 'relative'
+              display="inline-block" // make it behave like an image
+              position="relative"
             />
             <div className="banner-text">
               <h2>"Know how to play the game."</h2>
@@ -87,7 +87,7 @@ class ProfileIntro extends Component {
                   rel="noopener noreferrer"
                   target="_blank"
                 >
-                  <i className="fa fa-linkedin-square" aria-hidden="true" />
+                  <ComputerIcon />
                 </a>
 
                 {/* Github */}
@@ -96,7 +96,7 @@ class ProfileIntro extends Component {
                   rel="noopener noreferrer"
                   target="_blank"
                 >
-                  <i className="fa fa-github-square" aria-hidden="true" />
+                  <ComputerIcon />
                 </a>
 
                 {/* CodeWars */}
@@ -105,7 +105,7 @@ class ProfileIntro extends Component {
                   rel="noopener noreferrer"
                   target="_blank"
                 >
-                  <i className="fa fa-code" aria-hidden="true" />
+                  <ComputerIcon />
                 </a>
 
                 {/* Freecodecamp */}
@@ -114,7 +114,7 @@ class ProfileIntro extends Component {
                   rel="noopener noreferrer"
                   target="_blank"
                 >
-                  <i className="fa fa-free-code-camp" aria-hidden="true" />
+                  <ComputerIcon />
                 </a>
 
                 {/* Youtube */}
@@ -123,7 +123,7 @@ class ProfileIntro extends Component {
                   rel="noopener noreferrer"
                   target="_blank"
                 >
-                  <i className="fa fa-youtube-square" aria-hidden="true" />
+                  <ComputerIcon />
                 </a>
               </div>
             </div>
