@@ -10,24 +10,22 @@ class Skills extends Component {
       <Grid item xs={12}>
         <Grid item xs={3}>
           <Chip
+            avatar={<Avatar src={this.props.src} />}
             label={this.props.skill}
             color="primary"
-            avatar={
-              <Avatar src={this.props.src} />
-            }
           />
         </Grid>
         <div style={{ display: "flex" }}>
           <Grid item xs={9}>
             <LinearProgress
               variant="determinate"
+              value={this.props.progress}
               style={{
                 width: "70%",
                 marginLeft: "auto",
                 marginRight: "20",
                 marginBelow: "2px"
               }}
-              progress={this.props.progress}
             />
           </Grid>
         </div>
