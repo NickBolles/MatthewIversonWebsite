@@ -15,7 +15,7 @@
 
 .avatar-img {
   height: 360px;
-  padding-top: 10em;
+  padding-top: 5em;
   transition: all 0.3s ease-in-out;
   position: absolute; 
   align:center;
@@ -23,12 +23,11 @@
 }
 
 .avatar-img:hover {
-  transform: scale(1.3);
+  transform: scale(1.2);
 }
 
 .City {
   background-size: cover;
-  position: relatiove;
 }
 
 .banner-text {
@@ -40,7 +39,7 @@
   border-radius: 15px;
   position: absolute; 
   align:center;
-  top: 64%;
+  top: 54%;
   left: 16%;
   z-index: 999;
 }
