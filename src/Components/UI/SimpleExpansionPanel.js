@@ -6,6 +6,7 @@ import ExpansionPanelSummary from '@material-ui/core/ExpansionPanelSummary';
 import ExpansionPanelDetails from '@material-ui/core/ExpansionPanelDetails';
 import Typography from '@material-ui/core/Typography';
 import ExpandMoreIcon from '@material-ui/icons/ExpandMore';
+import Chips from "./Chips";
 
 const styles = theme => ({
   root: {
@@ -35,18 +36,26 @@ function SimpleExpansionPanel(props) {
       </ExpansionPanel>
       <ExpansionPanel>
         <ExpansionPanelSummary expandIcon={<ExpandMoreIcon />}>
-          <Typography className={classes.heading}>Programming</Typography>
+          <Typography className={classes.heading}>Programming ( July 2018 - Current )</Typography>
         </ExpansionPanelSummary>
         <ExpansionPanelDetails>
+          <Typography>
+            
+          </Typography>
+          <br />
           <Typography>
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse malesuada lacus ex,
             sit amet blandit leo lobortis eget.
           </Typography>
+          <Chips id="docker"/>
+          <Chips />
+          <Chips />
+          <Chips />
         </ExpansionPanelDetails>
       </ExpansionPanel>
       <ExpansionPanel>
         <ExpansionPanelSummary expandIcon={<ExpandMoreIcon />}>
-          <Typography className={classes.heading}>Pentration Testing</Typography>
+          <Typography className={classes.heading}>Pentration Testing ( September 2018 - Currect )</Typography>
         </ExpansionPanelSummary>
         <ExpansionPanelDetails>
           <Typography>
