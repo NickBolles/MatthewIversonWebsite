@@ -15,7 +15,8 @@ import ImportContacts from "@material-ui/icons/ImportContacts";
 
 const styles = theme => ({
   root: {
-    width: "100%"
+    width: "100%",
+    position: "fixed"
   },
   grow: {
     flexGrow: 1
@@ -28,21 +29,6 @@ const styles = theme => ({
     display: "none",
     [theme.breakpoints.up("sm")]: {
       display: "block"
-    }
-  },
-  search: {
-    position: "relative",
-    borderRadius: theme.shape.borderRadius,
-    backgroundColor: fade(theme.palette.common.white, 0.15),
-    "&:hover": {
-      backgroundColor: fade(theme.palette.common.white, 0.25)
-    },
-    marginRight: theme.spacing.unit * 2,
-    marginLeft: 0,
-    width: "100%",
-    [theme.breakpoints.up("sm")]: {
-      marginLeft: theme.spacing.unit * 3,
-      width: "auto"
     }
   },
   inputRoot: {
@@ -106,7 +92,7 @@ class PrimarySearchAppBar extends React.Component {
           <Toolbar>
             <Typography
               className={classes.title}
-              link="./Top"
+              link="page-top"
               variant="h6"
               color="inherit"
               noWrap
