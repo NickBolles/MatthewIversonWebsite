@@ -10,7 +10,8 @@ import Chips from "./Chips";
 
 const styles = theme => ({
   root: {
-    width: '100%',
+    width: '70%',
+    margin: "auto",
   },
   heading: {
     fontSize: theme.typography.pxToRem(15),
@@ -25,7 +26,7 @@ function SimpleExpansionPanel(props) {
       <ExpansionPanel>
         <ExpansionPanelSummary expandIcon={<ExpandMoreIcon />}>
           <Typography className={classes.heading}>
-          Matthew Iverson is great.
+          Matthew Iverson has an unique and valuable vision towards how he lives. He builds his ideas out beautifully, typically over the doubts and opposition of others. Matthew has solidified his approach to life with the philosphy of stoicism. He loves bringing his ideas to fruition to help aid others in their lives. Matthew has always had a sense of entrepreneurship and creativity in his veins because of his mother who taught him all about them from a young age. His Father taught him about how to deliver on a deal and knowledge of the importance of being able to have a analytical and business mind. Together his parents taught him the foundation of how to create his vision to thrive in business. Matthew loves creating, guiding and inspiring by his actions rather than forcing others into boxes with fear, how other “leaders” create the culture in their business. Matthew strives to create a better existences for all of us.
           </Typography>
         </ExpansionPanelSummary>
         <ExpansionPanelDetails>
