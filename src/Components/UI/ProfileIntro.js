@@ -21,6 +21,7 @@ class ProfileIntro extends Component {
               className="avatar-img"
               display="inline-block" // make it behave like an image
               position="relative"
+              src2="https://www.w3schools.com/howto/img_avatar.png"
             />
             <div className="banner-text">
               <h2>"Know how to play the game."</h2>
