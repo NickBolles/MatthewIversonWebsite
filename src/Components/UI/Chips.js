@@ -3,8 +3,6 @@ import PropTypes from 'prop-types';
 import { withStyles } from '@material-ui/core/styles';
 import Avatar from '@material-ui/core/Avatar';
 import Chip from '@material-ui/core/Chip';
-import FaceIcon from '@material-ui/icons/Face';
-import DoneIcon from '@material-ui/icons/Done';
 
 const styles = theme => ({
   root: {
@@ -17,9 +15,8 @@ const styles = theme => ({
   },
 });
 
-
 function handleClick() {
-  alert('You clicked the Chip.'); // eslint-disable-line no-alert
+  alert("Matthew's skill in this is {{CircularStatic.Percentage(?)}}"); // eslint-disable-line no-alert
 }
 
 function Chips(props) {
@@ -27,8 +24,8 @@ function Chips(props) {
   return (
     <div className={classes.root}>
       <Chip
-        avatar={<Avatar alt="Natacha" src="/static/images/uxceo-128.jpg" />}
-        label="Deletable Chip"
+        avatar={<Avatar alt="Docker" src="../../Avatars/docker.png" />}
+        label="Chip"
         onClick={handleClick}
         className={classes.chip}
       />
