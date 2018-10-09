@@ -51,8 +51,9 @@
 
 .banner-text p {
   color: white;
-  font-size: 20px;
+  font-size: 30px;
   padding: 1em;
+  font-weight: bold;
 }
 
 .PersonalDescriptors {
