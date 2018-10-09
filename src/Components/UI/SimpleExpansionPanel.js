@@ -31,6 +31,15 @@ function SimpleExpansionPanel(props) {
         <ExpansionPanelDetails>
           <Typography>
             LONG BIO!
+            <div>Lorem ipsum dolor sit amet consectetur adipiscing elit vulputate velit malesuada posuere dis cras, nec vehicula magna cursus semper sapien eros dictumst praesent commodo fermentum. Ligula rhoncus nulla elementum pretium euismod dictumst odio suscipit faucibus nisi magnis, neque ullamcorper aptent ultrices viverra phasellus nullam interdum quam. Vehicula sollicitudin ridiculus aliquet libero eleifend cum arcu, facilisi ac sociosqu consequat senectus aliquam id erat, suspendisse orci praesent tellus ante ultricies.
+
+Porttitor odio semper convallis libero magna et facilisis erat, id hendrerit pulvinar blandit feugiat parturient natoque, nullam senectus commodo rhoncus lobortis inceptos sed. Feugiat sed justo quis montes dis massa accumsan rutrum ad luctus aenean augue vel posuere inceptos, ligula molestie curae metus cubilia morbi nibh donec sodales platea sagittis faucibus semper elementum. Aptent scelerisque semper vitae augue magna torquent praesent nascetur fringilla, per sapien mi quam porttitor sodales condimentum justo, litora tempus sed vel accumsan placerat urna potenti.Lorem ipsum dolor sit amet consectetur adipiscing elit vulputate velit malesuada posuere dis cras, nec vehicula magna cursus semper sapien eros dictumst praesent commodo fermentum. Ligula rhoncus nulla elementum pretium euismod dictumst odio suscipit faucibus nisi magnis, neque ullamcorper aptent ultrices viverra phasellus nullam interdum quam. Vehicula sollicitudin ridiculus aliquet libero eleifend cum arcu, facilisi ac sociosqu consequat senectus aliquam id erat, suspendisse orci praesent tellus ante ultricies.
+
+Porttitor odio semper convallis libero magna et facilisis erat, id hendrerit pulvinar blandit feugiat parturient natoque, nullam senectus commodo rhoncus lobortis inceptos sed. Feugiat sed justo quis montes dis massa accumsan rutrum ad luctus aenean augue vel posuere inceptos, ligula molestie curae metus cubilia morbi nibh donec sodales platea sagittis faucibus semper elementum. Aptent scelerisque semper vitae augue magna torquent praesent nascetur fringilla, per sapien mi quam porttitor sodales condimentum justo, litora tempus sed vel accumsan placerat urna potenti.Lorem ipsum dolor sit amet consectetur adipiscing elit vulputate velit malesuada posuere dis cras, nec vehicula magna cursus semper sapien eros dictumst praesent commodo fermentum. Ligula rhoncus nulla elementum pretium euismod dictumst odio suscipit faucibus nisi magnis, neque ullamcorper aptent ultrices viverra phasellus nullam interdum quam. Vehicula sollicitudin ridiculus aliquet libero eleifend cum arcu, facilisi ac sociosqu consequat senectus aliquam id erat, suspendisse orci praesent tellus ante ultricies.
+
+Porttitor odio semper convallis libero magna et facilisis erat, id hendrerit pulvinar blandit feugiat parturient natoque, nullam senectus commodo rhoncus lobortis inceptos sed. Feugiat sed justo quis montes dis massa accumsan rutrum ad luctus aenean augue vel posuere inceptos, ligula molestie curae metus cubilia morbi nibh donec sodales platea sagittis faucibus semper elementum. Aptent scelerisque semper vitae augue magna torquent praesent nascetur fringilla, per sapien mi quam porttitor sodales condimentum justo, litora tempus sed vel accumsan placerat urna potenti.Lorem ipsum dolor sit amet consectetur adipiscing elit vulputate velit malesuada posuere dis cras, nec vehicula magna cursus semper sapien eros dictumst praesent commodo fermentum. Ligula rhoncus nulla elementum pretium euismod dictumst odio suscipit faucibus nisi magnis, neque ullamcorper aptent ultrices viverra phasellus nullam interdum quam. Vehicula sollicitudin ridiculus aliquet libero eleifend cum arcu, facilisi ac sociosqu consequat senectus aliquam id erat, suspendisse orci praesent tellus ante ultricies.
+
+Porttitor odio semper convallis libero magna et facilisis erat, id hendrerit pulvinar blandit feugiat parturient natoque, nullam senectus commodo rhoncus lobortis inceptos sed. Feugiat sed justo quis montes dis massa accumsan rutrum ad luctus aenean augue vel posuere inceptos, ligula molestie curae metus cubilia morbi nibh donec sodales platea sagittis faucibus semper elementum. Aptent scelerisque semper vitae augue magna torquent praesent nascetur fringilla, per sapien mi quam porttitor sodales condimentum justo, litora tempus sed vel accumsan placerat urna potenti.</div>
           </Typography>
         </ExpansionPanelDetails>
       </ExpansionPanel>
@@ -47,10 +56,13 @@ function SimpleExpansionPanel(props) {
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse malesuada lacus ex,
             sit amet blandit leo lobortis eget.
           </Typography>
-          <Chips id="docker"/>
-          <Chips />
-          <Chips />
-          <Chips />
+          <Typography>
+            <Chips id="docker"/>
+            <Chips />
+            <Chips />
+            <Chips />
+          </Typography>
+          
         </ExpansionPanelDetails>
       </ExpansionPanel>
       <ExpansionPanel>
