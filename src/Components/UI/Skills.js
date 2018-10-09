@@ -7,28 +7,31 @@ import Grid from "@material-ui/core/Grid";
 class Skills extends Component {
   render() {
     return (
-        <Grid item xs={12}>
+      <Grid item xs={12}>
         <Grid item xs={3}>
           <Chip
-            label="Docker"
+            label={this.props.skill}
             color="primary"
             avatar={
-              <Avatar src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e0/SNice.svg/1200px-SNice.svg.png" />
+              <Avatar src={this.props.src} />
             }
           />
-          </Grid>
-          
-          <div style={{ display: "flex" }}>
-            {this.props.skill}
-            <Grid item xs={9}>
+        </Grid>
+        <div style={{ display: "flex" }}>
+          <Grid item xs={9}>
             <LinearProgress
               variant="determinate"
-              style={{ width: "70%", marginLeft: "auto", marginRight: "20", marginBelow: "2px" }}
+              style={{
+                width: "70%",
+                marginLeft: "auto",
+                marginRight: "20",
+                marginBelow: "2px"
+              }}
               progress={this.props.progress}
             />
-            </Grid>
-          </div>
-        </Grid>
+          </Grid>
+        </div>
+      </Grid>
     );
   }
 }
