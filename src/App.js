@@ -17,6 +17,8 @@ class App extends Component {
         </section>
         <section id="Projects">
         <Projects />
+        <Projects />
+        <Projects />
         </section>
         <section id="Bio">
           <SimpleExpansionPanel />
