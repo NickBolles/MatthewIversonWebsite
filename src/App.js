@@ -5,6 +5,7 @@ import ProfileIntro from "./Components/UI/ProfileIntro";
 import Biography from "./Sections/Biography";
 import PentrationTesting from "./Sections/PentrationTesting";
 import Programming from "./Sections/Programming";
+import FullWidthTabs from "./Components/UI/FullWidthTabs";
 
 class App extends Component {
   render() {
@@ -119,6 +120,9 @@ class App extends Component {
             porttitor sodales condimentum justo, litora tempus sed vel accumsan
             placerat urna potenti.
           </div>
+        </section>
+        <section>
+          <FullWidthTabs />
         </section>
       </div>
     );
