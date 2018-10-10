@@ -36,7 +36,7 @@ export default Skills;
 
 /*
 <Skills
-src="LINK"
+src="LINKtowebsite"
 skill="Name of skill"
 progress={0}
 />
