@@ -328,19 +328,17 @@ function SimpleExpansionPanel(props) {
         </ExpansionPanelSummary>
         <ExpansionPanelDetails>
           <Typography>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse
-            malesuada lacus ex, had very little way to create his ideas with out
-            excessive capital to create them. He then turned towards something
-            he always loved but never gave it the attention it deserved.
-            Computers! He decided if he learned programming he would be able to
-            bring his and others ideas to life to promote a better life for
-            everything. Matthew started programming by learning Python which is
-            a basic back end programming languages which is simple and
-            expendable. Then he proceeded to learn HTML, css, js, react, sql,
-            node, next, etc. Matthew then added Arduinos to understand the deep
-            connection between computers and electricals. Matthew then wanted to
-            learn the bigger picture he did not understand this led him to
-            ethical hacking. sit amet blandit leo lobortis eget.
+            Matthew had a curiousity for the world around him and a creative
+            approach to problems. He loves solving problems in the most
+            efficent, simplistic and repeatative fashion possible. He enjoys
+            discovering new hidden ideas, items and people to find knowledge
+            that is beneficial for his priorities. Matthew loves to experiment
+            and work on things others find "impossible". While he was working on
+            programming he noticed there was a bigger picture he did not
+            understand. He decided it would be best if he learned the network
+            and exploits enabele to better understand programming. This way he
+            discovered something he would love which is finding different
+            appraches to problems others do not see.
             <br />
             <h2>Basic</h2>
             <Skills
@@ -374,38 +372,14 @@ function SimpleExpansionPanel(props) {
             />
             <br />
             <h2>Access</h2>
-            <Skills
-              src=""
-              skill="Metasploit"
-              progress={0}
-            />
-            <Skills
-              src=""
-              skill="Rubber Ducky"
-              progress={0}
-            />
-            <Skills
-              src=""
-              skill="Bash Bunny"
-              progress={0}
-            />
-            <Skills
-              src=""
-              skill="Homemade Injectors"
-              progress={0}
-            />
-            <Skills
-              src=""
-              skill="Wifi Pineapple"
-              progress={0}
-            />
+            <Skills src="" skill="Metasploit" progress={0} />
+            <Skills src="" skill="Rubber Ducky" progress={0} />
+            <Skills src="" skill="Bash Bunny" progress={0} />
+            <Skills src="" skill="Homemade Injectors" progress={0} />
+            <Skills src="" skill="Wifi Pineapple" progress={0} />
             <br />
             <h2>Covering tracks</h2>
-            <Skills
-              src=""
-              skill="Covering tracks"
-              progress={0}
-            />
+            <Skills src="" skill="Covering tracks" progress={0} />
           </Typography>
         </ExpansionPanelDetails>
       </ExpansionPanel>
