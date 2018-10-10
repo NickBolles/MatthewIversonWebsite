@@ -5,7 +5,7 @@ import ProfileIntro from "./Components/UI/ProfileIntro";
 import Biography from "./Sections/Biography";
 import PentrationTesting from "./Sections/PentrationTesting";
 import Programming from "./Sections/Programming";
-import FullWidthTabs from "./Components/UI/FullWidthTabs";
+import FullWidthTabs from "./Components/UI/Programming";
 
 class App extends Component {
   render() {
