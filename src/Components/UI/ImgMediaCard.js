@@ -29,7 +29,7 @@ function ImgMediaCard(props) {
           alt="Contemplative Reptile"
           className={classes.media}
           height="140"
-          image="/static/images/cards/contemplative-reptile.jpg"
+          image="http://4.bp.blogspot.com/-T9SmfMkXyhU/UPr7zlgKH-I/AAAAAAAAEu8/YsQHbjdmr4A/s1600/0smiley_winking.jpg"
           title="Contemplative Reptile"
         />
         <CardContent>
