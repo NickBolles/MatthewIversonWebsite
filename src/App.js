@@ -3,7 +3,7 @@ import "./App.css";
 import PrimarySearchAppBar from "./Components/UI/PrimarySearchAppBar";
 import SimpleExpansionPanel from "./Components/UI/SimpleExpansionPanel";
 import ProfileIntro from "./Components/UI/ProfileIntro";
-import Projects from "./Sections/Projects";
+import Projects from "./Components/UI/ImgMediaCard";
 
 class App extends Component {
   render() {
