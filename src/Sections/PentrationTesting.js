@@ -14,6 +14,7 @@ import CardActions from '@material-ui/core/CardActions';
 import CardContent from '@material-ui/core/CardContent';
 import CardMedia from '@material-ui/core/CardMedia';
 import Button from '@material-ui/core/Button';
+import PentTestGridList from '../Components/UI/GridLists/PentTestGridList';
 
 function TabContainer({ children, dir }) {
   return (
@@ -68,6 +69,7 @@ class PentrationTesting extends React.Component {
             <Tab label="Pentration Testing" />
             <Tab label="Skills" />
             <Tab label="Projects" />
+            <Tab label="Books" />
           </Tabs>
         </AppBar>
         <SwipeableViews
@@ -182,6 +184,9 @@ class PentrationTesting extends React.Component {
         </Button>
       </CardActions>
     </Card>
+    </TabContainer>
+    <TabContainer dir={theme.direction}>
+    <PentTestGridList />
     </TabContainer>
         </SwipeableViews>
       </div>
