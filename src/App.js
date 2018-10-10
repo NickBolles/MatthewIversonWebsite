@@ -4,7 +4,9 @@ import PrimarySearchAppBar from "./Components/UI/PrimarySearchAppBar";
 import ProfileIntro from "./Components/UI/ProfileIntro";
 import Biography from "./Sections/Biography";
 import PentrationTesting from "./Sections/PentrationTesting";
+import PentrationTest from "./Components/UI/PentrationTesting";
 import Programming from "./Sections/Programming";
+import ControlledExpansionPanels from "./Components/UI/ControlledExpansionPanels";
 
 class App extends Component {
   render() {
@@ -16,11 +18,8 @@ class App extends Component {
         <section id="Profile">
           <ProfileIntro />
         </section>
-        <section id="Biography">
-          <Biography />
-        </section>
-        <section id="Programming">
-          <Programming />
+        <section>
+        <ControlledExpansionPanels />
         </section>
         <section id="PentrationTesting">
           <PentrationTesting />
