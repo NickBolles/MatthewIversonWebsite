@@ -3,7 +3,7 @@ import "./App.css";
 import PrimarySearchAppBar from "./Components/UI/PrimarySearchAppBar";
 import SimpleExpansionPanel from "./Components/UI/SimpleExpansionPanel";
 import ProfileIntro from "./Components/UI/ProfileIntro";
-import ImgMediaCard from "./Components/UI/ImgMediaCard";
+import Projects from "./Sections/Projects";
 
 class App extends Component {
   render() {
@@ -16,7 +16,7 @@ class App extends Component {
           <ProfileIntro />
         </section>
         <section id="Projects">
-          <ImgMediaCard />
+        <Projects />
         </section>
         <section id="Bio">
           <SimpleExpansionPanel />
