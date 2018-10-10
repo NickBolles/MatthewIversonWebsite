@@ -194,7 +194,7 @@ function SimpleExpansionPanel(props) {
               skill="Node.js"
               progress={80}
             />
-            <br /> <h4>Future</h4>
+            <br /> <h4>Future Languages</h4>
             <Skills
               src="https://olimex.files.wordpress.com/2017/06/arduino-logo-circle-thumb.png"
               skill="C"
@@ -241,7 +241,7 @@ function SimpleExpansionPanel(props) {
               skill="Vue (Javascript)"
               progress={20}
             />
-            <br /> <h4>Future</h4>
+            <br /> <h4>Future Frameworks</h4>
             <Skills
               src="https://olimex.files.wordpress.com/2017/06/arduino-logo-circle-thumb.png"
               skill="Angular"
@@ -311,7 +311,7 @@ function SimpleExpansionPanel(props) {
               skill="Cordova"
               progress={50}
             />
-            <br /> <h4>Future</h4>
+            <br /> <h4>Future Platforms</h4>
             <Skills
               src="https://olimex.files.wordpress.com/2017/06/arduino-logo-circle-thumb.png"
               skill="Rasbery Pi"
@@ -377,6 +377,26 @@ function SimpleExpansionPanel(props) {
             <Skills
               src=""
               skill="Metasploit"
+              progress={0}
+            />
+            <Skills
+              src=""
+              skill="Rubber Ducky"
+              progress={0}
+            />
+            <Skills
+              src=""
+              skill="Bash Bunny"
+              progress={0}
+            />
+            <Skills
+              src=""
+              skill="Homemade Injectors"
+              progress={0}
+            />
+            <Skills
+              src=""
+              skill="Wifi Pineapple"
               progress={0}
             />
             <br />
