@@ -2,7 +2,6 @@ import React, { Component } from "react";
 import "./App.css";
 import PrimarySearchAppBar from "./Components/UI/PrimarySearchAppBar";
 import ProfileIntro from "./Components/UI/ProfileIntro";
-import Projects from "./Components/UI/ImgMediaCard";
 import Biography from "./Sections/Biography";
 import PentrationTesting from "./Sections/PentrationTesting";
 import Programming from "./Sections/Programming";
@@ -19,11 +18,6 @@ class App extends Component {
         </section>
         <section id="Biography">
           <Biography />
-        </section>
-        <section id="Projects">
-          <Projects />
-          <Projects />
-          <Projects />
         </section>
         <section id="Programming">
           <Programming />
