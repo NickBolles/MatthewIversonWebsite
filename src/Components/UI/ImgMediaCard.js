@@ -54,3 +54,12 @@ ImgMediaCard.propTypes = {
 };
 
 export default withStyles(styles)(ImgMediaCard);
+
+/*
+<ImgMediaCard
+image="LINKtowebsite"
+alt="alternate name if image is not available"
+title="Name"
+description="descriptive sentences on the project and how it was created"
+/>
+*/
