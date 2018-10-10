@@ -7,6 +7,7 @@ import ExpansionPanelDetails from "@material-ui/core/ExpansionPanelDetails";
 import Typography from "@material-ui/core/Typography";
 import ExpandMoreIcon from "@material-ui/icons/ExpandMore";
 import Skills from "./Skills";
+import Paper from "@material-ui/core/Paper";
 
 const styles = theme => ({
   root: {
@@ -77,43 +78,6 @@ function SimpleExpansionPanel(props) {
               quis montes dis massa accumsan rutrum ad luctus aenean augue vel
               posuere inceptos, ligula molestie curae metus cubilia morbi nibh
               donec sodales platea sagittis faucibus semper elementum. Aptent
-              scelerisque semper vitae augue magna torquent praesent nascetur
-              fringilla, per sapien mi quam porttitor sodales condimentum justo,
-              litora tempus sed vel accumsan placerat urna potenti.Lorem ipsum
-              dolor sit amet consectetur adipiscing elit vulputate velit
-              malesuada posuere dis cras, nec vehicula magna cursus semper
-              sapien eros dictumst praesent commodo fermentum. Ligula rhoncus
-              nulla elementum pretium euismod dictumst odio suscipit faucibus
-              nisi magnis, neque ullamcorper aptent ultrices viverra phasellus
-              nullam interdum quam. Vehicula sollicitudin ridiculus aliquet
-              libero eleifend cum arcu, facilisi ac sociosqu consequat senectus
-              aliquam id erat, suspendisse orci praesent tellus ante ultricies.
-              Porttitor odio semper convallis libero magna et facilisis erat, id
-              hendrerit pulvinar blandit feugiat parturient natoque, nullam
-              senectus commodo rhoncus lobortis inceptos sed. Feugiat sed justo
-              quis montes dis massa accumsan rutrum ad luctus aenean augue vel
-              posuere inceptos, ligula molestie curae metus cubilia morbi nibh
-              donec sodales platea sagittis faucibus semper elementum. Aptent
-              scelerisque semper vitae augue magna torquent praesent nascetur
-              fringilla, per sapien mi quam porttitor sodales condimentum justo,
-              litora tempus sed vel accumsan placerat urna potenti.Lorem ipsum
-              dolor sit amet consectetur adipiscing elit vulputate velit
-              malesuada posuere dis cras, nec vehicula magna cursus semper
-              sapien eros dictumst praesent commodo fermentum. Ligula rhoncus
-              nulla elementum pretium euismod dictumst odio suscipit faucibus
-              nisi magnis, neque ullamcorper aptent ultrices viverra phasellus
-              nullam interdum quam. Vehicula sollicitudin ridiculus aliquet
-              libero eleifend cum arcu, facilisi ac sociosqu consequat senectus
-              aliquam id erat, suspendisse orci praesent tellus ante ultricies.
-              Porttitor odio semper convallis libero magna et facilisis erat, id
-              hendrerit pulvinar blandit feugiat parturient natoque, nullam
-              senectus commodo rhoncus lobortis inceptos sed. Feugiat sed justo
-              quis montes dis massa accumsan rutrum ad luctus aenean augue vel
-              posuere inceptos, ligula molestie curae metus cubilia morbi nibh
-              donec sodales platea sagittis faucibus semper elementum. Aptent
-              scelerisque semper vitae augue magna torquent praesent nascetur
-              fringilla, per sapien mi quam porttitor sodales condimentum justo,
-              litora tempus sed vel accumsan placerat urna potenti.
             </div>
           </Typography>
         </ExpansionPanelDetails>
@@ -148,78 +112,84 @@ function SimpleExpansionPanel(props) {
             bring his and others ideas to life to promote a better life for
             everything. Matthew started programming by learning Python which is
             a basic back end programming languages which is simple and
-            expendable. Then he proceeded to learn HTML, css, js, react, sql,
+            expendable. Then he proceeded to learn HTML, css, Js, react, sql,
             node, next, etc. Matthew then added Arduinos to understand the deep
-            connection between computers and electricals. Matthew then wanted to
+            connection between computers and electricity. Matthew then wanted to
             learn the bigger picture he did not understand this led him to
-            ethical hacking. Nick Bolles and Joe Bannon were helping guide
-            Matthew to experiment and create rather than ingesting more useless
-            knowledge. Matthew decided to listen after a few months of hearing
-            them say it. Once he decided to make his own projects the time to
-            create was not long enough because Matthew wanted more and more time
-            to create his ideas because of how much he loved to invent.
-            <h2>Languages</h2>
+            ethical hacking. Nick Bolles ( www.nickbolles.com ) and Joe Bannon (
+            www.joebannon.com )were helping guide Matthew to experiment and
+            create rather than ingesting more useless knowledge. Matthew decided
+            to listen after a few months of hearing them say it. Once he decided
+            to make his own projects the time to create was not long enough
+            because Matthew wanted more and more time to create his ideas
+            because of how much he loved to invent.
+            <Paper>
+              <h2>Languages</h2>
+              <Skills
+                src="https://maxcdn.icons8.com/Share/icon/Logos/css31600.png"
+                skill="CSS (Cascading Style Sheets)"
+                progress={90}
+              />
+              <Skills
+                src="https://www.w3.org/html/logo/img/mark-only-icon.png"
+                skill="HTML5"
+                progress={100}
+              />
+              <Skills
+                src="http://logo-load.com/uploads/posts/2016-09/javascript-logo.png"
+                skill="Javascript"
+                progress={70}
+              />
+              <Skills
+                src="https://cdn0.iconfinder.com/data/icons/superuser-extension-light/512/675277-data_database_sql_query-512.png"
+                skill="SQL"
+                progress={50}
+              />
+              <Skills
+                src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/0a/Python.svg/768px-Python.svg.png"
+                skill="Python"
+                progress={60}
+              />
+              <Skills
+                src="https://dzone.com/storage/temp/4470473-ts-logo.png"
+                skill="Typescript"
+                progress={30}
+              />
+              <Skills
+                src="http://midigital.co/wp-content/uploads/2015/05/node-js-logo-web-development.png"
+                skill="Node.js"
+                progress={80}
+              />
+              <br />
+            <h4>Future Languages</h4>
             <Skills
-              src="https://maxcdn.icons8.com/Share/icon/Logos/css31600.png"
-              skill="CSS (Cascading Style Sheets)"
-              progress={90}
-            />
-            <Skills
-              src="https://www.w3.org/html/logo/img/mark-only-icon.png"
-              skill="HTML5"
-              progress={100}
-            />
-            <Skills
-              src="http://logo-load.com/uploads/posts/2016-09/javascript-logo.png"
-              skill="Javascript"
-              progress={70}
-            />
-            <Skills
-              src="https://cdn0.iconfinder.com/data/icons/superuser-extension-light/512/675277-data_database_sql_query-512.png"
-              skill="SQL"
-              progress={50}
-            />
-            <Skills
-              src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/0a/Python.svg/768px-Python.svg.png"
-              skill="Python"
-              progress={60}
-            />
-            <Skills
-              src="https://dzone.com/storage/temp/4470473-ts-logo.png"
-              skill="Typescript"
-              progress={30}
-            />
-            <Skills
-              src="http://midigital.co/wp-content/uploads/2015/05/node-js-logo-web-development.png"
-              skill="Node.js"
-              progress={80}
-            />
-            <br /> <h4>Future Languages</h4>
-            <Skills
-              src="https://olimex.files.wordpress.com/2017/06/arduino-logo-circle-thumb.png"
+              src="https://png.icons8.com/color/1600/c-programming"
               skill="C"
-              progress={0}
+              progress={10}
             />
             <Skills
-              src="https://olimex.files.wordpress.com/2017/06/arduino-logo-circle-thumb.png"
+              src="https://proxy.duckduckgo.com/iu/?u=https%3A%2F%2Fsdtimes.com%2Fwp-content%2Fuploads%2F2018%2F02%2Fgolang.sh_-490x490.png&f=1"
               skill="GO"
-              progress={0}
+              progress={20}
             />
             <Skills
-              src="https://olimex.files.wordpress.com/2017/06/arduino-logo-circle-thumb.png"
+              src="https://proxy.duckduckgo.com/iu/?u=https%3A%2F%2Fcdnd.icons8.com%2Fwp-content%2Fuploads%2F2015%2F07%2Fjava_logo.png&f=1"
               skill="Java"
-              progress={0}
+              progress={5}
             />
             <Skills
-              src="https://olimex.files.wordpress.com/2017/06/arduino-logo-circle-thumb.png"
+              src="https://proxy.duckduckgo.com/iu/?u=https%3A%2F%2Fcdn2.iconfinder.com%2Fdata%2Ficons%2Fdesigner-skills%2F128%2Fcode-programming-php-software-develop-command-language-512.png&f=1"
               skill="PHP"
               progress={0}
             />
             <Skills
-              src="https://olimex.files.wordpress.com/2017/06/arduino-logo-circle-thumb.png"
+              src="https://proxy.duckduckgo.com/iu/?u=https%3A%2F%2Fupload.wikimedia.org%2Fwikipedia%2Fcommons%2Fthumb%2F7%2F73%2FRuby_logo.svg%2F1024px-Ruby_logo.svg.png&f=1"
               skill="Ruby"
               progress={0}
             />
+            </Paper>
+            <br />
+            <Paper>
             <br /> <h2>Frameworks</h2>
             <Skills
               src="https://www.sambicstech.com/wp-content/uploads/2017/11/django.png"
@@ -243,16 +213,22 @@ function SimpleExpansionPanel(props) {
             />
             <br /> <h4>Future Frameworks</h4>
             <Skills
-              src="https://olimex.files.wordpress.com/2017/06/arduino-logo-circle-thumb.png"
-              skill="Angular"
+              src="https://proxy.duckduckgo.com/iu/?u=https%3A%2F%2Fdwglogo.com%2Fwp-content%2Fuploads%2F2017%2F03%2F1250px-AngularJS_logo.png&f=1"
+              skill="Angular (Javascript)"
               progress={0}
             />
+            </Paper>
+            <br />
+            <Paper>
             <br /> <h2>Libraries</h2>
             <Skills
               src="https://wikiprogramming.org/wp-content/uploads/2016/10/jquery-icon.png"
               skill="Jquery"
               progress={40}
             />
+            </Paper>
+            <br />
+            <Paper>
             <br /> <h2>Tools</h2>
             <Skills
               src="https://davidmles.com/wp-content/uploads/2017/03/atom-logo.png"
@@ -300,6 +276,9 @@ function SimpleExpansionPanel(props) {
               skill="Webpack"
               progress={30}
             />
+            </Paper>
+            <br />
+            <Paper>
             <br /> <h2>Platforms</h2>
             <Skills
               src="https://olimex.files.wordpress.com/2017/06/arduino-logo-circle-thumb.png"
@@ -307,16 +286,17 @@ function SimpleExpansionPanel(props) {
               progress={40}
             />
             <Skills
-              src="https://olimex.files.wordpress.com/2017/06/arduino-logo-circle-thumb.png"
+              src="https://proxy.duckduckgo.com/iu/?u=https%3A%2F%2Ftelerikhelper.files.wordpress.com%2F2015%2F11%2Fcordova-logo.png&f=1"
               skill="Cordova"
               progress={50}
             />
             <br /> <h4>Future Platforms</h4>
             <Skills
-              src="https://olimex.files.wordpress.com/2017/06/arduino-logo-circle-thumb.png"
+              src="https://proxy.duckduckgo.com/iur/?f=1&image_host=http%3A%2F%2Fmaikel.pro%2Fblog%2Fcontent%2Fimages%2F2015%2F06%2F1428026564_raspberry-128.png&u=https://www.maikel.pro/blog/content/images/2015/06/1428026564_raspberry-128.png"
               skill="Rasbery Pi"
               progress={0}
             />
+            </Paper>
           </Typography>
         </ExpansionPanelDetails>
       </ExpansionPanel>
@@ -328,25 +308,28 @@ function SimpleExpansionPanel(props) {
         </ExpansionPanelSummary>
         <ExpansionPanelDetails>
           <Typography>
-            Matthew had a curiousity for the world around him and a creative
+            Matthew had a curiosity for the world around him and a creative
             approach to problems. He loves solving problems in the most
-            efficent, simplistic and repeatative fashion possible. He enjoys
+            efficient, simplistic and repetitive fashion possible. He enjoys
             discovering new hidden ideas, items and people to find knowledge
             that is beneficial for his priorities. Matthew loves to experiment
             and work on things others find "impossible". While he was working on
             programming he noticed there was a bigger picture he did not
             understand. He decided it would be best if he learned the network
-            and exploits enabele to better understand programming. This way he
+            and exploits enable to better understand programming. This way he
             discovered something he would love which is finding different
-            appraches to problems others do not see.
+            approaches to problems others do not see.
             <br />
+            <Paper>
             <h2>Basic</h2>
             <Skills
               src="http://www.logospike.com/wp-content/uploads/2015/05/Linux_Logo_07.png"
               skill="Linux Scripting"
               progress={40}
             />
+            </Paper>
             <br />
+            <Paper>
             <h2>Reconnaisance</h2>
             <Skills
               src="https://image.flaticon.com/icons/png/512/34/34067.png"
@@ -363,23 +346,40 @@ function SimpleExpansionPanel(props) {
               skill="Lock Picking"
               progress={60}
             />
+            </Paper>
             <br />
+            <Paper>
             <h2>Scanning</h2>
             <Skills
               src="http://static.movingpackets.net/2014/10/wireshark-logo.png"
               skill="WireShark"
               progress={80}
             />
+            <Skills
+              src="https://image.flaticon.com/icons/png/512/44/44594.png"
+              skill="RouterSploit"
+              progress={10}
+            />
+            <Skills
+              src="https://image.flaticon.com/icons/png/512/44/44594.png"
+              skill="Net Tools"
+              progress={0}
+            />
+            </Paper>
             <br />
+            <Paper>
             <h2>Access</h2>
             <Skills src="" skill="Metasploit" progress={0} />
             <Skills src="" skill="Rubber Ducky" progress={0} />
             <Skills src="" skill="Bash Bunny" progress={0} />
             <Skills src="" skill="Homemade Injectors" progress={0} />
             <Skills src="" skill="Wifi Pineapple" progress={0} />
+            </Paper>
             <br />
+            <Paper>
             <h2>Covering tracks</h2>
             <Skills src="" skill="Covering tracks" progress={0} />
+            </Paper>
           </Typography>
         </ExpansionPanelDetails>
       </ExpansionPanel>
