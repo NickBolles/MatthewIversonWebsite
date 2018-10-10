@@ -1,38 +1,71 @@
-import React from "react";
-import PropTypes from "prop-types";
-import { withStyles } from "@material-ui/core/styles";
-import ExpansionPanel from "@material-ui/core/ExpansionPanel";
-import ExpansionPanelSummary from "@material-ui/core/ExpansionPanelSummary";
-import ExpansionPanelDetails from "@material-ui/core/ExpansionPanelDetails";
-import Typography from "@material-ui/core/Typography";
-import ExpandMoreIcon from "@material-ui/icons/ExpandMore";
-import Skills from "../Components/UI/Skills";
+import React from 'react';
+import PropTypes from 'prop-types';
+import { withStyles } from '@material-ui/core/styles';
+import SwipeableViews from 'react-swipeable-views';
+import AppBar from '@material-ui/core/AppBar';
+import Tabs from '@material-ui/core/Tabs';
+import Tab from '@material-ui/core/Tab';
+import Typography from '@material-ui/core/Typography';
+import Skills from "./Skills";
 import Paper from "@material-ui/core/Paper";
+
+function TabContainer({ children, dir }) {
+  return (
+    <Typography component="div" dir={dir} style={{ padding: 8 * 3 }}>
+      {children}
+    </Typography>
+  );
+}
+
+TabContainer.propTypes = {
+  children: PropTypes.node.isRequired,
+  dir: PropTypes.string.isRequired,
+};
 
 const styles = theme => ({
   root: {
-    width: "70%",
-    margin: "auto"
+    backgroundColor: theme.palette.background.paper,
+    width: 500,
   },
-  heading: {
-    fontSize: theme.typography.pxToRem(15),
-    fontWeight: theme.typography.fontWeightRegular
-  }
 });
 
-function SimpleExpansionPanel(props) {
-  const { classes } = props;
-  return (
-    <div className={classes.root}>
-      <ExpansionPanel>
-        <ExpansionPanelSummary expandIcon={<ExpandMoreIcon />}>
-          <Typography className={classes.heading}>
-            Programming ( July 2018 - Current )
-          </Typography>
-        </ExpansionPanelSummary>
-        <ExpansionPanelDetails>
-          <Typography>
-            <Paper>
+class Programming extends React.Component {
+  state = {
+    value: 0,
+  };
+
+  handleChange = (event, value) => {
+    this.setState({ value });
+  };
+
+  handleChangeIndex = index => {
+    this.setState({ value: index });
+  };
+
+  render() {
+    const { classes, theme } = this.props;
+
+    return (
+      <div className={classes.root}>
+        <AppBar position="static" color="default">
+          <Tabs
+            value={this.state.value}
+            onChange={this.handleChange}
+            indicatorColor="primary"
+            textColor="primary"
+            fullWidth
+          >
+            <Tab label="Programming" />
+            <Tab label="Skills" />
+            <Tab label="Projects" />
+          </Tabs>
+        </AppBar>
+        <SwipeableViews
+          axis={theme.direction === 'rtl' ? 'x-reverse' : 'x'}
+          index={this.state.value}
+          onChangeIndex={this.handleChangeIndex}
+        >
+          <TabContainer dir={theme.direction}>
               Matthew has always loved computers. He enjoys the input output
               relationship. He is able to understand easily how the cause and
               effect relationship relate. Matthew loves videos games ever since
@@ -66,9 +99,9 @@ function SimpleExpansionPanel(props) {
               decided to listen after a few months of hearing them say it. Once
               he decided to make his own projects the time to create was not
               long enough because Matthew wanted more and more time to create
-              his ideas because of how much he loved to invent.
-            </Paper>
-            <Paper>
+              his ideas because of how much he loved to invent.</TabContainer>
+          <TabContainer dir={theme.direction}>
+          <Paper>
               <h2>Languages</h2>
               <Skills
                 src="https://maxcdn.icons8.com/Share/icon/Logos/css31600.png"
@@ -242,15 +275,18 @@ function SimpleExpansionPanel(props) {
                 progress={0}
               />
             </Paper>
-          </Typography>
-        </ExpansionPanelDetails>
-      </ExpansionPanel>
-    </div>
-  );
+          
+          </TabContainer>
+          <TabContainer dir={theme.direction}>Item Three</TabContainer>
+        </SwipeableViews>
+      </div>
+    );
+  }
 }
 
-SimpleExpansionPanel.propTypes = {
-  classes: PropTypes.object.isRequired
+Programming.propTypes = {
+  classes: PropTypes.object.isRequired,
+  theme: PropTypes.object.isRequired,
 };
 
-export default withStyles(styles)(SimpleExpansionPanel);
+export default withStyles(styles, { withTheme: true })(Programming);
