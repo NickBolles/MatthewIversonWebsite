@@ -62,6 +62,9 @@ class Biography extends React.Component {
         >
           <AppBar className={classes.appBar}>
             <Toolbar>
+              <Typography variant="h6" color="inherit" className={classes.flex}>
+                AutoBiography
+              </Typography>
               <IconButton
                 color="inherit"
                 onClick={this.handleClose}
@@ -69,9 +72,6 @@ class Biography extends React.Component {
               >
                 <CloseIcon />
               </IconButton>
-              <Typography variant="h6" color="inherit" className={classes.flex}>
-                AutoBiography
-              </Typography>
             </Toolbar>
           </AppBar>
           <Typography>
