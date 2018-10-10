@@ -46,7 +46,7 @@ function SimpleExpansionPanel(props) {
         <ExpansionPanelDetails>
           <Typography>
             LONG BIO!
-            <div>
+            <Paper>
               Lorem ipsum dolor sit amet consectetur adipiscing elit vulputate
               velit malesuada posuere dis cras, nec vehicula magna cursus semper
               sapien eros dictumst praesent commodo fermentum. Ligula rhoncus
@@ -78,7 +78,7 @@ function SimpleExpansionPanel(props) {
               quis montes dis massa accumsan rutrum ad luctus aenean augue vel
               posuere inceptos, ligula molestie curae metus cubilia morbi nibh
               donec sodales platea sagittis faucibus semper elementum. Aptent
-            </div>
+            </Paper>
           </Typography>
         </ExpansionPanelDetails>
       </ExpansionPanel>
@@ -90,6 +90,7 @@ function SimpleExpansionPanel(props) {
         </ExpansionPanelSummary>
         <ExpansionPanelDetails>
           <Typography>
+            <Paper>
             Matthew has always loved computers. He enjoys the input output
             relationship. He is able to understand easily how the cause and
             effect relationship relate. Matthew loves videos games ever since a
@@ -123,6 +124,7 @@ function SimpleExpansionPanel(props) {
             to make his own projects the time to create was not long enough
             because Matthew wanted more and more time to create his ideas
             because of how much he loved to invent.
+            </Paper>
             <Paper>
               <h2>Languages</h2>
               <Skills
@@ -308,6 +310,7 @@ function SimpleExpansionPanel(props) {
         </ExpansionPanelSummary>
         <ExpansionPanelDetails>
           <Typography>
+            <Paper>
             Matthew had a curiosity for the world around him and a creative
             approach to problems. He loves solving problems in the most
             efficient, simplistic and repetitive fashion possible. He enjoys
@@ -319,6 +322,7 @@ function SimpleExpansionPanel(props) {
             and exploits enable to better understand programming. This way he
             discovered something he would love which is finding different
             approaches to problems others do not see.
+            </Paper>
             <br />
             <Paper>
             <h2>Basic</h2>
