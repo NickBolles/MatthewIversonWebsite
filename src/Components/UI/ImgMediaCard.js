@@ -38,12 +38,15 @@ function ImgMediaCard(props) {
         </CardContent>
       </CardActionArea>
       <CardActions>
-        <Button size="small" color="primary">
-          Share
-        </Button>
-        <Button size="small" color="primary">
-          Learn More
-        </Button>
+      <Button size="small" color="primary">
+            GitHub
+          </Button>
+          <Button size="small" color="primary">
+            CodePen
+          </Button>
+          <Button size="small" color="primary">
+            Live Demo
+          </Button>
       </CardActions>
     </Card>
   );
