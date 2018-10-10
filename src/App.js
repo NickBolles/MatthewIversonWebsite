@@ -23,7 +23,7 @@ class App extends Component {
           <SingleLineGridList />
         </section>
         <section id="Contact">
-          <Contact />
+        CONTACT
         </section>
       </div>
     );
