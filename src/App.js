@@ -2,10 +2,6 @@ import React, { Component } from "react";
 import "./App.css";
 import PrimarySearchAppBar from "./Components/UI/PrimarySearchAppBar";
 import ProfileIntro from "./Components/UI/ProfileIntro";
-import Biography from "./Sections/Biography";
-import PentrationTesting from "./Sections/PentrationTesting";
-import PentrationTest from "./Components/UI/PentrationTesting";
-import Programming from "./Sections/Programming";
 import ControlledExpansionPanels from "./Components/UI/ControlledExpansionPanels";
 
 class App extends Component {
@@ -20,9 +16,6 @@ class App extends Component {
         </section>
         <section>
         <ControlledExpansionPanels />
-        </section>
-        <section id="PentrationTesting">
-          <PentrationTesting />
         </section>
         <section id="Books">
           Favorite Books
