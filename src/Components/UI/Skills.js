@@ -14,14 +14,14 @@ class Skills extends Component {
             label={this.props.skill}
             color="primary"
           />
-        </Grid>
+        </Grid> 
         <div style={{ display: "flex" }}>
-          <Grid item xs={12}>
+          <Grid item xs={11}>
             <LinearProgress
               variant="determinate"
               value={this.props.progress}
               style={{
-                width: "70%",
+                width: "65%",
                 marginLeft: "auto",
               }}
             />
