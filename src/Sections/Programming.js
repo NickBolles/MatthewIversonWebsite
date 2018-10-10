@@ -14,6 +14,7 @@ import CardActions from "@material-ui/core/CardActions";
 import CardContent from "@material-ui/core/CardContent";
 import CardMedia from "@material-ui/core/CardMedia";
 import Button from "@material-ui/core/Button";
+import CodeGridList from "../Components/UI/GridLists/CodeGridList";
 
 function TabContainer({ children, dir }) {
   return (
@@ -31,7 +32,8 @@ TabContainer.propTypes = {
 const styles = theme => ({
   root: {
     backgroundColor: theme.palette.background.paper,
-    margin: "auto"
+    margin: "auto",
+    width: "100%"
   },
   heading: {
     fontSize: theme.typography.pxToRem(15),
@@ -68,6 +70,7 @@ class Programming extends React.Component {
             <Tab label="Programming" />
             <Tab label="Skills" />
             <Tab label="Projects" />
+            <Tab label="Books" />
           </Tabs>
         </AppBar>
         <SwipeableViews
@@ -320,6 +323,9 @@ class Programming extends React.Component {
                 </Button>
               </CardActions>
             </Card>
+          </TabContainer>
+          <TabContainer>
+            <CodeGridList />
           </TabContainer>
         </SwipeableViews>
       </div>
