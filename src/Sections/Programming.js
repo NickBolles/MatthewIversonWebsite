@@ -289,9 +289,9 @@ class Programming extends React.Component {
           </TabContainer>
           <TabContainer dir={theme.direction}>
             <ImgMediaCard
-              image="LINKtowebsite"
+              image="http://youmeandtrends.com/wp-content/uploads/2015/09/dragon-wallpaper-hd_063725675_21.jpg"
               alt="alternate name if image is not available"
-              title="Name"
+              title="My First Website"
               description="descriptive sentences on the project and how it was created"
             />
             <ImgMediaCard
