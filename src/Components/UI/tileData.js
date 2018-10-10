@@ -1,15 +1,15 @@
 const tileData = [
     {
-      img: '/static/images/grid-list/breakfast.jpg',
-      title: 'Breakfast',
-      author: 'jill111',
+      img: 'https://vavamr.files.wordpress.com/2013/04/rich-dad-poor-dad-cashflow-quadrant.png',
+      title: 'Rich Dad Poor Dad',
+      author: 'Robert Kyosoki',
       cols: 2,
       featured: true,
     },
     {
-      img: '/static/images/grid-list/burgers.jpg',
-      title: 'Tasty burger',
-      author: 'director90',
+      img: 'http://www.brandhome.com/wp-content/uploads/2015/05/TIPPINGPOINT_1280x640.jpg',
+      title: 'The Tipping Point',
+      author: 'Malcolm Gladwell',
     },
     {
       img: '/static/images/grid-list/camera.jpg',
