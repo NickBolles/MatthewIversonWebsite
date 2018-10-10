@@ -66,7 +66,7 @@ class PentrationTesting extends React.Component {
             textColor="primary"
             fullWidth
           >
-            <Tab label="Programming" />
+            <Tab label="Pentration Testing" />
             <Tab label="Skills" />
             <Tab label="Projects" />
           </Tabs>
