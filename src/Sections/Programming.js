@@ -8,7 +8,7 @@ import Tab from "@material-ui/core/Tab";
 import Typography from "@material-ui/core/Typography";
 import Skills from "../Components/UI/Skills";
 import Paper from "@material-ui/core/Paper";
-import ImgMediaCard from "../Components/UI/ImgMediaCard"
+import ImgMediaCard from "../Components/UI/ImgMediaCard";
 import CodeGridList from "../Components/UI/GridLists/CodeGridList";
 
 function TabContainer({ children, dir }) {
@@ -288,9 +288,26 @@ class Programming extends React.Component {
             </Paper>
           </TabContainer>
           <TabContainer dir={theme.direction}>
-          <ImgMediaCard />
+            <ImgMediaCard
+              image="LINKtowebsite"
+              alt="alternate name if image is not available"
+              title="Name"
+              description="descriptive sentences on the project and how it was created"
+            />
+            <ImgMediaCard
+              image="LINKtowebsite"
+              alt="alternate name if image is not available"
+              title="Name"
+              description="descriptive sentences on the project and how it was created"
+            />
+            <ImgMediaCard
+              image="LINKtowebsite"
+              alt="alternate name if image is not available"
+              title="Name"
+              description="descriptive sentences on the project and how it was created"
+            />
           </TabContainer>
-          <TabContainer>
+          <TabContainer dir={theme.direction}>
             <CodeGridList />
           </TabContainer>
         </SwipeableViews>

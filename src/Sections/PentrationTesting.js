@@ -156,6 +156,16 @@ class PentrationTesting extends React.Component {
               title="My website"
               description="Created my first ever website from scratch"
             />
+            <ImgMediaCard
+              image="www.matthewiver.com"
+              title="My website"
+              description="Created my first ever website from scratch"
+            />
+            <ImgMediaCard
+              image="www.matthewiver.com"
+              title="My website"
+              description="Created my first ever website from scratch"
+            />
           </TabContainer>
           <TabContainer dir={theme.direction}>
             <PentTestGridList />
