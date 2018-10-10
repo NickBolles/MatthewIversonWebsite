@@ -9,7 +9,7 @@ import Typography from "@material-ui/core/Typography";
 import Skills from "../Components/UI/Skills";
 import Paper from "@material-ui/core/Paper";
 import PentTestGridList from "../Components/UI/GridLists/PentTestGridList";
-import ImgMediaCard from "../Components/UI/ImgMediaCard";
+import ImgMediaCard from "../Components/UI/DummyImgMediaCard";
 
 function TabContainer({ children, dir }) {
   return (
