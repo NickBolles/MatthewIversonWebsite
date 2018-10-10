@@ -26,20 +26,15 @@ function ImgMediaCard(props) {
       <CardActionArea>
         <CardMedia
           component="img"
-          alt="Contemplative Reptile"
+          alt={this.props.alt}
           className={classes.media}
           height="140"
-          image="http://4.bp.blogspot.com/-T9SmfMkXyhU/UPr7zlgKH-I/AAAAAAAAEu8/YsQHbjdmr4A/s1600/0smiley_winking.jpg"
-          title="Contemplative Reptile"
+          image={this.props.image}
+          title={this.props.title}
         />
         <CardContent>
-          <Typography gutterBottom variant="h5" component="h2">
-            Lizard
-          </Typography>
-          <Typography component="p">
-            Lizards are a widespread group of squamate reptiles, with over 6,000 species, ranging
-            across all continents except Antarctica
-          </Typography>
+          <Typography gutterBottom variant="h5" component="h2" title={this.props.title} />
+          <Typography component="p" description={this.props.description}/>
         </CardContent>
       </CardActionArea>
       <CardActions>
