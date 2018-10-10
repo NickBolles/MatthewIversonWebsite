@@ -1,16 +1,36 @@
-import React from "react";
-import PropTypes from "prop-types";
-import { withStyles } from "@material-ui/core/styles";
-import ExpansionPanel from "@material-ui/core/ExpansionPanel";
-import ExpansionPanelSummary from "@material-ui/core/ExpansionPanelSummary";
-import ExpansionPanelDetails from "@material-ui/core/ExpansionPanelDetails";
-import Typography from "@material-ui/core/Typography";
-import ExpandMoreIcon from "@material-ui/icons/ExpandMore";
+import React from 'react';
+import PropTypes from 'prop-types';
+import { withStyles } from '@material-ui/core/styles';
+import SwipeableViews from 'react-swipeable-views';
+import AppBar from '@material-ui/core/AppBar';
+import Tabs from '@material-ui/core/Tabs';
+import Tab from '@material-ui/core/Tab';
+import Typography from '@material-ui/core/Typography';
 import Skills from "../Components/UI/Skills";
 import Paper from "@material-ui/core/Paper";
+import Card from '@material-ui/core/Card';
+import CardActionArea from '@material-ui/core/CardActionArea';
+import CardActions from '@material-ui/core/CardActions';
+import CardContent from '@material-ui/core/CardContent';
+import CardMedia from '@material-ui/core/CardMedia';
+import Button from '@material-ui/core/Button';
+
+function TabContainer({ children, dir }) {
+  return (
+    <Typography component="div" dir={dir} style={{ padding: 8 * 3 }}>
+      {children}
+    </Typography>
+  );
+}
+
+TabContainer.propTypes = {
+  children: PropTypes.node.isRequired,
+  dir: PropTypes.string.isRequired,
+};
 
 const styles = theme => ({
   root: {
+    backgroundColor: theme.palette.background.paper,
     width: "70%",
     margin: "auto"
   },
@@ -20,19 +40,43 @@ const styles = theme => ({
   }
 });
 
-function Programming(props) {
-  const { classes } = props;
-  return (
-    <div className={classes.root}>
-      <ExpansionPanel>
-        <ExpansionPanelSummary expandIcon={<ExpandMoreIcon />}>
-          <Typography className={classes.heading}>
-            Programming ( July 2018 - Current )
-          </Typography>
-        </ExpansionPanelSummary>
-        <ExpansionPanelDetails>
-          <Typography>
-            <Paper>
+class Programming extends React.Component {
+  state = {
+    value: 0,
+  };
+
+  handleChange = (event, value) => {
+    this.setState({ value });
+  };
+
+  handleChangeIndex = index => {
+    this.setState({ value: index });
+  };
+
+  render() {
+    const { classes, theme } = this.props;
+
+    return (
+      <div className={classes.root}>
+        <AppBar position="static" color="default">
+          <Tabs
+            value={this.state.value}
+            onChange={this.handleChange}
+            indicatorColor="primary"
+            textColor="primary"
+            fullWidth
+          >
+            <Tab label="Programming" />
+            <Tab label="Skills" />
+            <Tab label="Projects" />
+          </Tabs>
+        </AppBar>
+        <SwipeableViews
+          axis={theme.direction === 'rtl' ? 'x-reverse' : 'x'}
+          index={this.state.value}
+          onChangeIndex={this.handleChangeIndex}
+        >
+          <TabContainer dir={theme.direction}>
               Matthew has always loved computers. He enjoys the input output
               relationship. He is able to understand easily how the cause and
               effect relationship relate. Matthew loves videos games ever since
@@ -66,9 +110,9 @@ function Programming(props) {
               decided to listen after a few months of hearing them say it. Once
               he decided to make his own projects the time to create was not
               long enough because Matthew wanted more and more time to create
-              his ideas because of how much he loved to invent.
-            </Paper>
-            <Paper>
+              his ideas because of how much he loved to invent.</TabContainer>
+          <TabContainer dir={theme.direction}>
+          <Paper>
               <h2>Languages</h2>
               <Skills
                 src="https://maxcdn.icons8.com/Share/icon/Logos/css31600.png"
@@ -242,15 +286,48 @@ function Programming(props) {
                 progress={0}
               />
             </Paper>
+          
+          </TabContainer>
+          <TabContainer dir={theme.direction}>
+    <Card className={classes.card}>
+      <CardActionArea>
+        <CardMedia
+          component="img"
+          alt="Contemplative Reptile"
+          className={classes.media}
+          height="140"
+          image="http://4.bp.blogspot.com/-T9SmfMkXyhU/UPr7zlgKH-I/AAAAAAAAEu8/YsQHbjdmr4A/s1600/0smiley_winking.jpg"
+          title="Contemplative Reptile"
+        />
+        <CardContent>
+          <Typography gutterBottom variant="h5" component="h2">
+            Lizard
           </Typography>
-        </ExpansionPanelDetails>
-      </ExpansionPanel>
-    </div>
-  );
+          <Typography component="p">
+            Lizards are a widespread group of squamate reptiles, with over 6,000 species, ranging
+            across all continents except Antarctica
+          </Typography>
+        </CardContent>
+      </CardActionArea>
+      <CardActions>
+        <Button size="small" color="primary">
+          Share
+        </Button>
+        <Button size="small" color="primary">
+          Learn More
+        </Button>
+      </CardActions>
+    </Card>
+    </TabContainer>
+        </SwipeableViews>
+      </div>
+    );
+  }
 }
 
 Programming.propTypes = {
-  classes: PropTypes.object.isRequired
+  classes: PropTypes.object.isRequired,
+  theme: PropTypes.object.isRequired,
 };
 
-export default withStyles(styles)(Programming);
+export default withStyles(styles, { withTheme: true })(Programming);
