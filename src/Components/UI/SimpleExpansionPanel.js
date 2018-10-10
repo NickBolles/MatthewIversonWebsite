@@ -299,6 +299,13 @@ function SimpleExpansionPanel(props) {
             learn the bigger picture he did not understand this led him to
             ethical hacking. sit amet blandit leo lobortis eget.
             <br />
+            <h2>Basic</h2>
+            <Skills
+              src="http://www.logospike.com/wp-content/uploads/2015/05/Linux_Logo_07.png"
+              skill="Linux Scripting"
+              progress={40}
+            />
+            <br />
             <h2>Reconnaisance</h2>
             <Skills
               src="https://image.flaticon.com/icons/png/512/34/34067.png"
@@ -310,18 +317,23 @@ function SimpleExpansionPanel(props) {
               skill="Awareness"
               progress={100}
             />
+            <Skills
+              src="https://image.flaticon.com/icons/png/512/44/44594.png"
+              skill="Lock Picking"
+              progress={60}
+            />
             <br />
             <h2>Scanning</h2>
             <Skills
-              src=""
-              skill="Scanning"
-              progress={10}
+              src="http://static.movingpackets.net/2014/10/wireshark-logo.png"
+              skill="WireShark"
+              progress={80}
             />
             <br />
             <h2>Access</h2>
             <Skills
               src=""
-              skill="Access"
+              skill="Metasploit"
               progress={0}
             />
             <br />
