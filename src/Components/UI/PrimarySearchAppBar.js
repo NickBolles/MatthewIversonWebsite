@@ -11,6 +11,7 @@ import ComputerIcon from "@material-ui/icons/Computer";
 import InsertDriveFile from "@material-ui/icons/InsertDriveFile";
 import WorkIcon from "@material-ui/icons/Work";
 import ImportContacts from "@material-ui/icons/ImportContacts";
+import Button from "@material-ui/core/Button";
 
 const styles = theme => ({
   root: {
@@ -42,7 +43,6 @@ const styles = theme => ({
 });
 
 class PrimarySearchAppBar extends React.Component {
-
   render() {
     const { classes } = this.props;
 
@@ -57,11 +57,11 @@ class PrimarySearchAppBar extends React.Component {
               color="inherit"
               noWrap
             >
-              Matthew Iverson
+              <Button primaryTextColor="white" >Matthew Iverson</Button>
             </Typography>
             <div className={classes.grow} />
             <div className={classes.sectionDesktop}>
-            <IconButton color="inherit">
+              <IconButton color="inherit">
                 <WorkIcon />
               </IconButton>
               <IconButton color="inherit">
