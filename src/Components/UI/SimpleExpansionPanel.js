@@ -194,6 +194,32 @@ function SimpleExpansionPanel(props) {
               skill="Node.js"
               progress={80}
             />
+            <br /> <h4>Future</h4>
+            <Skills
+              src="https://olimex.files.wordpress.com/2017/06/arduino-logo-circle-thumb.png"
+              skill="C"
+              progress={0}
+            />
+            <Skills
+              src="https://olimex.files.wordpress.com/2017/06/arduino-logo-circle-thumb.png"
+              skill="GO"
+              progress={0}
+            />
+            <Skills
+              src="https://olimex.files.wordpress.com/2017/06/arduino-logo-circle-thumb.png"
+              skill="Java"
+              progress={0}
+            />
+            <Skills
+              src="https://olimex.files.wordpress.com/2017/06/arduino-logo-circle-thumb.png"
+              skill="PHP"
+              progress={0}
+            />
+            <Skills
+              src="https://olimex.files.wordpress.com/2017/06/arduino-logo-circle-thumb.png"
+              skill="Ruby"
+              progress={0}
+            />
             <br /> <h2>Frameworks</h2>
             <Skills
               src="https://www.sambicstech.com/wp-content/uploads/2017/11/django.png"
@@ -214,6 +240,12 @@ function SimpleExpansionPanel(props) {
               src="https://dwglogo.com/wp-content/uploads/2017/09/Vue_js_logo.png"
               skill="Vue (Javascript)"
               progress={20}
+            />
+            <br /> <h4>Future</h4>
+            <Skills
+              src="https://olimex.files.wordpress.com/2017/06/arduino-logo-circle-thumb.png"
+              skill="Angular"
+              progress={0}
             />
             <br /> <h2>Libraries</h2>
             <Skills
@@ -273,6 +305,17 @@ function SimpleExpansionPanel(props) {
               src="https://olimex.files.wordpress.com/2017/06/arduino-logo-circle-thumb.png"
               skill="Arduino"
               progress={40}
+            />
+            <Skills
+              src="https://olimex.files.wordpress.com/2017/06/arduino-logo-circle-thumb.png"
+              skill="Cordova"
+              progress={50}
+            />
+            <br /> <h4>Future</h4>
+            <Skills
+              src="https://olimex.files.wordpress.com/2017/06/arduino-logo-circle-thumb.png"
+              skill="Rasbery Pi"
+              progress={0}
             />
           </Typography>
         </ExpansionPanelDetails>
