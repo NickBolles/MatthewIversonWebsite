@@ -14,7 +14,7 @@ class Skills extends Component {
             label={this.props.skill}
             color="primary"
           />
-        </Grid> 
+        </Grid>
         <div style={{ display: "flex" }}>
           <Grid item xs={11}>
             <LinearProgress
@@ -22,7 +22,7 @@ class Skills extends Component {
               value={this.props.progress}
               style={{
                 width: "65%",
-                marginLeft: "auto",
+                marginLeft: "auto"
               }}
             />
           </Grid>
@@ -33,3 +33,11 @@ class Skills extends Component {
 }
 
 export default Skills;
+
+/*
+<Skills
+src="LINK"
+skill="Name of skill"
+progress={0}
+/>
+*/
