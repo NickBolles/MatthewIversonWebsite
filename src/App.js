@@ -4,6 +4,7 @@ import PrimarySearchAppBar from "./Components/UI/PrimarySearchAppBar";
 import SimpleExpansionPanel from "./Components/UI/SimpleExpansionPanel";
 import ProfileIntro from "./Components/UI/ProfileIntro";
 import Projects from "./Components/UI/ImgMediaCard";
+import Biography from "./Sections/Biography";
 
 class App extends Component {
   render() {
@@ -15,10 +16,13 @@ class App extends Component {
         <section id="Profile">
           <ProfileIntro />
         </section>
+        <section id="Biography">
+          <Biography />
+        </section>
         <section id="Projects">
-        <Projects />
-        <Projects />
-        <Projects />
+          <Projects />
+          <Projects />
+          <Projects />
         </section>
         <section id="Bio">
           <SimpleExpansionPanel />
