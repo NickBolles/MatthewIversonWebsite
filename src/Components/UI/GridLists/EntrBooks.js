@@ -1,4 +1,4 @@
-const tileData = [
+const EntrBooks = [
     {
       img: 'https://vavamr.files.wordpress.com/2013/04/rich-dad-poor-dad-cashflow-quadrant.png',
       title: 'Rich Dad Poor Dad',
@@ -66,4 +66,4 @@ const tileData = [
     },
   ];
   
-  export default tileData;
+  export default EntrBooks;
