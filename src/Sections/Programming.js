@@ -8,12 +8,7 @@ import Tab from "@material-ui/core/Tab";
 import Typography from "@material-ui/core/Typography";
 import Skills from "../Components/UI/Skills";
 import Paper from "@material-ui/core/Paper";
-import Card from "@material-ui/core/Card";
-import CardActionArea from "@material-ui/core/CardActionArea";
-import CardActions from "@material-ui/core/CardActions";
-import CardContent from "@material-ui/core/CardContent";
-import CardMedia from "@material-ui/core/CardMedia";
-import Button from "@material-ui/core/Button";
+import ImgMediaCard from "../Components/UI/ImgMediaCard"
 import CodeGridList from "../Components/UI/GridLists/CodeGridList";
 
 function TabContainer({ children, dir }) {
@@ -293,36 +288,7 @@ class Programming extends React.Component {
             </Paper>
           </TabContainer>
           <TabContainer dir={theme.direction}>
-            <Card className={classes.card}>
-              <CardActionArea>
-                <CardMedia
-                  component="img"
-                  alt="Contemplative Reptile"
-                  className={classes.media}
-                  height="140"
-                  image="http://4.bp.blogspot.com/-T9SmfMkXyhU/UPr7zlgKH-I/AAAAAAAAEu8/YsQHbjdmr4A/s1600/0smiley_winking.jpg"
-                  title="Contemplative Reptile"
-                />
-                <CardContent>
-                  <Typography gutterBottom variant="h5" component="h2">
-                    Lizard
-                  </Typography>
-                  <Typography component="p">
-                    Lizards are a widespread group of squamate reptiles, with
-                    over 6,000 species, ranging across all continents except
-                    Antarctica
-                  </Typography>
-                </CardContent>
-              </CardActionArea>
-              <CardActions>
-                <Button size="small" color="primary">
-                  Share
-                </Button>
-                <Button size="small" color="primary">
-                  Learn More
-                </Button>
-              </CardActions>
-            </Card>
+          <ImgMediaCard />
           </TabContainer>
           <TabContainer>
             <CodeGridList />
