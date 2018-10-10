@@ -77,6 +77,7 @@ class PentrationTesting extends React.Component {
           onChangeIndex={this.handleChangeIndex}
         >
           <TabContainer dir={theme.direction}>
+          <Paper>
           Matthew had a curiosity for the world around him and a creative
               approach to problems. He loves solving problems in the most
               efficient, simplistic and repetitive fashion possible. He enjoys
@@ -88,6 +89,7 @@ class PentrationTesting extends React.Component {
               and exploits enable to better understand programming. This way he
               discovered something he would love which is finding different
               approaches to problems others do not see.
+              </Paper>
               </TabContainer>
           <TabContainer dir={theme.direction}>
           <Paper>
