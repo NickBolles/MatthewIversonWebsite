@@ -32,7 +32,7 @@ function CodeGridList(props) {
 
   return (
     <div className={classes.root}>
-      <GridList className={classes.gridList} cols={6}>
+      <GridList className={classes.gridList} cols={5.5}>
         {CodeBooks.map(tile => (
           <GridListTile key={tile.img}>
             <img src={tile.img} alt={tile.title} />
