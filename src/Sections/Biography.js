@@ -54,7 +54,7 @@ class Biography extends React.Component {
     const { classes } = this.props;
     return (
       <div>
-        <Button onClick={this.handleClickOpen}>Auto Biography</Button>
+        <Button onClick={this.handleClickOpen}>Full Bio</Button>
         <Dialog
           fullScreen
           open={this.state.open}
@@ -64,7 +64,7 @@ class Biography extends React.Component {
           <AppBar className={classes.appBar}>
             <Toolbar>
               <Typography variant="h6" color="inherit" className={classes.flex}>
-                AutoBiography
+                Full Bio
               </Typography>
               <IconButton
                 color="inherit"
@@ -78,8 +78,7 @@ class Biography extends React.Component {
           <Typography>
             <div className={classes.root}>
               <section>
-                <ExpansionPanel>
-                  <ExpansionPanelSummary expandIcon={<ExpandMoreIcon />}>
+                  <ExpansionPanelSummary >
                   <Typography>
                       <b>Biography</b>
                       <Paper>
@@ -139,6 +138,8 @@ class Biography extends React.Component {
                           with himself. He did not seek much attention from
                           others becuase he knew their intentions.
                         </p>
+                        </Paper>
+                        <Paper>
                         <h3>College</h3>
                         <p>
                           18 - start college did not like free time saw how much
@@ -151,6 +152,8 @@ class Biography extends React.Component {
                           making real products and services. 21 - DJ at several
                           events
                         </p>
+                        </Paper>
+                        <Paper>
                         <h3>Young Adult</h3>
                         <p>
                           reading on long car rides 22 - sales job with dad, got
@@ -165,6 +168,8 @@ class Biography extends React.Component {
                           from library, learn from Nick Bolles) learned hacking
                           (multiple hacking books)
                         </p>
+                        </Paper>
+                        <Paper>
                         <h3>Current</h3>
                         <p>
                           Matthew spends his time researching better programming
@@ -176,9 +181,17 @@ class Biography extends React.Component {
                       </Paper>
                       </Typography>
                       </ExpansionPanelSummary>
-                </ExpansionPanel>
                 <h2>Favorite entrepreneurship books</h2>
                 <EntrGridList />
+                <br />
+                <br />
+                <br />
+                <br />
+                <br />
+                <br />
+                <br />
+                <br />
+                <br />
               </section>
             </div>
           </Typography>
