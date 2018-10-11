@@ -9,14 +9,12 @@ class ProfileIntro extends Component {
           alt="CityBackground"
           className="city"
           width="100%"
-          position="fixed"
         />
-        <img
+      <div>
+      <img
           src="https://www.shareicon.net/download/2015/09/18/103157_man_512x512.png"
           alt="avatar"
           className="avatar-img"
-          display="inline-block" // make it behave like an image
-          position="relative"
           src2="https://www.w3schools.com/howto/img_avatar.png"
         />
         <div className="banner-text">
@@ -134,6 +132,7 @@ class ProfileIntro extends Component {
             />
           </div>
         </div>
+      </div>
       </div>
     );
   }
