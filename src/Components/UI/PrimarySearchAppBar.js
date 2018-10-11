@@ -24,7 +24,7 @@ const styles = theme => ({
   title: {
     display: "none",
     [theme.breakpoints.up("sm")]: {
-      display: "block"
+      display: "flex"
     }
   },
   sectionDesktop: {
@@ -56,25 +56,35 @@ class PrimarySearchAppBar extends React.Component {
               color="inherit"
               noWrap
             >
-              <Button primaryTextColor="white" >Matthew Iverson</Button>
+              <Button primaryTextColor="white">Matthew Iverson</Button>
             </Typography>
             <div className={classes.grow} />
             <div className={classes.sectionDesktop}>
-              <IconButton color="inherit">
-                <WorkIcon />
-              </IconButton>
-              <IconButton color="inherit">
-                <InsertDriveFile />
-              </IconButton>
-              <IconButton color="inherit">
-                <ComputerIcon />
-              </IconButton>
-              <IconButton color="inherit">
-                <SecurityIcon />
-              </IconButton>
-              <IconButton color="inherit">
-                <MailIcon />
-              </IconButton>
+              <a href="/Biography">
+                <IconButton color="inherit">
+                  <WorkIcon />
+                </IconButton>
+              </a>
+              <a href="/">
+                <IconButton color="inherit">
+                  <InsertDriveFile />
+                </IconButton>
+              </a>
+              <a href="/Programming">
+                <IconButton color="inherit">
+                  <ComputerIcon />
+                </IconButton>
+              </a>
+              <a href="/PentrationTesting">
+                <IconButton color="inherit">
+                  <SecurityIcon />
+                </IconButton>
+              </a>
+              <a href="/Contact">
+                <IconButton color="inherit">
+                  <MailIcon />
+                </IconButton>
+              </a>
             </div>
           </Toolbar>
         </AppBar>
