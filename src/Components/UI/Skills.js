@@ -18,12 +18,9 @@ class Skills extends Component {
         <div style={{ display: "flex" }}>
           <Grid item xs={11}>
             <LinearProgress
+              className="LinearProgress"
               variant="determinate"
               value={this.props.progress}
-              style={{
-                width: "65%",
-                marginLeft: "auto"
-              }}
             />
           </Grid>
         </div>
