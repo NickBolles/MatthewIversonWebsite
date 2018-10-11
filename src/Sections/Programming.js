@@ -75,40 +75,49 @@ class Programming extends React.Component {
         >
           <TabContainer dir={theme.direction}>
             <Paper>
-              Matthew has always loved computers. He enjoys the input output
-              relationship. He is able to understand easily how the cause and
-              effect relationship relate. Matthew loves videos games ever since
-              a young age. He used to play endless hours of hotwheels,
-              construction games and others. Once he became a teenager he
-              learned about PS3. Matthew played with friends in first person
-              shooters and absolutely loved playing modern warfare 2 all the way
-              to little big planet 1,2, and 3 with his sisters. Matthew used to
-              always be curious how the internet worked and would poke around at
-              everything since no one was telling him “NO” when experimenting
-              with the computer. He would download different files and inspect
-              elements because he thought it was neat how the web pages were put
-              together. Matthew experimented so much he broke 2 computers
-              because of the excessive downloading and experimenting at such a
-              young age without understanding security. Matthew has always have
-              an abundance of ideas circulating in his head. He had very little
-              way to create his ideas with out excessive capital to create them.
-              He then turned towards something he always loved but never gave it
-              the attention it deserved. Computers! He decided if he learned
-              programming he would be able to bring his and others ideas to life
-              to promote a better life for everything. Matthew started
-              programming by learning Python which is a basic back end
-              programming languages which is simple and expendable. Then he
-              proceeded to learn HTML, css, Js, react, sql, node, next, etc.
-              Matthew then added Arduinos to understand the deep connection
-              between computers and electricity. Matthew then wanted to learn
-              the bigger picture he did not understand this led him to ethical
-              hacking. Nick Bolles ( www.nickbolles.com ) and Joe Bannon (
-              www.joebannon.com )were helping guide Matthew to experiment and
-              create rather than ingesting more useless knowledge. Matthew
-              decided to listen after a few months of hearing them say it. Once
-              he decided to make his own projects the time to create was not
-              long enough because Matthew wanted more and more time to create
-              his ideas because of how much he loved to invent.
+              <p>
+                Matthew has always loved computers. He enjoys the input output
+                relationship. He is able to understand easily how the cause and
+                effect relationship relate. Matthew loves videos games ever
+                since a young age. He used to play endless hours of hotwheels,
+                construction games and others. Once he became a teenager he
+                learned about PS3. Matthew played with friends in first person
+                shooters and absolutely loved playing modern warfare 2 all the
+                way to little big planet 1,2, and 3 with his sisters. Matthew
+                used to always be curious how the internet worked and would poke
+                around at everything since no one was telling him “NO” when
+                experimenting with the computer. He would download different
+                files and inspect elements because he thought it was neat how
+                the web pages were put together. Matthew experimented so much he
+                broke 2 computers because of the excessive downloading and
+                experimenting at such a young age without understanding
+                security.
+              </p>
+              <p>
+                Matthew has always have an abundance of ideas circulating in his
+                head. He had very little way to create his ideas with out
+                excessive capital to create them. He then turned towards
+                something he always loved but never gave it the attention it
+                deserved. Computers! He decided if he learned programming he
+                would be able to bring his and others ideas to life to promote a
+                better life for everything. Matthew started programming by
+                learning Python which is a basic back end programming languages
+                which is simple and expendable. Then he proceeded to learn HTML,
+                css, Js, react, sql, node, next, etc. Matthew then added
+                Arduinos to understand the deep connection between computers and
+                electricity.
+                </p>
+                <p>
+                Matthew then wanted to learn the bigger picture he
+                did not understand this led him to ethical hacking. Nick Bolles
+                ( www.nickbolles.com ) and Joe Bannon ( www.joebannon.com )were
+                helping guide Matthew to experiment and create rather than
+                ingesting more useless knowledge. Matthew decided to listen
+                after a few months of hearing them say it. Once he decided to
+                make his own projects the time to create was not long enough
+                because Matthew wanted more and more time to create his ideas
+                because of how much he loved to invent.
+              </p>
             </Paper>
           </TabContainer>
           <TabContainer dir={theme.direction}>
