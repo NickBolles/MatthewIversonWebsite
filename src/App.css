@@ -29,13 +29,24 @@
   color: white;
 }
 
+.landing-grid {
+  background: #833ab4;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #fcb045, #fd1d1d, #833ab4);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #fcb045, #fd1d1d, #833ab4); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  text-align: center;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 1000px;
+}
+
 .avatar-img {
-  height: 35%;
-  top: 10%;
-  display: inline-block;
-  position: absolute;
+  height: 300px;
+  padding: 150px;
   transition: all 0.4s ease-in-out;
   z-index: 1;
+  margin: auto;
+  vertical-align: middle;
 }
 
 .avatar-img:hover {
@@ -45,7 +56,11 @@
 .city {
   position: relative;
   z-index: -1;
+  text-align: center;
+  top: 400px;
+  left: 0;
   width: 100%;
+height: 100%;
 }
 
 .banner-text {
