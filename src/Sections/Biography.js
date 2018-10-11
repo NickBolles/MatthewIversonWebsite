@@ -102,7 +102,7 @@ class Biography extends React.Component {
                   </ExpansionPanelSummary>
                   <ExpansionPanelDetails>
                     <Typography>
-                      LONG BIO!
+                      <b>Biography</b>
                       <Paper>
                         Lorem ipsum dolor sit amet consectetur adipiscing elit
                         vulputate velit malesuada posuere dis cras, nec vehicula
