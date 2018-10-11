@@ -4,13 +4,12 @@ import AppBar from "@material-ui/core/AppBar";
 import Toolbar from "@material-ui/core/Toolbar";
 import IconButton from "@material-ui/core/IconButton";
 import SecurityIcon from "@material-ui/icons/Security";
-import Typography from "@material-ui/core/Typography";
 import { withStyles } from "@material-ui/core/styles";
 import MailIcon from "@material-ui/icons/Mail";
 import ComputerIcon from "@material-ui/icons/Computer";
 import InsertDriveFile from "@material-ui/icons/InsertDriveFile";
 import WorkIcon from "@material-ui/icons/Work";
-import Button from "@material-ui/core/Button";
+import { Link} from "react-router-dom";
 
 const styles = theme => ({
   root: {
@@ -21,19 +20,7 @@ const styles = theme => ({
   grow: {
     flexGrow: 1
   },
-  title: {
-    display: "none",
-    [theme.breakpoints.up("sm")]: {
-      display: "flex"
-    }
-  },
-  sectionDesktop: {
-    display: "none",
-    [theme.breakpoints.up("md")]: {
-      display: "flex"
-    }
-  },
-  sectionMobile: {
+  section: {
     display: "none",
     [theme.breakpoints.up("md")]: {
       display: "flex"
@@ -44,48 +31,38 @@ const styles = theme => ({
 class PrimarySearchAppBar extends React.Component {
   render() {
     const { classes } = this.props;
+    const section = [
+      <Link to="/Biography" >
+        <IconButton children={<WorkIcon className="NavButtons"/>} />
+      </Link>,
+      <Link to="/Resume" >
+        <IconButton children={<InsertDriveFile className="NavButtons"/>} />
+      </Link>,
+      <Link to="/Programming" >
+        <IconButton children={<ComputerIcon className="NavButtons"/>} />
+      </Link>,
+      <Link to="/PentrationTesting" >
+        <IconButton children={<SecurityIcon className="NavButtons"/>} />
+      </Link>,
+      <Link to="/Contact" >
+        <IconButton children={<MailIcon className="NavButtons"/>} />
+      </Link>
+    ];
+    const navLinks = section.map(section => {
+      return (
+        <div>
+          <Link to={"#" + section}>{section}</Link>
+        </div>
+      );
+    });
 
     return (
       <div className={classes.root}>
-        <AppBar position="static">
+        <AppBar position="static" className="AppBar">
           <Toolbar>
-            <Typography
-              className={classes.title}
-              link="page-top"
-              variant="h6"
-              color="inherit"
-              noWrap
-            >
-              <Button primaryTextColor="white">Matthew Iverson</Button>
-            </Typography>
+            <Link to="/"><b className="NavButtons">Matthew Iverson</b></Link>
             <div className={classes.grow} />
-            <div className={classes.sectionDesktop}>
-              <a href="/Biography" className="NavButtons">
-                <IconButton color="inherit">
-                  <WorkIcon />
-                </IconButton>
-              </a>
-              <a href="/" className="NavButtons">
-                <IconButton color="inherit">
-                  <InsertDriveFile />
-                </IconButton>
-              </a>
-              <a href="/Programming" className="NavButtons">
-                <IconButton color="inherit">
-                  <ComputerIcon />
-                </IconButton>
-              </a>
-              <a href="/PentrationTesting" className="NavButtons">
-                <IconButton color="inherit">
-                  <SecurityIcon />
-                </IconButton>
-              </a>
-              <a href="/Contact" className="NavButtons">
-                <IconButton color="inherit">
-                  <MailIcon />
-                </IconButton>
-              </a>
-            </div>
+            <div className={classes.section}>{navLinks}</div>
           </Toolbar>
         </AppBar>
       </div>
