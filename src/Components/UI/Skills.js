@@ -11,10 +11,10 @@ class Skills extends Component {
         <Grid item xs={3}>
           <Chip
             avatar={<Avatar src={this.props.src} />}
-            label={this.props.skill}
+            label={<b>{this.props.skill}</b>}
             color="primary"
             clickable="true"
-            onClick={this.props.skill}
+            href={this.props.skill}
           />
         </Grid>
         <div style={{ display: "flex" }}>
@@ -38,6 +38,6 @@ export default Skills;
 src="LINKtowebsitePicture"
 skill="Name of skill"
 progress={0}
-onClick="LINKtowebsite"
+href="LINKtowebsite"
 />
 */
