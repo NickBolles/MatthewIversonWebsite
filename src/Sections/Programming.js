@@ -117,11 +117,13 @@ class Programming extends React.Component {
           </TabContainer>
           <TabContainer dir={theme.direction}>
             <Paper>
+              <br />
               <h2>Languages</h2>
               <Skills
                 src="https://maxcdn.icons8.com/Share/icon/Logos/css31600.png"
                 skill="CSS (Cascading Style Sheets)"
                 progress={90}
+                href="https://developer.mozilla.org/en-US/docs/Web/CSS"
               />
               <Skills
                 src="https://www.w3.org/html/logo/img/mark-only-icon.png"
