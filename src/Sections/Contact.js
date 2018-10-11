@@ -4,28 +4,47 @@ import { ListItem, ListItemIcon, Grid } from "@material-ui/core";
 class Contact extends Component {
   render() {
     return (
-      <div className="contact-body">
-        <Grid className="contact-grid" >
-          <Grid xs={3}>
-            <h2>Contact Me</h2>
-            <hr />
-            <div className="contact-list">
-              <ListItem>
-                <ListItemIcon style={{ fontSize: "30px", fontFamily: "Anton" }}>
-                  <i className="fa fa-envelope" aria-hidden="true" />
-                  matthewiver@protonmail.com
-                </ListItemIcon>
-              </ListItem>
-              <ListItem>
-                <ListItemIcon style={{ fontSize: "30px", fontFamily: "Anton" }}>
-                  <i className="fa fa-skype" aria-hidden="true" />
-                  MySkypeID
-                </ListItemIcon>
-              </ListItem>
-            </div>
+      <div class="footer-below">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-12">
+        <div className="contact-body">
+          <Grid className="contact-grid">
+            <Grid xs={3}>
+              <h2>Contact Me</h2>
+              <hr />
+              <div className="contact-list">
+                <ListItem>
+                  <ListItemIcon
+                    style={{ fontSize: "30px", fontFamily: "Anton" }}
+                  >
+                    <i /*email icon */ />
+                    matthewiver@protonmail.com
+                  </ListItemIcon>
+                </ListItem>
+                <ListItem>
+                  <ListItemIcon
+                    style={{ fontSize: "30px", fontFamily: "Anton" }}
+                  >
+                    <i /*skype icon */ />
+                    MySkypeID
+                  </ListItemIcon>
+                      <strong>
+                        Copyright © Matthew Iverson
+                        <script>
+                          document.write(new Date().getFullYear());
+                        </script>
+                        2018
+                      </strong>
+                </ListItem>
+              </div>
+            </Grid>
           </Grid>
-        </Grid>
-      </div>
+        </div>
+        </div>
+        </div>
+        </div>
+        </div>
     );
   }
 }
