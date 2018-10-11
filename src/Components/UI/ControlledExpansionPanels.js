@@ -1,19 +1,15 @@
-import React from "react";
-import PropTypes from "prop-types";
-import { withStyles } from "@material-ui/core/styles";
 import ExpansionPanel from "@material-ui/core/ExpansionPanel";
 import ExpansionPanelDetails from "@material-ui/core/ExpansionPanelDetails";
 import ExpansionPanelSummary from "@material-ui/core/ExpansionPanelSummary";
+import { withStyles } from "@material-ui/core/styles";
 import Typography from "@material-ui/core/Typography";
 import ExpandMoreIcon from "@material-ui/icons/ExpandMore";
+import PropTypes from "prop-types";
+import React from "react";
 import PentrationTest from "../../Sections/PentrationTesting";
 import Programming from "../../Sections/Programming";
-import Biography from "../../Sections/Biography";
 
 const styles = theme => ({
-  root: {
-    width: "100%"
-  },
   heading: {
     fontSize: theme.typography.pxToRem(15),
     flexBasis: "33.33%",
@@ -41,24 +37,10 @@ class ControlledExpansionPanels extends React.Component {
     const { expanded } = this.state;
 
     return (
-      <div className={classes.root}>
+      <div className="ExpansionPanels">  
         <ExpansionPanel
           expanded={expanded === "panel1"}
           onChange={this.handleChange("panel1")}
-        >
-          <ExpansionPanelSummary expandIcon={<ExpandMoreIcon />}>
-            <Typography className={classes.heading}>Auto Biography</Typography>
-            <Typography className={classes.secondaryHeading}>
-              Biography on Matthew Iverson
-            </Typography>
-          </ExpansionPanelSummary>
-          <ExpansionPanelDetails>
-            <Biography />
-          </ExpansionPanelDetails>
-        </ExpansionPanel>
-        <ExpansionPanel
-          expanded={expanded === "panel2"}
-          onChange={this.handleChange("panel2")}
         >
           <ExpansionPanelSummary expandIcon={<ExpandMoreIcon />}>
             <Typography className={classes.heading}>Programming</Typography>
@@ -71,8 +53,8 @@ class ControlledExpansionPanels extends React.Component {
           </ExpansionPanelDetails>
         </ExpansionPanel>
         <ExpansionPanel
-          expanded={expanded === "panel3"}
-          onChange={this.handleChange("panel3")}
+          expanded={expanded === "panel2"}
+          onChange={this.handleChange("panel2")}
         >
           <ExpansionPanelSummary expandIcon={<ExpandMoreIcon />}>
             <Typography className={classes.heading}>
