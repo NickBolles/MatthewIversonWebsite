@@ -60,27 +60,27 @@ class PrimarySearchAppBar extends React.Component {
             </Typography>
             <div className={classes.grow} />
             <div className={classes.sectionDesktop}>
-              <a href="/Biography">
+              <a href="/Biography" className="NavButtons">
                 <IconButton color="inherit">
                   <WorkIcon />
                 </IconButton>
               </a>
-              <a href="/">
+              <a href="/" className="NavButtons">
                 <IconButton color="inherit">
                   <InsertDriveFile />
                 </IconButton>
               </a>
-              <a href="/Programming">
+              <a href="/Programming" className="NavButtons">
                 <IconButton color="inherit">
                   <ComputerIcon />
                 </IconButton>
               </a>
-              <a href="/PentrationTesting">
+              <a href="/PentrationTesting" className="NavButtons">
                 <IconButton color="inherit">
                   <SecurityIcon />
                 </IconButton>
               </a>
-              <a href="/Contact">
+              <a href="/Contact" className="NavButtons">
                 <IconButton color="inherit">
                   <MailIcon />
                 </IconButton>
