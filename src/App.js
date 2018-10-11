@@ -9,9 +9,9 @@ class App extends Component {
   render() {
     return (
       <div className="App">
-        <div>
+        <section>
           <PrimarySearchAppBar />
-        </div>
+        </section>
         <section id="Profile">
           <ProfileIntro />
         </section>
