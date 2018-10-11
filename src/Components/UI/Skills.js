@@ -13,6 +13,8 @@ class Skills extends Component {
             avatar={<Avatar src={this.props.src} />}
             label={this.props.skill}
             color="primary"
+            clickable="true"
+            onClick={this.props.skill}
           />
         </Grid>
         <div style={{ display: "flex" }}>
@@ -33,8 +35,9 @@ export default Skills;
 
 /*
 <Skills
-src="LINKtowebsite"
+src="LINKtowebsitePicture"
 skill="Name of skill"
 progress={0}
+onClick="LINKtowebsite"
 />
 */
