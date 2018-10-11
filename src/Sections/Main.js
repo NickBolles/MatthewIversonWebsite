@@ -1,7 +1,7 @@
 import React from 'react';
 import { Switch, Route } from 'react-router-dom';
 
-import App from './ProfileIntro';
+import App from './Landing';
 import Programming from "./Programming";
 import PentrationTesting from "./PentrationTesting";
 import Contact from './Contact';
