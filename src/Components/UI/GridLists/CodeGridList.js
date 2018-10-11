@@ -1,51 +1,30 @@
-import React from "react";
-import PropTypes from "prop-types";
-import { withStyles } from "@material-ui/core/styles";
-import GridList from "@material-ui/core/GridList";
-import GridListTile from "@material-ui/core/GridListTile";
-import GridListTileBar from "@material-ui/core/GridListTileBar";
-import EntrBooks from "./EntrBooks";
-import SwipeableViews from "react-swipeable-views";
-import Typography from "@material-ui/core/Typography";
-
-function TabContainer({ children, dir }) {
-  return (
-    <Typography component="div" dir={dir} style={{ padding: 8 * 3 }}>
-      {children}
-    </Typography>
-  );
-}
-
-TabContainer.propTypes = {
-  children: PropTypes.node.isRequired,
-  dir: PropTypes.string.isRequired
-};
+import React from 'react';
+import PropTypes from 'prop-types';
+import { withStyles } from '@material-ui/core/styles';
+import GridList from '@material-ui/core/GridList';
+import GridListTile from '@material-ui/core/GridListTile';
+import GridListTileBar from '@material-ui/core/GridListTileBar';
+import EntrBooks from './EntrBooks';
 
 const styles = theme => ({
   root: {
-    display: "flex",
-    flexWrap: "wrap",
-    justifyContent: "space-around",
-    overflow: "hidden",
+    display: 'flex',
+    flexWrap: 'wrap',
+    justifyContent: 'space-around',
+    overflow: 'hidden',
     backgroundColor: theme.palette.background.paper,
-    margin: "auto",
-    width: "100%"
-  },
-  heading: {
-    fontSize: theme.typography.pxToRem(15),
-    fontWeight: theme.typography.fontWeightRegular
   },
   gridList: {
-    flexWrap: "nowrap",
-    transform: "translateZ(0)"
+    flexWrap: 'nowrap',
+    transform: 'translateZ(0)',
   },
   title: {
-    color: theme.palette.primary.light
+    color: theme.palette.primary.light,
   },
   titleBar: {
     background:
-      "linear-gradient(to top, rgba(0,0,0,0.7) 0%, rgba(0,0,0,0.3) 70%, rgba(0,0,0,0) 100%)"
-  }
+      'linear-gradient(to top, rgba(0,0,0,0.7) 0%, rgba(0,0,0,0.3) 70%, rgba(0,0,0,0) 100%)',
+  },
 });
 
 function CodeGridList(props) {
@@ -56,18 +35,12 @@ function CodeGridList(props) {
       <GridList className={classes.gridList} cols={6}>
         {EntrBooks.map(tile => (
           <GridListTile key={tile.img}>
-            <SwipeableViews
-              axis={this.theme.direction === "rtl" ? "x-reverse" : "x"}
-              index={this.state.value}
-              onChangeIndex={this.handleChangeIndex}
-            >
-              <img src={tile.img} alt={tile.title} />
-            </SwipeableViews>
+            <img src={tile.img} alt={tile.title} />
             <GridListTileBar
               title={tile.title}
               classes={{
                 root: classes.titleBar,
-                title: classes.title
+                title: classes.title,
               }}
             />
           </GridListTile>
@@ -78,7 +51,7 @@ function CodeGridList(props) {
 }
 
 CodeGridList.propTypes = {
-  classes: PropTypes.object.isRequired
+  classes: PropTypes.object.isRequired,
 };
 
 export default withStyles(styles)(CodeGridList);
