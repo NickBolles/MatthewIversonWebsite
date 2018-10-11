@@ -1,8 +1,8 @@
 const CodeBooks = [
     {
-      img: 'https://vavamr.files.wordpress.com/2013/04/rich-dad-poor-dad-cashflow-quadrant.png',
-      title: 'Rich Dad Poor Dad',
-      author: 'Robert Kyosoki',
+      img: 'https://image.slidesharecdn.com/2014-10-11cleancodeparti-designpatterns-141014020221-conversion-gate01/95/clean-code-i-best-practices-12-638.jpg?cb=1443907040',
+      title: 'Clean Code',
+      author: 'Robert C. Martin',
       cols: 2,
       featured: true,
     },
