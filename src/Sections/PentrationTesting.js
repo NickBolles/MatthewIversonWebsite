@@ -25,11 +25,6 @@ TabContainer.propTypes = {
 };
 
 const styles = theme => ({
-  root: {
-    backgroundColor: theme.palette.background.paper,
-    margin: "auto",
-    width: "100%"
-  },
   heading: {
     fontSize: theme.typography.pxToRem(15),
     fontWeight: theme.typography.fontWeightRegular
@@ -53,7 +48,7 @@ class PentrationTesting extends React.Component {
     const { classes, theme } = this.props;
 
     return (
-      <div className={classes.root}>
+      <div className="AppBar">
         <AppBar position="static" color="default">
           <Tabs
             value={this.state.value}
