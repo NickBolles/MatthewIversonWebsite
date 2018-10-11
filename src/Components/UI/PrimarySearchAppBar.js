@@ -10,7 +10,6 @@ import MailIcon from "@material-ui/icons/Mail";
 import ComputerIcon from "@material-ui/icons/Computer";
 import InsertDriveFile from "@material-ui/icons/InsertDriveFile";
 import WorkIcon from "@material-ui/icons/Work";
-import ImportContacts from "@material-ui/icons/ImportContacts";
 import Button from "@material-ui/core/Button";
 
 const styles = theme => ({
@@ -72,9 +71,6 @@ class PrimarySearchAppBar extends React.Component {
               </IconButton>
               <IconButton color="inherit">
                 <SecurityIcon />
-              </IconButton>
-              <IconButton color="inherit">
-                <ImportContacts />
               </IconButton>
               <IconButton color="inherit">
                 <MailIcon />
