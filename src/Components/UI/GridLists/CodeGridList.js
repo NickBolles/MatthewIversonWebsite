@@ -57,7 +57,7 @@ function CodeGridList(props) {
         {EntrBooks.map(tile => (
           <GridListTile key={tile.img}>
             <SwipeableViews
-              axis={theme.direction === "rtl" ? "x-reverse" : "x"}
+              axis={this.theme.direction === "rtl" ? "x-reverse" : "x"}
               index={this.state.value}
               onChangeIndex={this.handleChangeIndex}
             >
