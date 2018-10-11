@@ -80,49 +80,59 @@ class ProfileIntro extends Component {
 
               <div className="social-links">
                 {/* LinkedIn */}
-                <a
+                <img
+                  height="80px"
+                  width="80px"
                   href="https://www.linkedin.com/in/matthew-iverson/"
                   rel="noopener noreferrer"
                   target="_blank"
-                >
-                  <ComputerIcon />
-                </a>
+                  alt="Linkedin"
+                  src="https://proxy.duckduckgo.com/iu/?u=http%3A%2F%2Fwww.pvhc.net%2Fimg163%2Fcndaokvdqbqrwcfnswes.png&f=1"
+                />
 
                 {/* Github */}
-                <a
+                <img
                   href="https://github.com/MatthewIver"
+                  height="80px"
+                  width="80px"
                   rel="noopener noreferrer"
                   target="_blank"
-                >
-                  <ComputerIcon />
-                </a>
+                  alt="Github"
+                  src="https://proxy.duckduckgo.com/iu/?u=https%3A%2F%2Fwww.iconsdb.com%2Ficons%2Fpreview%2Fwhite%2Fgithub-11-xxl.png&f=1"
+                />
 
                 {/* CodeWars */}
-                <a
+                <img
                   href="https://www.codewars.com/users/King_BlkDth"
+                  height="80px"
+                  width="80px"
                   rel="noopener noreferrer"
                   target="_blank"
-                >
-                  <ComputerIcon />
-                </a>
+                  alt="CodeWars"
+                  src="https://proxy.duckduckgo.com/iu/?u=https%3A%2F%2Fwww.iconsdb.com%2Ficons%2Fpreview%2Fwhite%2Fcode-optimization-xxl.png&f=1"
+                />
 
                 {/* Freecodecamp */}
-                <a
+                <img
                   href="https://www.freecodecamp.org/matthewiver"
+                  height="80px"
+                  width="80px"
                   rel="noopener noreferrer"
                   target="_blank"
-                >
-                  <ComputerIcon />
-                </a>
+                  alt="FreeCodeCamp"
+                  src="https://thomas-ko.github.io/freecodecamp-redesign/assets/img/logo-footer.svg"
+                />
 
                 {/* Youtube */}
-                <a
+                  <img
                   href="https://youtu.be/MAmJgsMUXOI"
+                  height="80px"
+                  width="80px"
                   rel="noopener noreferrer"
                   target="_blank"
-                >
-                  <ComputerIcon />
-                </a>
+                  alt="Youtube"
+                  src="https://proxy.duckduckgo.com/iur/?f=1&image_host=http%3A%2F%2Fwww.tazhair.com%2Fwp-content%2Fuploads%2F2015%2F06%2Fyoutube-logo.png&u=https://www.tazhair.com/wp-content/uploads/2015/06/youtube-logo.png"
+                />
               </div>
             </div>
       </div>
