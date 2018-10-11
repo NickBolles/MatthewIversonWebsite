@@ -1,9 +1,11 @@
 import React, { Component } from "react";
 import "./App.css";
 import PrimarySearchAppBar from "./Components/UI/PrimarySearchAppBar";
-import ProfileIntro from "./Components/UI/ProfileIntro";
+import ProfileIntro from "./Sections/ProfileIntro";
 import ControlledExpansionPanels from "./Components/UI/ControlledExpansionPanels";
 import Contact from "./Sections/Contact";
+import BioButton from "./Components/UI/BioButton";
+import Main from "./Sections/Main";
 
 class App extends Component {
   render() {
@@ -14,6 +16,15 @@ class App extends Component {
         </section>
         <section id="Profile">
           <ProfileIntro />
+        </section>
+        <section>
+          <BioButton />
+        </section>
+        <section>
+          <div className="page-content" />
+{/*
+             Main
+*/}
         </section>
         <section>
           <ControlledExpansionPanels />
