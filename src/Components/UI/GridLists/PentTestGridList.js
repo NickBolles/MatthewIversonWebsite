@@ -4,7 +4,7 @@ import { withStyles } from '@material-ui/core/styles';
 import GridList from '@material-ui/core/GridList';
 import GridListTile from '@material-ui/core/GridListTile';
 import GridListTileBar from '@material-ui/core/GridListTileBar';
-import EntrBooks from './EntrBooks';
+import PenTestBooks from './PenTestBooks';
 
 const styles = theme => ({
   root: {
@@ -33,7 +33,7 @@ function PenTestGridList(props) {
   return (
     <div className={classes.root}>
       <GridList className={classes.gridList} cols={6}>
-        {EntrBooks.map(tile => (
+        {PenTestBooks.map(tile => (
           <GridListTile key={tile.img}>
             <img src={tile.img} alt={tile.title} />
             <GridListTileBar
