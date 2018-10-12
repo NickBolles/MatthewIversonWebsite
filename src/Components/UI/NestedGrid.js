@@ -7,7 +7,8 @@ import DummyImgMediaCard from "./DummyImgMediaCard";
 
 const styles = theme => ({
   root: {
-    flexGrow: 1
+    flexGrow: 1,
+    width: "100%"
   },
   paper: {
     padding: theme.spacing.unit,
@@ -24,7 +25,7 @@ function FormRow(props) {
       <Grid item xs={4}>
         <Paper className={classes.paper}>
           <DummyImgMediaCard
-            image="../Pictures/MyWebsite.png"
+            image="https://proxy.duckduckgo.com/iur/?f=1&image_host=http%3A%2F%2Fwww.desicomments.com%2Fwp-content%2Fuploads%2FSteps-To-Be-Awesome.jpg&u=https://www.desicomments.com/wp-content/uploads/Steps-To-Be-Awesome.jpg"
             alt="My First Website"
             title="My First Website"
             description="I created my first project independently within 5 days which is the website you are looking at currently."
