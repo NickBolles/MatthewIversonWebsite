@@ -7,7 +7,7 @@ import Grid from "@material-ui/core/Grid";
 class Skills extends Component {
   render() {
     return (
-      <Grid item xs={12}>
+      <Grid item xs={12} className="Skill">
         <Grid item xs={3}>
           <Chip
             avatar={<Avatar src={this.props.src} />}
