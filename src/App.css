@@ -3,11 +3,19 @@
 }
 
 .AppBar {
-  background: #9c0b0b;  /* fallback for old browsers */
-  background: -webkit-linear-gradient(to left, #000000, #9c0b0b);  /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(to left, #000000, #9c0b0b); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-  
-  
+  background: #740000; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to left,
+    #000000,
+    #740000,
+    #000000
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to left,
+    #000000,
+    #740000,
+    #000000
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 
 .App-header {
@@ -22,11 +30,20 @@
 }
 
 .landing-grid {
-  background: #9c0b0b;  /* fallback for old browsers */
-  background: -webkit-linear-gradient(to left, #000000, #9c0b0b);  /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(to left, #000000, #9c0b0b); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-  
-   
+  background: #740000; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to left,
+    #000000,
+    #740000,
+    #000000
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to left,
+    #000000,
+    #740000,
+    #000000
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
   text-align: center;
   src: "https://proxy.duckduckgo.com/iur/?f=1&image_host=http%3A%2F%2Fthewallpaper.co%2Fwp-content%2Fuploads%2F2016%2F10%2FFree-City-1080p-Background-HD-hd-wallpapers-background-photos-apple-artworks-high-definition-wallpaper-for-iphone-free-pictures-1920x1080.jpg&u=https://thewallpaper.co/wp-content/uploads/2016/10/Free-City-1080p-Background-HD-hd-wallpapers-background-photos-apple-artworks-high-definition-wallpaper-for-iphone-free-pictures-1920x1080.jpg";
   top: 0;
@@ -55,7 +72,7 @@
   top: 400px;
   left: 0;
   width: 100%;
-height: 100%;
+  height: 100%;
 }
 
 .banner-text {
@@ -111,9 +128,19 @@ height: 100%;
 
 .ExpansionPanels {
   width: 100%;
-  background: #9c0b0b;  /* fallback for old browsers */
-  background: -webkit-linear-gradient(to left, #000000, #9c0b0b);  /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(to left, #000000, #9c0b0b); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  background: #740000; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to left,
+    #000000,
+    #740000,
+    #000000
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to left,
+    #000000,
+    #740000,
+    #000000
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 
 .p {
@@ -147,17 +174,52 @@ height: 100%;
   color: white;
 }
 
-.PenTestGridList {
+.Books {
   padding: 15px;
   margin-right: auto;
   margin-left: auto;
 }
 
 .CompIntro {
-  padding: 15px;
+  padding: 5px;
+  margin: 10px;
+}
+
+.CompIntro p {
+  padding: 5px;
+  margin: 10px;
 }
 
 .Skill {
   padding-top: 2px;
   padding-bottom: 5px;
+}
+
+.container {
+  background: #740000; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to left,
+    #000000,
+    #740000,
+    #000000
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to left,
+    #000000,
+    #740000,
+    #000000
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+/* Contact page */
+.contact-grid {
+  color: white;
+}
+
+.contact-list {
+  color: white;
+}
+
+.ListItem {
+  color: white;
 }

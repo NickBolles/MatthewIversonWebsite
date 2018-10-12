@@ -6,9 +6,6 @@ class Contact extends Component {
     return (
       <div class="footer-below">
       <div class="container">
-        <div class="row">
-          <div class="col-lg-12">
-        <div className="contact-body">
           <Grid className="contact-grid">
             <Grid xs={3}>
               <h2>Contact Me</h2>
@@ -19,7 +16,9 @@ class Contact extends Component {
                     style={{ fontSize: "30px", fontFamily: "Anton" }}
                   >
                     <i /*email icon */ />
+                    <div className="ListItem">
                     matthewiver@protonmail.com
+                    </div>
                   </ListItemIcon>
                 </ListItem>
                 <ListItem>
@@ -27,7 +26,9 @@ class Contact extends Component {
                     style={{ fontSize: "30px", fontFamily: "Anton" }}
                   >
                     <i /*skype icon */ />
+                    <div className="ListItem">
                     MySkypeID
+                    </div>
                   </ListItemIcon>
                       <strong>
                         Copyright © Matthew Iverson
@@ -40,9 +41,6 @@ class Contact extends Component {
               </div>
             </Grid>
           </Grid>
-        </div>
-        </div>
-        </div>
         </div>
         </div>
     );
