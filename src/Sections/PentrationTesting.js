@@ -60,7 +60,6 @@ class PentrationTesting extends React.Component {
             <Tab label="Pentration Testing" />
             <Tab label="Skills" />
             <Tab label="Projects" />
-            <Tab label="Books" />
           </Tabs>
         </AppBar>
         <SwipeableViews
@@ -69,7 +68,9 @@ class PentrationTesting extends React.Component {
           onChangeIndex={this.handleChangeIndex}
         >
           <TabContainer dir={theme.direction}>
-            <Paper>
+            <Paper className="CompIntro">
+              <h3>Matthew's love for curiosity</h3>
+              <p>
               Matthew had a curiosity for the world around him and a creative
               approach to problems. He loves solving problems in the most
               efficient, simplistic and repetitive fashion possible. He enjoys
@@ -81,6 +82,11 @@ class PentrationTesting extends React.Component {
               and exploits enable to better understand programming. This way he
               discovered something he would love which is finding different
               approaches to problems others do not see.
+              </p>
+            </Paper>
+            <br />
+            <Paper className="PenTestGridList">
+            <PentTestGridList />
             </Paper>
           </TabContainer>
           <TabContainer dir={theme.direction}>
@@ -161,9 +167,6 @@ class PentrationTesting extends React.Component {
               title="My website"
               description="Created my first ever website from scratch"
             />
-          </TabContainer>
-          <TabContainer dir={theme.direction}>
-            <PentTestGridList />
           </TabContainer>
         </SwipeableViews>
       </div>
