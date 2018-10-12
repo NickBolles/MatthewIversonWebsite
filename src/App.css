@@ -157,22 +157,6 @@
   color: white;
 }
 
-.Contact-Container {
-  width: 100%;
-  height: 300px;
-}
-
-.Contact-body {
-  justify-content: center;
-}
-
-.Container {
-  padding-right: 15px;
-  padding-left: 15px;
-  margin-right: auto;
-  margin-left: auto;
-  color: white;
-}
 
 .Books {
   padding: 15px;
@@ -196,6 +180,11 @@
 }
 
 .container {
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+  color: white;
   background: #740000; /* fallback for old browsers */
   background: -webkit-linear-gradient(
     to left,
@@ -209,6 +198,7 @@
     #740000,
     #000000
   ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  height: 400px;
 }
 
 /* Contact page */
@@ -222,4 +212,13 @@
 
 .ListItem {
   color: white;
+}
+
+.Contact-Container {
+  width: 100%;
+  height: 300px;
+}
+
+.Contact-body {
+  justify-content: center;
 }
