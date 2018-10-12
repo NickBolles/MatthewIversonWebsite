@@ -24,6 +24,11 @@
   margin-left: auto;
 }
 
+.expansion {
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
 /* App page */
 
 .App {
@@ -230,10 +235,6 @@
 }
 
 /* BioButton.js */
-
-.Bio {
-  padding: 20px;
-}
 
 .BioButton {
   justify-content: center;
