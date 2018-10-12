@@ -98,6 +98,16 @@ class PentrationTesting extends React.Component {
                 skill="Linux Scripting"
                 progress={40}
               />
+              <Skills
+                src="https://proxy.duckduckgo.com/iu/?u=https%3A%2F%2Ffossbytes.com%2Fwp-content%2Fuploads%2F2016%2F09%2Fgnome-1024x768-kali-linux-2016.2-980x735.png&f=1"
+                skill="Kali Linux"
+                progress={30}
+              />
+              <Skills
+                src="https://proxy.duckduckgo.com/iu/?u=https%3A%2F%2Fupload.wikimedia.org%2Fwikipedia%2Fcommons%2Fd%2Fd5%2FVirtualbox_logo.png&f=1"
+                skill="Virtual Machines"
+                progress={70}
+              />
             </Paper>
             <Paper className="word-paper">
               <h2>Reconnaisance</h2>
