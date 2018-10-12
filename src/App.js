@@ -28,7 +28,7 @@ class App extends Component {
         <section>
           <ControlledExpansionPanels />
         </section>
-        <section className="Contact-Container">
+        <section className="TempSmallContainer">
           <Contact />
         </section>
         <section>
