@@ -14,12 +14,6 @@ class Landing extends Component {
               className="avatar-img"
               src2="https://www.w3schools.com/howto/img_avatar.png"
               />
-              <img
-          src="https://proxy.duckduckgo.com/iur/?f=1&image_host=http%3A%2F%2Fthewallpaper.co%2Fwp-content%2Fuploads%2F2016%2F10%2FFree-City-1080p-Background-HD-hd-wallpapers-background-photos-apple-artworks-high-definition-wallpaper-for-iphone-free-pictures-1920x1080.jpg&u=https://thewallpaper.co/wp-content/uploads/2016/10/Free-City-1080p-Background-HD-hd-wallpapers-background-photos-apple-artworks-high-definition-wallpaper-for-iphone-free-pictures-1920x1080.jpg"
-          alt="CityBackground"
-          className="city"
-          width="100%"
-        />
 
             <div className="banner-text">
               <h1>"Know how to play the game."</h1>
