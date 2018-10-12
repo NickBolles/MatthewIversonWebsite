@@ -1,10 +1,6 @@
 import React, { Component } from "react";
-import ExpansionPanel from "@material-ui/core/ExpansionPanel";
-import ExpansionPanelDetails from "@material-ui/core/ExpansionPanelDetails";
-import ExpansionPanelSummary from "@material-ui/core/ExpansionPanelSummary";
-import Typography from "@material-ui/core/Typography";
+import { ExpansionPanelSummary, Typography, Paper } from "@material-ui/core/";
 import Biography from "../../Sections/Biography";
-import { Paper } from "@material-ui/core/"
 
 class BioButton extends Component {
   render() {
