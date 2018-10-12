@@ -263,7 +263,7 @@ class Programming extends React.Component {
                 skill="Webpack"
                 progress={60}
               />
-              <h4>Communicatoin</h4>
+              <h4>Communication</h4>
               <Skills
                 src="https://proxy.duckduckgo.com/iu/?u=http%3A%2F%2Fabouttruckdriving.com%2Fwp-content%2Fuploads%2F2016%2F01%2FSlack-logo.png&f=1"
                 href="https://git-scm.com/"
