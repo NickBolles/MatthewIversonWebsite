@@ -24,7 +24,7 @@ class DummyImgMediaCard extends Component {
           <Typography component="p" description={this.props.description}/>
         </CardContent>
       </CardActionArea>
-      <CardActions ClassName="CardActions">
+      <CardActions>
       <Button size="small" color="primary">
             GitHub
           </Button>
