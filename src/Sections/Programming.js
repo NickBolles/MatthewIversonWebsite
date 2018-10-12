@@ -69,7 +69,7 @@ class Programming extends React.Component {
         >
           <TabContainer dir={theme.direction}>
             <Paper className="word-paper">
-              <h2 >How did Matthew get into Computer?</h2>
+              <h2>How did Matthew get into Computer?</h2>
             </Paper>
             <Paper className="word-paper">
               <p>
@@ -111,11 +111,11 @@ class Programming extends React.Component {
                 <b>Joe Bannon</b> (
                 <a href="http://www.joebannon.com">www.joebannon.com</a> ) did
                 help guide Matthew to experiment and create rather than
-                ingesting more information. Matthew decided to listen
-                after a few months of hearing them say it. Once he decided to
-                make his own projects the time to create was not long enough
-                because Matthew wanted more and more time to create his ideas
-                because of how much he loved to invent.
+                ingesting more information. Matthew decided to listen after a
+                few months of hearing them say it. Once he decided to make his
+                own projects the time to create was not long enough because
+                Matthew wanted more and more time to create his ideas because of
+                how much he loved to invent.
               </p>
             </Paper>
             <Paper className="word-paper">
@@ -190,16 +190,16 @@ class Programming extends React.Component {
               />
             </Paper>
             <Paper className="word-paper">
-            <h2>Frameworks</h2>
+              <h2>Frameworks</h2>
+              <Skills
+                src="https://proxy.duckduckgo.com/iu/?u=https%3A%2F%2Ftse3.mm.bing.net%2Fth%3Fid%3DOIP.xnXFUOjNUHfrXYynyBZk8AHaGa%26pid%3D15.1&f=1"
+                skill="Material Design Lite (CSS)"
+                progress={20}
+              />
               <Skills
                 src="https://material-ui.com/static/brand.png"
                 skill="Material-UI (CSS)"
                 progress={95}
-              />
-              <Skills
-                 src="https://proxy.duckduckgo.com/iu/?u=https%3A%2F%2Ftse3.mm.bing.net%2Fth%3Fid%3DOIP.xnXFUOjNUHfrXYynyBZk8AHaGa%26pid%3D15.1&f=1"
-                skill="Material Design Lite (CSS)"
-                progress={20}
               />
               <Skills
                 src="https://proxy.duckduckgo.com/iu/?u=https%3A%2F%2Fi0.wp.com%2Ffribly.com%2Fwp-content%2Fuploads%2F2014%2F04%2FScrollMagic-jQuery-Scroll-Interactions-Plugin.png%3Fresize%3D250%252C190%26ssl%3D1&f=1"
@@ -210,11 +210,6 @@ class Programming extends React.Component {
                 src="https://www.sambicstech.com/wp-content/uploads/2017/11/django.png"
                 skill="Django (Python)"
                 progress={5}
-              />
-              <Skills
-                src="http://www.nextplc.co.uk/~/media/Images/N/Next-PLC-V2/content-images/image-gallery/logos/Next-Thin-Master-Logo-2014-Reversed.jpg"
-                skill="Next.js (Javascript)"
-                progress={30}
               />
               <Skills
                 src="https://www.shareicon.net/data/512x512/2016/07/08/117367_logo_512x512.png"
@@ -237,17 +232,17 @@ class Programming extends React.Component {
               <br /> <h2>Libraries</h2>
               <Skills
                 src="https://wikiprogramming.org/wp-content/uploads/2016/10/jquery-icon.png"
-                skill="Jquery"
+                skill="Jquery (Javascript)"
                 progress={40}
+              />
+              <Skills
+                src="http://www.nextplc.co.uk/~/media/Images/N/Next-PLC-V2/content-images/image-gallery/logos/Next-Thin-Master-Logo-2014-Reversed.jpg"
+                skill="Next.js (Javascript)"
+                progress={30}
               />
             </Paper>
             <Paper className="word-paper">
               <h2>Tools</h2>
-              <Skills
-                src="https://davidmles.com/wp-content/uploads/2017/03/atom-logo.png"
-                skill="Atom"
-                progress={30}
-              />
               <Skills
                 src="https://proxy.duckduckgo.com/iu/?u=https%3A%2F%2Frisingstack-blog.s3.amazonaws.com%2F2016%2FJan%2Fbabel_logo_in_react_js_best_practices_2016-1453212218011.png&f=1"
                 skill="Babel"
@@ -259,15 +254,43 @@ class Programming extends React.Component {
                 progress={80}
               />
               <Skills
-                src="https://lttng.org/images/dist-logos-icons/192/git.png"
-                href="https://git-scm.com/"
-                skill="Git"
-                progress={95}
-              />
-              <Skills
                 src="https://cdn.auth0.com/blog/testing-react-with-jest/logo.png"
                 skill="Jest"
                 progress={10}
+              />
+              <Skills
+                src="https://proxy.duckduckgo.com/iu/?u=http%3A%2F%2Fjstherightway.org%2Fassets%2Fimg%2Fwebpack-logo.png&f=1"
+                skill="Webpack"
+                progress={60}
+              />
+              <h4>Communicatoin</h4>
+              <Skills
+                src="https://proxy.duckduckgo.com/iu/?u=http%3A%2F%2Fabouttruckdriving.com%2Fwp-content%2Fuploads%2F2016%2F01%2FSlack-logo.png&f=1"
+                href="https://git-scm.com/"
+                skill="Slack"
+                progress={95}
+              />
+              <h4>Integrated development environment</h4>
+              <Skills
+                src="https://davidmles.com/wp-content/uploads/2017/03/atom-logo.png"
+                skill="Atom"
+                progress={30}
+              />
+              <Skills
+                src="https://proxy.duckduckgo.com/iu/?u=https%3A%2F%2Fupload.wikimedia.org%2Fwikipedia%2Fen%2Fd%2Fd2%2FSublime_Text_3_logo.png&f=1"
+                skill="Sublime"
+                progress={30}
+              />
+              <Skills
+                src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/2d/Visual_Studio_Code_1.18_icon.svg/512px-Visual_Studio_Code_1.18_icon.svg.png"
+                skill="Visual Studio Code"
+                progress={80}
+              />
+              <h4>Package Manager</h4>
+              <Skills
+                src="https://proxy.duckduckgo.com/iu/?u=https%3A%2F%2Fbower.io%2Fimg%2Fbower-logo.png&f=1"
+                skill="Bower"
+                progress={80}
               />
               <Skills
                 src="https://proxy.duckduckgo.com/iu/?u=https%3A%2F%2Ftse3.mm.bing.net%2Fth%3Fid%3DOIP.TaEzJvQCIwROiJIdTKT7pQHaEU%26pid%3D15.1&f=1"
@@ -277,17 +300,29 @@ class Programming extends React.Component {
               <Skills
                 src="http://seeklogo.com/images/Y/yarn-logo-F5E7A65FA2-seeklogo.com.png"
                 skill="Yarn"
-                progress={100}
+                progress={95}
+              />
+              <h4>Repositories</h4>
+              <Skills
+                src="https://proxy.duckduckgo.com/iu/?u=https%3A%2F%2Ftse2.mm.bing.net%2Fth%3Fid%3DOIP.wlQAXVrjsg-NK5O5SU4OFgHaHa%26pid%3D15.1&f=1"
+                skill="BitBucket"
+                progress={0}
               />
               <Skills
-                src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/2d/Visual_Studio_Code_1.18_icon.svg/512px-Visual_Studio_Code_1.18_icon.svg.png"
-                skill="Visual Studio Code"
+                src="https://lttng.org/images/dist-logos-icons/192/git.png"
+                href="https://git-scm.com/"
+                skill="Git"
+                progress={95}
+              />
+              <Skills
+                src="https://proxy.duckduckgo.com/iu/?u=https%3A%2F%2Fmaxcdn.icons8.com%2FShare%2Ficon%2Fp1em%2FLogos%2Fgithub1600.png&f=1"
+                skill="Github"
                 progress={80}
               />
               <Skills
-                src="https://proxy.duckduckgo.com/iu/?u=http%3A%2F%2Fjstherightway.org%2Fassets%2Fimg%2Fwebpack-logo.png&f=1"
-                skill="Webpack"
-                progress={60}
+                src="https://www.softwareadvice.com/imglib/products/logos-hd/logo_28004_hd.png?v=c02bdd0f437ac8635459671b9fca01d8"
+                skill="GitLab"
+                progress={80}
               />
             </Paper>
             <Paper className="word-paper">
@@ -311,7 +346,7 @@ class Programming extends React.Component {
             </Paper>
           </TabContainer>
           <TabContainer dir={theme.direction}>
-          <NestedGrid />
+            <NestedGrid />
           </TabContainer>
         </SwipeableViews>
       </div>
