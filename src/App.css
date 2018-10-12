@@ -20,6 +20,8 @@
   padding: 25px;
   margin-bottom: 10px;
   margin-top: 10px;
+  margin-right: auto;
+  margin-left: auto;
 }
 
 /* App page */
@@ -172,23 +174,6 @@
 
 .NavButtons {
   color: white;
-}
-
-
-.Books {
-  padding: 15px;
-  margin-right: auto;
-  margin-left: auto;
-}
-
-.CompIntro {
-  padding: 5px;
-  margin: 10px;
-}
-
-.CompIntro p {
-  padding: 5px;
-  margin: 10px;
 }
 
 .Skill {

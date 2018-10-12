@@ -68,10 +68,10 @@ class Programming extends React.Component {
           onChangeIndex={this.handleChangeIndex}
         >
           <TabContainer dir={theme.direction}>
-            <Paper>
-              <h2 className="CompIntro">How did Matthew get into Computer?</h2>
+            <Paper className="word-paper">
+              <h2 >How did Matthew get into Computer?</h2>
             </Paper>
-            <Paper className="CompIntro">
+            <Paper className="word-paper">
               <p>
                 Matthew has always loved computers. He enjoys the input output
                 relationship. He is able to understand easily how the cause and
@@ -118,13 +118,12 @@ class Programming extends React.Component {
                 because of how much he loved to invent.
               </p>
             </Paper>
-            <Paper className="Books">
+            <Paper className="word-paper">
               <CodeGridList />
             </Paper>
           </TabContainer>
           <TabContainer dir={theme.direction}>
-            <Paper>
-              <br />
+            <Paper className="word-paper">
               <h2>Languages</h2>
               <Skills
                 src="https://maxcdn.icons8.com/Share/icon/Logos/css31600.png"
@@ -190,9 +189,8 @@ class Programming extends React.Component {
                 progress={0}
               />
             </Paper>
-            <br />
-            <Paper>
-              <br /> <h2>Frameworks</h2>
+            <Paper className="word-paper">
+            <h2>Frameworks</h2>
               <Skills
                 src="https://material-ui.com/static/brand.png"
                 skill="Material-UI (CSS)"
@@ -235,8 +233,7 @@ class Programming extends React.Component {
                 progress={0}
               />
             </Paper>
-            <br />
-            <Paper>
+            <Paper className="word-paper">
               <br /> <h2>Libraries</h2>
               <Skills
                 src="https://wikiprogramming.org/wp-content/uploads/2016/10/jquery-icon.png"
@@ -244,9 +241,8 @@ class Programming extends React.Component {
                 progress={40}
               />
             </Paper>
-            <br />
-            <Paper>
-              <br /> <h2>Tools</h2>
+            <Paper className="word-paper">
+              <h2>Tools</h2>
               <Skills
                 src="https://davidmles.com/wp-content/uploads/2017/03/atom-logo.png"
                 skill="Atom"
@@ -294,9 +290,8 @@ class Programming extends React.Component {
                 progress={60}
               />
             </Paper>
-            <br />
-            <Paper>
-              <br /> <h2>Platforms</h2>
+            <Paper className="word-paper">
+              <h2>Platforms</h2>
               <Skills
                 src="https://olimex.files.wordpress.com/2017/06/arduino-logo-circle-thumb.png"
                 skill="Arduino"
