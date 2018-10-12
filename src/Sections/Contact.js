@@ -14,7 +14,7 @@ class Contact extends Component {
         Skype ID: **********
         </Typography>
         <br />
-        <Typography>Copyright © Matthew Iverson</Typography>
+        <Typography className="fadeOut">Copyright © Matthew Iverson</Typography>
       </Typography>
       </Paper>
     );
