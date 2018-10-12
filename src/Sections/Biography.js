@@ -182,16 +182,7 @@ class Biography extends React.Component {
                       </Typography>
                       </ExpansionPanelSummary>
                 <h2>Favorite entrepreneurship books</h2>
-                <EntrGridList />
-                <br />
-                <br />
-                <br />
-                <br />
-                <br />
-                <br />
-                <br />
-                <br />
-                <br />
+                <EntrGridList className="Books"/>
               </section>
             </div>
           </Typography>
