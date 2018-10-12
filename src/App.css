@@ -212,6 +212,7 @@
 
 .ListItem {
   color: white;
+  justify-content: center;
 }
 
 .Contact-Container {
@@ -220,5 +221,15 @@
 }
 
 .Contact-body {
+  justify-content: center;
+}
+
+/* BioButton.js */
+
+.Bio {
+  padding: 20px;
+}
+
+.BioButton {
   justify-content: center;
 }
