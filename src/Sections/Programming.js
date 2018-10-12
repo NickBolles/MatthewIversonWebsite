@@ -8,8 +8,8 @@ import Tab from "@material-ui/core/Tab";
 import Typography from "@material-ui/core/Typography";
 import Skills from "../Components/UI/Skills";
 import Paper from "@material-ui/core/Paper";
-import ImgMediaCard from "../Components/UI/DummyImgMediaCard";
 import CodeGridList from "../Components/UI/GridLists/CodeGridList";
+import NestedGrid from "../Components/UI/NestedGrid";
 
 function TabContainer({ children, dir }) {
   return (
@@ -127,7 +127,7 @@ class Programming extends React.Component {
               <h2>Languages</h2>
               <Skills
                 src="https://maxcdn.icons8.com/Share/icon/Logos/css31600.png"
-                skill="CSS (Cascading Style Sheets)"
+                skill="CSS"
                 progress={95}
                 href="https://developer.mozilla.org/en-US/docs/Web/CSS"
               />
@@ -138,7 +138,7 @@ class Programming extends React.Component {
               />
               <Skills
                 src="https://proxy.duckduckgo.com/iu/?u=https%3A%2F%2Ffrontendmasters.com%2Fassets%2Fes6-logo.png&f=1"
-                skill="Ecmascript (aka Javascript)"
+                skill="Ecmascript"
                 progress={80}
               />
               <Skills
@@ -311,24 +311,7 @@ class Programming extends React.Component {
             </Paper>
           </TabContainer>
           <TabContainer dir={theme.direction}>
-            <ImgMediaCard
-              image="http://youmeandtrends.com/wp-content/uploads/2015/09/dragon-wallpaper-hd_063725675_21.jpg"
-              alt="alternate name if image is not available"
-              title="My First Website"
-              description="descriptive sentences on the project and how it was created"
-            />
-            <ImgMediaCard
-              image="LINKtowebsite"
-              alt="alternate name if image is not available"
-              title="Name"
-              description="descriptive sentences on the project and how it was created"
-            />
-            <ImgMediaCard
-              image="LINKtowebsite"
-              alt="alternate name if image is not available"
-              title="Name"
-              description="descriptive sentences on the project and how it was created"
-            />
+          <NestedGrid />
           </TabContainer>
         </SwipeableViews>
       </div>
