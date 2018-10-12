@@ -1,13 +1,13 @@
 import React, { Component } from "react";
-import { ExpansionPanelSummary, Typography, Paper } from "@material-ui/core/";
+import { Typography, Paper } from "@material-ui/core/";
 import Biography from "../../Sections/Biography";
 
 class BioButton extends Component {
   render() {
     return (
-      <div>
-        <Typography>
-          <Paper className="Bio">
+      <div className="outside-container">
+        <Typography className="expansion">
+          <Paper className="word-paper">
             <p>
               Matthew Iverson has an unique and valuable vision towards how he
               lives. He builds his ideas out beautifully, typically over the
