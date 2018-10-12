@@ -59,7 +59,7 @@ class Biography extends React.Component {
           TransitionComponent={Transition}
         >
           <AppBar className={classes.appBar}>
-            <Toolbar>
+            <Toolbar className="outside-container">
               <Typography variant="h6" color="inherit" className={classes.flex}>
                 Full Bio
               </Typography>
@@ -72,7 +72,7 @@ class Biography extends React.Component {
               </IconButton>
             </Toolbar>
           </AppBar>
-          <Typography>
+          <Typography className="outside-container">
             <div className={classes.root}>
               <section>
                   <ExpansionPanelSummary >
