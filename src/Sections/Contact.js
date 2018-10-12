@@ -6,7 +6,7 @@ class Contact extends Component {
     return (
       <Paper>
       <Typography className="contact-list">
-        <Typography>Contact Me</Typography>
+        <Typography><h2>Contact Me</h2></Typography>
         <Typography>
           Email: matthewiver@protonmail.com
         </Typography>
