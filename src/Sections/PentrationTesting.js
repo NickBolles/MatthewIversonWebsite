@@ -166,21 +166,7 @@ class PentrationTesting extends React.Component {
             </Paper>
           </TabContainer>
           <TabContainer dir={theme.direction}>
-            <ImgMediaCard
-              image="www.matthewiver.com"
-              title="My website"
-              description="Created my first ever website from scratch"
-            />
-            <ImgMediaCard
-              image="www.matthewiver.com"
-              title="My website"
-              description="Created my first ever website from scratch"
-            />
-            <ImgMediaCard
-              image="www.matthewiver.com"
-              title="My website"
-              description="Created my first ever website from scratch"
-            />
+          NOTHING UNTIL I KNOW QUITE A BIT OF HACKING.
           </TabContainer>
         </SwipeableViews>
       </div>
