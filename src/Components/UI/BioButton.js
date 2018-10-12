@@ -10,8 +10,7 @@ class BioButton extends Component {
   render() {
     return (
       <div>
-          <ExpansionPanel>
-          <ExpansionPanelSummary>
+          <ExpansionPanelSummary className="outside-container">
         <Typography>
           <Paper className="Bio">
             <p>
@@ -36,13 +35,12 @@ class BioButton extends Component {
               business. Matthew strives to create a better existences for all of
               us.
             </p>
+            <Paper className="BioButton">
+            <Biography />
+            </Paper>
           </Paper>
         </Typography>
         </ExpansionPanelSummary>
-          <ExpansionPanelDetails className="BioButton">
-            <Biography />
-          </ExpansionPanelDetails>
-        </ExpansionPanel>
       </div>
     );
   }
