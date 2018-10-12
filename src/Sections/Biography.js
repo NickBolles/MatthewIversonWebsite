@@ -12,6 +12,7 @@ import Slide from "@material-ui/core/Slide";
 import Paper from "@material-ui/core/Paper";
 import ExpansionPanelSummary from "@material-ui/core/ExpansionPanelSummary";
 import EntrGridList from "../Components/UI/GridLists/EntrGridList";
+import HeadPhoto from "../Components/Personal/HeadPhoto";
 
 const styles = theme => ({
   root: {
@@ -167,11 +168,7 @@ class Biography extends React.Component {
                       </p>
                     </Paper>
                     <div className="background">
-                    <img
-                      src="https://www.shareicon.net/download/2015/09/18/103157_man_512x512.png"
-                      alt="avatar"
-                      className="avatar-img"
-                    />
+                    <HeadPhoto />
                     </div>
                     <Paper className="word-paper">
                       <h3>Current</h3>
