@@ -9,7 +9,11 @@ import red from "@material-ui/core/colors/red";
 
 const theme = createMuiTheme({
   palette: {
-    primary: red
+    primary: red,
+  },
+
+  typography: {
+    fontFamily: 'Viga',
   }
 });
 
