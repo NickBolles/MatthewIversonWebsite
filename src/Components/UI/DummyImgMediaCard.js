@@ -13,18 +13,18 @@ class DummyImgMediaCard extends Component {
     <Card>
       <CardActionArea>
         <CardMedia
+          height="300"
+          width="100%"
           component="img"
           alt={this.props.alt}
-          height="140"
           image={this.props.image}
-          title={this.props.title}
         />
         <CardContent>
-          <Typography gutterBottom variant="h5" component="h2" title={this.props.title} />
+        <Typography gutterBottom variant="h5" component="h2" title={this.props.title} />
           <Typography component="p" description={this.props.description}/>
         </CardContent>
       </CardActionArea>
-      <CardActions>
+      <CardActions ClassName="CardActions">
       <Button size="small" color="primary">
             GitHub
           </Button>
