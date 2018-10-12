@@ -231,7 +231,22 @@
 }
 
 .Contact-body {
+  transition: all 0.4s ease-in-out;
   justify-content: center;
+}
+
+.Contact-body:hover {
+  transform: scale(1.5);
+}
+
+.ContactTitle {
+  transition: all 0.4s ease-in-out;
+  
+}
+
+.ContactTitle:hover {
+  transform: scale(2.0);
+  color: red;
 }
 
 /* BioButton.js */
