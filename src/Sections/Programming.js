@@ -48,7 +48,7 @@ class Programming extends React.Component {
     const { theme } = this.props;
 
     return (
-      <div className="AppBar">
+      <div className="ExpansionPanels">
         <AppBar position="static" color="default">
           <Tabs
             value={this.state.value}

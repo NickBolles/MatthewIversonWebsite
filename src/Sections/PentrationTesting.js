@@ -48,14 +48,14 @@ class PentrationTesting extends React.Component {
     const { theme } = this.props;
 
     return (
-      <div className="AppBar">
+      <div className="ExpansionPanels">
         <AppBar position="static" color="default">
           <Tabs
             value={this.state.value}
             onChange={this.handleChange}
             indicatorColor="primary"
             textColor="primary"
-            fullWidth
+            fullWidth 
           >
             <Tab label="Pentration Testing" />
             <Tab label="Skills" />
