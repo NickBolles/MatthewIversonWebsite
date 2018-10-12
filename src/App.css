@@ -43,7 +43,7 @@
     #740000,
     #000000
   ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-
+  color: white;
   text-align: center;
   src: "https://proxy.duckduckgo.com/iur/?f=1&image_host=http%3A%2F%2Fthewallpaper.co%2Fwp-content%2Fuploads%2F2016%2F10%2FFree-City-1080p-Background-HD-hd-wallpapers-background-photos-apple-artworks-high-definition-wallpaper-for-iphone-free-pictures-1920x1080.jpg&u=https://thewallpaper.co/wp-content/uploads/2016/10/Free-City-1080p-Background-HD-hd-wallpapers-background-photos-apple-artworks-high-definition-wallpaper-for-iphone-free-pictures-1920x1080.jpg";
   top: 0;
@@ -63,16 +63,6 @@
 
 .avatar-img:hover {
   transform: scale(1.4);
-}
-
-.city {
-  position: relative;
-  z-index: -1;
-  text-align: center;
-  top: 400px;
-  left: 0;
-  width: 100%;
-  height: 100%;
 }
 
 .banner-text {
@@ -198,7 +188,7 @@
     #740000,
     #000000
   ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-  height: 400px;
+  height: 200px;
 }
 
 /* Contact page */
@@ -208,6 +198,10 @@
 
 .contact-list {
   color: white;
+  font-size: 24px;
+  font-weight: bold;
+  padding: 10px;
+  margin: 10px;
 }
 
 .ListItem {
@@ -217,7 +211,6 @@
 
 .Contact-Container {
   width: 100%;
-  height: 300px;
 }
 
 .Contact-body {
@@ -232,4 +225,24 @@
 
 .BioButton {
   justify-content: center;
+}
+
+/* SMALL TEMP CONTAINER REMOVE BY OCT 11TH */
+
+.TempSmallContainer {
+  width: 100%;
+  height: 400px;
+  background: #740000; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to left,
+    #000000,
+    #740000,
+    #000000
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to left,
+    #000000,
+    #740000,
+    #000000
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
