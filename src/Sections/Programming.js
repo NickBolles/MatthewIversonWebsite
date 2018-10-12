@@ -68,7 +68,9 @@ class Programming extends React.Component {
           onChangeIndex={this.handleChangeIndex}
         >
           <TabContainer dir={theme.direction}>
-          <Paper><h2 className="CompIntro">How did Matthew get into Computer?</h2></Paper>
+            <Paper>
+              <h2 className="CompIntro">How did Matthew get into Computer?</h2>
+            </Paper>
             <Paper className="CompIntro">
               <p>
                 Matthew has always loved computers. He enjoys the input output
@@ -104,10 +106,12 @@ class Programming extends React.Component {
               </p>
               <p>
                 Matthew then wanted to learn the bigger picture he did not
-                understand this led him to ethical hacking. Nick Bolles (
-                www.nickbolles.com ) and Joe Bannon ( www.joebannon.com )were
-                helping guide Matthew to experiment and create rather than
-                ingesting more useless knowledge. Matthew decided to listen
+                understand this led him to ethical hacking. <b>Nick Bolles</b> (
+                <a href="http://www.nickbolles.com">www.nickbolles.com</a> ) and
+                <b>Joe Bannon</b> (
+                <a href="http://www.joebannon.com">www.joebannon.com</a> ) did
+                help guide Matthew to experiment and create rather than
+                ingesting more information. Matthew decided to listen
                 after a few months of hearing them say it. Once he decided to
                 make his own projects the time to create was not long enough
                 because Matthew wanted more and more time to create his ideas
