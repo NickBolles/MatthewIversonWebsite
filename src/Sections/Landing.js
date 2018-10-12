@@ -81,9 +81,9 @@ class Landing extends Component {
           {/* LinkedIn */}
           <a href="https://www.linkedin.com/in/matthew-iverson/">
           <img
-              height="80px"
-              width="80px"
-              src="https://proxy.duckduckgo.com/iu/?u=http%3A%2F%2Fwww.pvhc.net%2Fimg163%2Fcndaokvdqbqrwcfnswes.png&f=1"
+              height="60px"
+              width="60px"
+              src="https://mbtskoudsalg.com/images/white-linkedin-logo-png-5.png"
               rel="noopener noreferrer"
               target="_blank"
               alt="Linkedin"
@@ -94,8 +94,8 @@ class Landing extends Component {
             <a href="https://github.com/MatthewIver">
             <img
               src="https://proxy.duckduckgo.com/iu/?u=https%3A%2F%2Fwww.iconsdb.com%2Ficons%2Fpreview%2Fwhite%2Fgithub-11-xxl.png&f=1"
-              height="80px"
-              width="80px"
+              height="60px"
+              width="60px"
               rel="noopener noreferrer"
               target="_blank"
               alt="Github"
@@ -105,8 +105,8 @@ class Landing extends Component {
             {/* CodeWars */}
             <a href="https://www.codewars.com/users/King_BlkDth">
             <img
-              height="80px"
-              width="80px"
+              height="60px"
+              width="60px"
               rel="noopener noreferrer"
               target="_blank"
               alt="CodeWars"
@@ -117,8 +117,8 @@ class Landing extends Component {
             {/* Freecodecamp */}
             <a href="https://www.freecodecamp.org/matthewiver">
             <img
-              height="80px"
-              width="80px"
+              height="60px"
+              width="60px"
               rel="noopener noreferrer"
               target="_blank"
               alt="FreeCodeCamp"
@@ -129,8 +129,8 @@ class Landing extends Component {
             {/* Youtube */}
             <a href="https://youtu.be/MAmJgsMUXOI">
             <img
-              height="80px"
-              width="80px"
+              height="60px"
+              width="60px"
               rel="noopener noreferrer"
               target="_blank"
               alt="Youtube"
