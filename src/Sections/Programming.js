@@ -129,7 +129,7 @@ class Programming extends React.Component {
               <Skills
                 src="https://maxcdn.icons8.com/Share/icon/Logos/css31600.png"
                 skill="CSS (Cascading Style Sheets)"
-                progress={90}
+                progress={95}
                 href="https://developer.mozilla.org/en-US/docs/Web/CSS"
               />
               <Skills
@@ -140,7 +140,7 @@ class Programming extends React.Component {
               <Skills
                 src="http://logo-load.com/uploads/posts/2016-09/javascript-logo.png"
                 skill="Javascript"
-                progress={70}
+                progress={80}
               />
               <Skills
                 src="https://cdn0.iconfinder.com/data/icons/superuser-extension-light/512/675277-data_database_sql_query-512.png"
@@ -196,7 +196,7 @@ class Programming extends React.Component {
               <Skills
                 src="https://www.google.com/url?sa=i&rct=j&q=&esrc=s&source=images&cd=&cad=rja&uact=8&ved=2ahUKEwjnl5OW0f_dAhWry4MKHXQgC58QjRx6BAgBEAU&url=http%3A%2F%2Fjsfeeds.com%2Fdetails%2Ffour-hurdles-when-prototyping-with-material-ui-for-react-5b928f8326e121786f3a2d0d&psig=AOvVaw2d4cr34_Bs7no1ld9-ENdl&ust=1539390102888647"
                 skill="Material-UI (CSS)"
-                progress={85}
+                progress={95}
               />
               <Skills
                 src="https://www.google.com/url?sa=i&rct=j&q=&esrc=s&source=images&cd=&cad=rja&uact=8&ved=2ahUKEwjw3qWg0f_dAhWJ6IMKHep1DOkQjRx6BAgBEAU&url=https%3A%2F%2Fwww.3pillarglobal.com%2Finsights%2Fan-introduction-to-googles-new-framework-material-design-lite&psig=AOvVaw1cuj2POmM29Mxq-6bJobY1&ust=1539390128399541"
@@ -221,7 +221,7 @@ class Programming extends React.Component {
               <Skills
                 src="https://www.shareicon.net/data/512x512/2016/07/08/117367_logo_512x512.png"
                 skill="React (Javascript)"
-                progress={90}
+                progress={95}
               />
               <Skills
                 src="https://dwglogo.com/wp-content/uploads/2017/09/Vue_js_logo.png"
@@ -255,7 +255,7 @@ class Programming extends React.Component {
               <Skills
                 src="https://proxy.duckduckgo.com/iu/?u=https%3A%2F%2Frisingstack-blog.s3.amazonaws.com%2F2016%2FJan%2Fbabel_logo_in_react_js_best_practices_2016-1453212218011.png&f=1"
                 skill="Babel"
-                progress={70}
+                progress={80}
               />
               <Skills
                 src="https://proxy.duckduckgo.com/iu/?u=https%3A%2F%2Fwww.brianweet.com%2Fassets%2Fdocker-blog-1%2Fdocker-logo.png&f=1"
@@ -276,7 +276,7 @@ class Programming extends React.Component {
               <Skills
                 src="https://i0.wp.com/blog.toright.com/wp-content/uploads/2016/08/npm-logo.png?fit=810%2C521&ssl=1"
                 skill="NPM"
-                progress={80}
+                progress={90}
               />
               <Skills
                 src="http://seeklogo.com/images/Y/yarn-logo-F5E7A65FA2-seeklogo.com.png"
@@ -291,7 +291,7 @@ class Programming extends React.Component {
               <Skills
                 src="https://proxy.duckduckgo.com/iu/?u=http%3A%2F%2Fjstherightway.org%2Fassets%2Fimg%2Fwebpack-logo.png&f=1"
                 skill="Webpack"
-                progress={30}
+                progress={60}
               />
             </Paper>
             <br />
