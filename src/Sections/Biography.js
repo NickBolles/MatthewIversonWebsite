@@ -61,7 +61,7 @@ class Biography extends React.Component {
           <AppBar className={classes.appBar}>
             <Toolbar className="AppBar">
               <Typography variant="h6" color="inherit" className={classes.flex}>
-                Full Bio
+                Full Biography
               </Typography>
               <IconButton
                 color="inherit"
@@ -77,10 +77,10 @@ class Biography extends React.Component {
               <section>
                   <ExpansionPanelSummary >
                   <Typography>
-                      <Paper>
+                      <Paper className="word-paper">
                         <h2>Biography</h2>
                         </Paper>
-                      <Paper>
+                      <Paper className="word-paper">
                         <h3>Child Hood</h3>
                         <p>
                           Matthew learned early on from his mom on the
@@ -138,7 +138,7 @@ class Biography extends React.Component {
                           others becuase he knew their intentions.
                         </p>
                         </Paper>
-                        <Paper>
+                        <Paper className="word-paper">
                         <h3>College</h3>
                         <p>
                           18 - start college did not like free time saw how much
@@ -152,7 +152,7 @@ class Biography extends React.Component {
                           events
                         </p>
                         </Paper>
-                        <Paper>
+                        <Paper className="word-paper">
                         <h3>Young Adult</h3>
                         <p>
                           reading on long car rides 22 - sales job with dad, got
@@ -168,7 +168,7 @@ class Biography extends React.Component {
                           (multiple hacking books)
                         </p>
                         </Paper>
-                        <Paper>
+                        <Paper className="word-paper">
                         <h3>Current</h3>
                         <p>
                           Matthew spends his time researching better programming
@@ -180,10 +180,12 @@ class Biography extends React.Component {
                       </Paper>
                       </Typography>
                       </ExpansionPanelSummary>
-                      <Paper>
+                      <Paper className="word-paper">
                 <h2>Favorite entrepreneurship books</h2>
-                </Paper>
+                </Paper >
+                <Paper className="word-paper">
                 <EntrGridList className="Books"/>
+                </Paper>
               </section>
             </div>
           </Typography>
