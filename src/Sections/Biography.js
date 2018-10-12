@@ -168,7 +168,7 @@ class Biography extends React.Component {
                       </p>
                     </Paper>
                     <div className="background">
-                    <HeadPhoto />
+                      <HeadPhoto />
                     </div>
                     <Paper className="word-paper">
                       <h3>Current</h3>
@@ -176,8 +176,8 @@ class Biography extends React.Component {
                         Matthew spends his time researching better programming
                         tactics, creativity with ethical hacking, training of
                         exercising, enlightment from philosophies, relaxation of
-                        guitar, along with listening and understand with books
-                        and people.
+                        guitar, discovering knowledge from books, along with
+                        listening to people.
                       </p>
                     </Paper>
                   </Typography>
