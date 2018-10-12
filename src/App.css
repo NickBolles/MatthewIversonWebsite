@@ -88,11 +88,11 @@
 
 .avatar-img {
   height: 280px;
-  padding: 140px;
+  padding-top: 130px;
+  padding-bottom: 80px;
   transition: all 0.4s ease-in-out;
   z-index: 1;
   margin: auto;
-  vertical-align: middle;
 }
 
 .avatar-img:hover {
@@ -102,13 +102,8 @@
 .banner-text {
   background-color: #000;
   opacity: 0.9;
-  width: 65%;
   padding: 10px;
   border-radius: 15px;
-  position: absolute;
-  margin: -180px 0 0 -180px;
-  left: 28%;
-  top: 70%;
 }
 
 .banner-text h1 {
