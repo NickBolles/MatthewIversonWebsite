@@ -14,7 +14,7 @@ class BioButton extends Component {
           <ExpansionPanel>
           <ExpansionPanelSummary>
         <Typography>
-          <Paper>
+          <Paper className="Bio">
             <p>
               Matthew Iverson has an unique and valuable vision towards how he
               lives. He builds his ideas out beautifully, typically over the
@@ -40,7 +40,7 @@ class BioButton extends Component {
           </Paper>
         </Typography>
         </ExpansionPanelSummary>
-          <ExpansionPanelDetails>
+          <ExpansionPanelDetails className="BioButton">
             <Biography />
           </ExpansionPanelDetails>
         </ExpansionPanel>
