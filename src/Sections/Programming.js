@@ -45,7 +45,7 @@ class Programming extends React.Component {
   };
 
   render() {
-    const { classes, theme } = this.props;
+    const { theme } = this.props;
 
     return (
       <div className="AppBar">
