@@ -72,7 +72,7 @@ class PentrationTesting extends React.Component {
               <h2 >Matthew's love for curiosity</h2>
               </Paper>
               <Paper className="word-paper">
-              <p>
+              <Typography>
               Matthew had a curiosity for the world around him and a creative
               approach to problems. He loves solving problems in the most
               efficient, simplistic and repetitive fashion possible. He enjoys
@@ -84,7 +84,7 @@ class PentrationTesting extends React.Component {
               and exploits enable to better understand programming. This way he
               discovered something he would love which is finding different
               approaches to problems others do not see.
-              </p>
+              </Typography>
             </Paper>
             <Paper className="word-paper">
             <PentTestGridList />
