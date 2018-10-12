@@ -76,7 +76,7 @@ class Biography extends React.Component {
           <Typography className="outside-container">
             <div className={classes.root}>
               <section>
-                <ExpansionPanelSummary>
+                <section>
                   <Typography>
                     <Paper className="word-paper">
                       <h2>Biography</h2>
@@ -181,7 +181,7 @@ class Biography extends React.Component {
                       </p>
                     </Paper>
                   </Typography>
-                </ExpansionPanelSummary>
+                </section>
                 <Paper className="word-paper">
                   <h2>Favorite entrepreneurship books</h2>
                 </Paper>
