@@ -138,8 +138,8 @@ class Programming extends React.Component {
                 progress={100}
               />
               <Skills
-                src="http://logo-load.com/uploads/posts/2016-09/javascript-logo.png"
-                skill="Javascript"
+                src="https://proxy.duckduckgo.com/iu/?u=https%3A%2F%2Ffrontendmasters.com%2Fassets%2Fes6-logo.png&f=1"
+                skill="Ecmascript (aka Javascript)"
                 progress={80}
               />
               <Skills
@@ -185,7 +185,7 @@ class Programming extends React.Component {
                 progress={0}
               />
               <Skills
-                src="https://proxy.duckduckgo.com/iu/?u=https%3A%2F%2Fupload.wikimedia.org%2Fwikipedia%2Fcommons%2Fthumb%2F7%2F73%2FRuby_logo.svg%2F1024px-Ruby_logo.svg.png&f=1"
+                src="https://proxy.duckduckgo.com/iu/?u=https%3A%2F%2Fwww.codigofonte.com.br%2Fwp-content%2Fuploads%2F2017%2F10%2Fruby-logo.jpg&f=1"
                 skill="Ruby"
                 progress={0}
               />
@@ -194,18 +194,18 @@ class Programming extends React.Component {
             <Paper>
               <br /> <h2>Frameworks</h2>
               <Skills
-                src="https://www.google.com/url?sa=i&rct=j&q=&esrc=s&source=images&cd=&cad=rja&uact=8&ved=2ahUKEwjnl5OW0f_dAhWry4MKHXQgC58QjRx6BAgBEAU&url=http%3A%2F%2Fjsfeeds.com%2Fdetails%2Ffour-hurdles-when-prototyping-with-material-ui-for-react-5b928f8326e121786f3a2d0d&psig=AOvVaw2d4cr34_Bs7no1ld9-ENdl&ust=1539390102888647"
+                src="https://material-ui.com/static/brand.png"
                 skill="Material-UI (CSS)"
                 progress={95}
               />
               <Skills
-                src="https://www.google.com/url?sa=i&rct=j&q=&esrc=s&source=images&cd=&cad=rja&uact=8&ved=2ahUKEwjw3qWg0f_dAhWJ6IMKHep1DOkQjRx6BAgBEAU&url=https%3A%2F%2Fwww.3pillarglobal.com%2Finsights%2Fan-introduction-to-googles-new-framework-material-design-lite&psig=AOvVaw1cuj2POmM29Mxq-6bJobY1&ust=1539390128399541"
+                 src="https://proxy.duckduckgo.com/iu/?u=https%3A%2F%2Ftse3.mm.bing.net%2Fth%3Fid%3DOIP.xnXFUOjNUHfrXYynyBZk8AHaGa%26pid%3D15.1&f=1"
                 skill="Material Design Lite (CSS)"
                 progress={20}
               />
               <Skills
-                src="https://www.google.com/url?sa=i&rct=j&q=&esrc=s&source=images&cd=&cad=rja&uact=8&ved=2ahUKEwjC2dSo0f_dAhXo24MKHb0XBygQjRx6BAgBEAU&url=http%3A%2F%2Fscrollmagic.io%2F&psig=AOvVaw1Hjo353G9B4bM2jztOvlXX&ust=1539390145691959"
-                skill="Scroll Magic (CSS)"
+                src="https://proxy.duckduckgo.com/iu/?u=https%3A%2F%2Fi0.wp.com%2Ffribly.com%2Fwp-content%2Fuploads%2F2014%2F04%2FScrollMagic-jQuery-Scroll-Interactions-Plugin.png%3Fresize%3D250%252C190%26ssl%3D1&f=1"
+                skill="ScrollMagic (CSS)"
                 progress={10}
               />
               <Skills
@@ -258,7 +258,7 @@ class Programming extends React.Component {
                 progress={80}
               />
               <Skills
-                src="https://proxy.duckduckgo.com/iu/?u=https%3A%2F%2Fwww.brianweet.com%2Fassets%2Fdocker-blog-1%2Fdocker-logo.png&f=1"
+                src="https://tr4.cbsistatic.com/hub/i/r/2017/04/20/d302160d-b3f5-4406-8294-1ff85cf4be47/resize/770x/95d6c81b424dbd71d1cd53eadb34a6e0/dockerwhalehero.jpg"
                 skill="Docker"
                 progress={80}
               />
@@ -274,7 +274,7 @@ class Programming extends React.Component {
                 progress={10}
               />
               <Skills
-                src="https://i0.wp.com/blog.toright.com/wp-content/uploads/2016/08/npm-logo.png?fit=810%2C521&ssl=1"
+                src="https://proxy.duckduckgo.com/iu/?u=https%3A%2F%2Ftse3.mm.bing.net%2Fth%3Fid%3DOIP.TaEzJvQCIwROiJIdTKT7pQHaEU%26pid%3D15.1&f=1"
                 skill="NPM"
                 progress={90}
               />
