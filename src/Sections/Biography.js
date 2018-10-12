@@ -75,116 +75,121 @@ class Biography extends React.Component {
           <Typography className="outside-container">
             <div className={classes.root}>
               <section>
-                  <ExpansionPanelSummary >
+                <ExpansionPanelSummary>
                   <Typography>
-                      <Paper className="word-paper">
-                        <h2>Biography</h2>
-                        </Paper>
-                      <Paper className="word-paper">
-                        <h3>Child Hood</h3>
-                        <p>
-                          Matthew learned early on from his mom on the
-                          creativity, diligence, prudence and tenacity an
-                          individual has enable to work for ones self. He
-                          enjoyed the unknown and the verse ideas an
-                          entrepreneur will run across with putting on so many
-                          different hats in business. Matthew loves the
-                          imagination an individual can uphold while working for
-                          themselves along with the prudence to understand the
-                          only person responsible for an owners business is the
-                          owner.
-                        </p>
-                        <p>
-                          Matthew in school never really understood how others
-                          thoughts and typically challenged their beliefs. He
-                          sought attention by being loud and wild to get others
-                          attention. This led to many bullies because many
-                          people do not like when someone else takes the spot
-                          light from them. He quickly became understanding of
-                          people and their psychology because of the physical
-                          altercations that happened. He had to learn the times
-                          in which people would be planning to attack him or the
-                          moments when something did not feel quite right.
-                        </p>
-                        <p>
-                          He once was on a business trip with his father at a
-                          young age when he witnessed the awe his potential
-                          clients had on their faces when his father was
-                          presenting his speech. Matthew enjoyed the speech so
-                          much he started examining how people talk and the way
-                          in which their language, body gestures, thought
-                          processes all come together to persuade anyone to
-                          believe in their belief.
-                        </p>
-                        <p>
-                          Matthew was physically bullied constantly from the age
-                          of eleven to sixteen. He would get in fights ever
-                          other month. He became quite aware of his surrounding
-                          and how people acted in school. He was the smallest
-                          shortest and in most cases the lightest out of his
-                          whole grade of four hundred plus students. He was the
-                          easiest enable to bully becuase he thought if he had a
-                          reaction to others actions it would give him notice.
-                          This often was a negative side effect of Matthew's
-                          acknoledgement of other people becuase they would
-                          bully him to get the reaction they desired.
-                        </p>
-                        <p>
-                          Once Matthew grew in height he had been lifting for 3
-                          years. This was the breaking point for many bullies
-                          becuase he could not be physically pushed around as
-                          easily and Matthew began to become more comfortable
-                          with himself. He did not seek much attention from
-                          others becuase he knew their intentions.
-                        </p>
-                        </Paper>
-                        <Paper className="word-paper">
-                        <h3>College</h3>
-                        <p>
-                          18 - start college did not like free time saw how much
-                          people partied and enjoyed drinking and music was
-                          always involved. 19 - see peoples interest in music
-                          found nearo science interesting, psychology
-                          interesting 20 - went to entrepreneurship events with
-                          collegiate Organization on campus which would go to
-                          events with 4-10 other universities to converse about
-                          making real products and services. 21 - DJ at several
-                          events
-                        </p>
-                        </Paper>
-                        <Paper className="word-paper">
-                        <h3>Young Adult</h3>
-                        <p>
-                          reading on long car rides 22 - sales job with dad, got
-                          into reading, negotiating tactics Educated himself on
-                          previous intellectual creatives such as Thomas
-                          Jefferson, Nikola Tesla, Elon musk, ray dalio.
-                        </p>
-                        <p>
-                          23 - laid off because of steel tariff girlfriend broke
-                          up with him (self awareness, philosophy, stoicism)
-                          learned self taught programming (codecademy, reading
-                          from library, learn from Nick Bolles) learned hacking
-                          (multiple hacking books)
-                        </p>
-                        </Paper>
-                        <Paper className="word-paper">
-                        <h3>Current</h3>
-                        <p>
-                          Matthew spends his time researching better programming
-                          tactics, creativity with ethical hacking, training of
-                          exercising, enlightment from philosophies, relaxation
-                          of guitar, along with listening and understand with
-                          books and people.
-                        </p>
-                      </Paper>
-                      </Typography>
-                      </ExpansionPanelSummary>
-                      <Paper className="word-paper">
-                <h2>Favorite entrepreneurship books</h2>
-                </Paper >
+                    <Paper className="word-paper">
+                      <h2>Biography</h2>
+                    </Paper>
+                    <Paper className="word-paper">
+                      <h3>Child Hood</h3>
+                      <p>
+                        Matthew learned early on from his mom on the creativity,
+                        diligence, prudence and tenacity an individual has
+                        enable to work for ones self. He enjoyed the unknown and
+                        the verse ideas an entrepreneur will run across with
+                        putting on so many different hats in business. Matthew
+                        loves the imagination an individual can uphold while
+                        working for themselves along with the prudence to
+                        understand the only person responsible for an owners
+                        business is the owner.
+                      </p>
+                      <p>
+                        Matthew in school never really understood how others
+                        thoughts and typically challenged their beliefs. He
+                        sought attention by being loud and wild to get others
+                        attention. This led to many bullies because many people
+                        do not like when someone else takes the spot light from
+                        them. He quickly became understanding of people and
+                        their psychology because of the physical altercations
+                        that happened. He had to learn the times in which people
+                        would be planning to attack him or the moments when
+                        something did not feel quite right.
+                      </p>
+                      <p>
+                        He once was on a business trip with his father at a
+                        young age when he witnessed the awe his potential
+                        clients had on their faces when his father was
+                        presenting his speech. Matthew enjoyed the speech so
+                        much he started examining how people talk and the way in
+                        which their language, body gestures, thought processes
+                        all come together to persuade anyone to believe in their
+                        belief.
+                      </p>
+                      <p>
+                        Matthew was physically bullied constantly from the age
+                        of eleven to sixteen. He would get in fights ever other
+                        month. He became quite aware of his surrounding and how
+                        people acted in school. He was the smallest shortest and
+                        in most cases the lightest out of his whole grade of
+                        four hundred plus students. He was the easiest enable to
+                        bully becuase he thought if he had a reaction to others
+                        actions it would give him notice. This often was a
+                        negative side effect of Matthew's acknoledgement of
+                        other people becuase they would bully him to get the
+                        reaction they desired.
+                      </p>
+                      <p>
+                        Once Matthew grew in height he had been lifting for 3
+                        years. This was the breaking point for many bullies
+                        becuase he could not be physically pushed around as
+                        easily and Matthew began to become more comfortable with
+                        himself. He did not seek much attention from others
+                        becuase he knew their intentions.
+                      </p>
+                    </Paper>
+                    <Paper className="word-paper">
+                      <h3>College</h3>
+                      <p>
+                        18 - start college did not like free time saw how much
+                        people partied and enjoyed drinking and music was always
+                        involved. 19 - see peoples interest in music found nearo
+                        science interesting, psychology interesting 20 - went to
+                        entrepreneurship events with collegiate Organization on
+                        campus which would go to events with 4-10 other
+                        universities to converse about making real products and
+                        services. 21 - DJ at several events
+                      </p>
+                    </Paper>
+                    <Paper className="word-paper">
+                      <h3>Young Adult</h3>
+                      <p>
+                        reading on long car rides 22 - sales job with dad, got
+                        into reading, negotiating tactics Educated himself on
+                        previous intellectual creatives such as Thomas
+                        Jefferson, Nikola Tesla, Elon musk, ray dalio.
+                      </p>
+                      <p>
+                        23 - laid off because of steel tariff girlfriend broke
+                        up with him (self awareness, philosophy, stoicism)
+                        learned self taught programming (codecademy, reading
+                        from library, learn from Nick Bolles) learned hacking
+                        (multiple hacking books)
+                      </p>
+                    </Paper>
+                    <div className="background">
+                    <img
+                      src="https://www.shareicon.net/download/2015/09/18/103157_man_512x512.png"
+                      alt="avatar"
+                      className="avatar-img"
+                    />
+                    </div>
+                    <Paper className="word-paper">
+                      <h3>Current</h3>
+                      <p>
+                        Matthew spends his time researching better programming
+                        tactics, creativity with ethical hacking, training of
+                        exercising, enlightment from philosophies, relaxation of
+                        guitar, along with listening and understand with books
+                        and people.
+                      </p>
+                    </Paper>
+                  </Typography>
+                </ExpansionPanelSummary>
                 <Paper className="word-paper">
-                <EntrGridList className="Books"/>
+                  <h2>Favorite entrepreneurship books</h2>
+                </Paper>
+                <Paper className="word-paper">
+                  <EntrGridList className="Books" />
                 </Paper>
               </section>
             </div>
