@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import { Grid } from "@material-ui/core";
+import HeadPhoto from "../Components/Personal/HeadPhoto";
 
 
 class Landing extends Component {
@@ -8,12 +9,7 @@ class Landing extends Component {
       <div style={{width: '100%', margin: 'auto'}}>
         <div className="landing-grid">
           <Grid xs={12}>
-            <img
-              src="https://www.shareicon.net/download/2015/09/18/103157_man_512x512.png"
-              alt="avatar"
-              className="avatar-img"
-              src2="https://www.w3schools.com/howto/img_avatar.png"
-              />
+            <HeadPhoto />
 
             <div className="banner-text">
               <h1>"Know how to play the game."</h1>
