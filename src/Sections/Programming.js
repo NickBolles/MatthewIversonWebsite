@@ -48,7 +48,7 @@ class Programming extends React.Component {
     const { classes, theme } = this.props;
 
     return (
-      <div className="AppBar" >
+      <div className="AppBar">
         <AppBar position="static" color="default">
           <Tabs
             value={this.state.value}
@@ -60,7 +60,6 @@ class Programming extends React.Component {
             <Tab label="Programming" />
             <Tab label="Skills" />
             <Tab label="Projects" />
-            <Tab label="Books" />
           </Tabs>
         </AppBar>
         <SwipeableViews
@@ -69,7 +68,8 @@ class Programming extends React.Component {
           onChangeIndex={this.handleChangeIndex}
         >
           <TabContainer dir={theme.direction}>
-            <Paper>
+          <Paper><h2 className="CompIntro">How did Matthew get into Computer?</h2></Paper>
+            <Paper className="CompIntro">
               <p>
                 Matthew has always loved computers. He enjoys the input output
                 relationship. He is able to understand easily how the cause and
@@ -101,11 +101,11 @@ class Programming extends React.Component {
                 css, Js, react, sql, node, next, etc. Matthew then added
                 Arduinos to understand the deep connection between computers and
                 electricity.
-                </p>
-                <p>
-                Matthew then wanted to learn the bigger picture he
-                did not understand this led him to ethical hacking. Nick Bolles
-                ( www.nickbolles.com ) and Joe Bannon ( www.joebannon.com )were
+              </p>
+              <p>
+                Matthew then wanted to learn the bigger picture he did not
+                understand this led him to ethical hacking. Nick Bolles (
+                www.nickbolles.com ) and Joe Bannon ( www.joebannon.com )were
                 helping guide Matthew to experiment and create rather than
                 ingesting more useless knowledge. Matthew decided to listen
                 after a few months of hearing them say it. Once he decided to
@@ -113,6 +113,9 @@ class Programming extends React.Component {
                 because Matthew wanted more and more time to create his ideas
                 because of how much he loved to invent.
               </p>
+            </Paper>
+            <Paper className="Books">
+              <CodeGridList />
             </Paper>
           </TabContainer>
           <TabContainer dir={theme.direction}>
@@ -187,13 +190,28 @@ class Programming extends React.Component {
             <Paper>
               <br /> <h2>Frameworks</h2>
               <Skills
+                src="https://www.google.com/url?sa=i&rct=j&q=&esrc=s&source=images&cd=&cad=rja&uact=8&ved=2ahUKEwjnl5OW0f_dAhWry4MKHXQgC58QjRx6BAgBEAU&url=http%3A%2F%2Fjsfeeds.com%2Fdetails%2Ffour-hurdles-when-prototyping-with-material-ui-for-react-5b928f8326e121786f3a2d0d&psig=AOvVaw2d4cr34_Bs7no1ld9-ENdl&ust=1539390102888647"
+                skill="Material-UI (CSS)"
+                progress={85}
+              />
+              <Skills
+                src="https://www.google.com/url?sa=i&rct=j&q=&esrc=s&source=images&cd=&cad=rja&uact=8&ved=2ahUKEwjw3qWg0f_dAhWJ6IMKHep1DOkQjRx6BAgBEAU&url=https%3A%2F%2Fwww.3pillarglobal.com%2Finsights%2Fan-introduction-to-googles-new-framework-material-design-lite&psig=AOvVaw1cuj2POmM29Mxq-6bJobY1&ust=1539390128399541"
+                skill="Material Design Lite (CSS)"
+                progress={20}
+              />
+              <Skills
+                src="https://www.google.com/url?sa=i&rct=j&q=&esrc=s&source=images&cd=&cad=rja&uact=8&ved=2ahUKEwjC2dSo0f_dAhXo24MKHb0XBygQjRx6BAgBEAU&url=http%3A%2F%2Fscrollmagic.io%2F&psig=AOvVaw1Hjo353G9B4bM2jztOvlXX&ust=1539390145691959"
+                skill="Scroll Magic (CSS)"
+                progress={10}
+              />
+              <Skills
                 src="https://www.sambicstech.com/wp-content/uploads/2017/11/django.png"
                 skill="Django (Python)"
                 progress={5}
               />
               <Skills
                 src="http://www.nextplc.co.uk/~/media/Images/N/Next-PLC-V2/content-images/image-gallery/logos/Next-Thin-Master-Logo-2014-Reversed.jpg"
-                skill="Next.js"
+                skill="Next.js (Javascript)"
                 progress={30}
               />
               <Skills
@@ -312,9 +330,6 @@ class Programming extends React.Component {
               title="Name"
               description="descriptive sentences on the project and how it was created"
             />
-          </TabContainer>
-          <TabContainer dir={theme.direction}>
-            <CodeGridList />
           </TabContainer>
         </SwipeableViews>
       </div>
