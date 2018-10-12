@@ -13,14 +13,12 @@ const theme = createMuiTheme({
   }
 });
 
-console.log(theme)
-
 ReactDOM.render(
+  <MuiThemeProvider theme={theme}>
   <BrowserRouter>
-    <MuiThemeProvider theme={theme}>
       <App />
-    </MuiThemeProvider>
-  </BrowserRouter>,
+  </BrowserRouter>
+  </MuiThemeProvider>,
   document.getElementById("root")
 );
 
