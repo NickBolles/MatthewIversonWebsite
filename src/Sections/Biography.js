@@ -77,7 +77,7 @@ class Biography extends React.Component {
               <section>
                   <ExpansionPanelSummary >
                   <Typography>
-                      <b>Biography</b>
+                      <Paper><b>Biography</b></Paper>
                       <Paper>
                         <h3>Child Hood</h3>
                         <p>
@@ -178,7 +178,9 @@ class Biography extends React.Component {
                       </Paper>
                       </Typography>
                       </ExpansionPanelSummary>
+                      <Paper>
                 <h2>Favorite entrepreneurship books</h2>
+                </Paper>
                 <EntrGridList className="Books"/>
               </section>
             </div>
