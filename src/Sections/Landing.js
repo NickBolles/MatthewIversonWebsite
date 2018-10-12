@@ -10,12 +10,9 @@ class Landing extends Component {
         <div className="landing-grid">
           <Grid xs={12}>
             <HeadPhoto />
-
             <div className="banner-text">
-              <h1>"Know how to play the game."</h1>
-
+              <h1 className="shake">"Know how to play the game."</h1>
             <hr/>
-
           <p>
             <a
               href="https://www.richardhughesjones.com/ray-dalio-principles-shaper-leadership/"
