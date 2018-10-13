@@ -207,16 +207,49 @@ class Biography extends React.Component {
                     <Paper className="word-paper">
                       <h3>Young Adult</h3>
                       <p>
-                        reading on long car rides 22 - sales job with dad, got
-                        into reading, negotiating tactics Educated himself on
-                        previous intellectual creatives such as Thomas
-                        Jefferson, Nikola Tesla, Elon musk, ray dalio.
+                        Matthew got a internship with a martial arts dojo. He
+                        was the general manager in charge of the login in of
+                        customers, website design, and cleaning of the facility.
                       </p>
                       <p>
-                        23 - laid off because of steel tariff girlfriend broke
-                        up with him (self awareness, philosophy, stoicism)
-                        learned self taught programming (codecademy, reading
-                        from library, learn from Nick Bolles) learned hacking
+                        after a few months his dad became worried becuase of the
+                        problems with no income source from the dojo. Then his
+                        dad's coworker asked if Matthew would like to learn from
+                        him about a different division of the AJ.
+                      </p>
+                      <p>
+                        Matthew accepted the oppurtunity for the internship
+                        where he learned a great deal of information on each
+                        portion of a business.
+                      </p>
+                      <p>
+                        Through that time Matthew had a seventy minute car ride
+                        to burn one way each day. Matthew hated the news and
+                        radio while listening while going to work. After a while
+                        he got the idea to use Audible to listen to audio books.
+                        From then on out he got deep into reading and listening
+                        to information. He loved the different takes on a
+                        subject and the intense amount of knowledge in eight
+                        hours of a single audio book.
+                      </p>
+                      <p>
+                        negotiating tactics Educated himself on previous
+                        intellectual creatives such as Thomas Jefferson, Nikola
+                        Tesla, Elon musk, ray dalio.
+                      </p>
+                      <p>
+                        Matthew had a falling out with his best
+                        friend/girlfriend. He did not spend enough time with her
+                        becuase of how much he was dedicated to his work on
+                        music. (self awareness, philosophy, stoicism)
+                      </p>
+                      <p>
+                        23 - laid off because of steel tariff learned self
+                        taught programming (codecademy, reading from library,
+                        learn from Nick Bolles)
+                      </p>
+                      <p>
+                        Learning other side of programming learned hacking
                         (multiple hacking books)
                       </p>
                     </Paper>
