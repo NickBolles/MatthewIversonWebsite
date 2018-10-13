@@ -4,7 +4,7 @@ import { Typography, Paper } from "@material-ui/core";
 class Contact extends Component {
   render() {
     return (
-      <Paper>
+      <Paper id="Contact">
       <Typography className="contact-list">
         <Typography className="ContactTitle"><h2>Contact Me</h2></Typography>
         <Typography className="Contact-body">
