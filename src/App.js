@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import "./App.css";
-import PrimarySearchAppBar from "./Components/UI/PrimarySearchAppBar";
+import AppBar from "./Components/UI/AppBar";
 import Landing from "./Sections/Landing";
 import ControlledExpansionPanels from "./Components/UI/ControlledExpansionPanels";
 import Contact from "./Sections/Contact";
@@ -11,7 +11,7 @@ class App extends Component {
     return (
       <div className="App">
         <section>
-          <PrimarySearchAppBar />
+          <AppBar />
         </section>
         <section className="Profile">
           <Landing />
