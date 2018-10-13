@@ -107,9 +107,11 @@ class Programming extends React.Component {
               <p>
                 Matthew then wanted to learn the bigger picture he did not
                 understand this led him to ethical hacking. <b>Nick Bolles</b> (
-                <a href="http://www.nickbolles.com">www.nickbolles.com</a> ) and 
+                <a href="http://www.nickbolles.com" rel="noopener noreferrer"
+              target="_blank">www.nickbolles.com</a> ) and 
                 <b> Joe Bannon</b> (
-                <a href="http://www.joebannon.com">www.joebannon.com</a> ) did
+                <a href="http://www.joebannon.com" rel="noopener noreferrer"
+              target="_blank">www.joebannon.com</a> ) did
                 help guide Matthew to experiment and create rather than
                 ingesting more information. Matthew decided to listen after a
                 few months of hearing them say it. Once he decided to make his
