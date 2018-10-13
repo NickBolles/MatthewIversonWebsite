@@ -6,7 +6,7 @@ import HeadPhoto from "../Components/Personal/HeadPhoto";
 class Landing extends Component {
   render() {
     return(
-      <div style={{width: '100%', margin: 'auto'}}>
+      <div id="Landing" style={{width: '100%', margin: 'auto'}}>
         <div className="landing-grid">
           <Grid xs={12}>
             <HeadPhoto />
