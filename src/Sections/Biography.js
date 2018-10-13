@@ -140,15 +140,69 @@ class Biography extends React.Component {
                     <Paper className="word-paper">
                       <h3>College</h3>
                       <p>
-                        18 - start college did not like free time saw how much
-                        people partied and enjoyed drinking and music was always
-                        involved. 19 - see peoples interest in music found nearo
-                        science interesting, psychology interesting 20 - went to
-                        entrepreneurship events with collegiate Organization on
-                        campus which would go to events with 4-10 other
-                        universities to converse about making real products and
-                        services. 21 - DJ at several events
+                        Matthew started college in 2013 at Southwest Minnesota
+                        State University. He went to school to play football and
+                        to get a degree. When he was attending he noticed how
+                        much others feel the desire to party and drink.
                       </p>
+                      <p>
+                        He realized many people enjoyed music while partying.
+                        His friend Cole got a djing board and Matthew started
+                        expirementing with mixing songs together. After a while
+                        Matthew was the one who would be mixing songs together
+                        in the dorm rooms. Matthew enjoyed setting the
+                        enviroment rather than part taking in the drunk
+                        shinanigons.
+                      </p>
+                      <p>
+                        Once Matthew got back to his hometown in the summer
+                        after his first year of college he started learning how
+                        to produce music with another producer. He woudl help
+                        give pointers and learn from the other producer. He got
+                        the confidence to start producing his own music with
+                        Ableton.
+                      </p>
+                      <p>
+                        Matthew started to learn how to make music through
+                        playing guitar and paino which helped him hone in his
+                        skills to producing. He took a huge amount of
+                        inpsiration from Jon Bellion.
+                      </p>
+                      <p>
+                        He took a class in philosophy his sophomore year in
+                        college. When he took the class he thought it was
+                        interesting at first. Once he started understanding it
+                        more he found out how complex each theory is and the
+                        different understandings people can have on the world
+                        around them. Matthew started to savor the incredible
+                        perspectives each could give to the student.
+                      </p>
+                      <p>
+                        After Matthew found the way of how people thought even
+                        more interesting. He started researching psychology and
+                        neurology in his free time. He loved to understand the
+                        cause and effect relationship between everything. The
+                        more he delved into the understanding of it all the more
+                        detailed his life started to be perceived.
+                      </p>
+                      <p>
+                        When he transfered schools to University of South Dakota
+                        he had plenty of free time because he was not doing
+                        football anymore. He started researching for the future
+                        on different avenues he will do after college. Matthew
+                        came back to the one solution he always had but never
+                        actively pursude; entrepreneurship.
+                      </p>
+                      <p>
+                        His teacher was a incredible infulence on his
+                        understanding and expiremtation of understanding the
+                        ideals that went into business. He particapted in
+                        several entrepreneurship weekends becuase of his
+                        teacher. These weekends taught Matthew the pace at which
+                        entrepreneurs thought and the ideas that came from other
+                        business people.
+                      </p>
+                      <p>Matthew created his own djing website with wix and </p>
                     </Paper>
                     <Paper className="word-paper">
                       <h3>Young Adult</h3>
