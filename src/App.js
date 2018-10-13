@@ -5,7 +5,6 @@ import Landing from "./Sections/Landing";
 import ControlledExpansionPanels from "./Components/UI/ControlledExpansionPanels";
 import Contact from "./Sections/Contact";
 import BioButton from "./Components/UI/BioButton";
-import Main from "./Sections/Main";
 
 class App extends Component {
   render() {
