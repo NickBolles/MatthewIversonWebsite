@@ -19,7 +19,7 @@ const styles = theme => ({
     margin: "auto"
   },
   appBar: {
-    position: "relative"
+    position: "fixed"
   },
   flex: {
     flex: 1
@@ -76,6 +76,9 @@ class Biography extends React.Component {
             <div className={classes.root}>
               <section>
                 <section>
+                  <br />
+                  <br />
+                  <br />
                   <Typography>
                     <Paper className="word-paper">
                       <h2>Biography</h2>
