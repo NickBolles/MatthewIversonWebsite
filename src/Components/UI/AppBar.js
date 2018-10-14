@@ -30,36 +30,26 @@ function SimpleAppBar(props) {
             <b>Matthew Iverson</b>
           </Typography>
           <div className="HeaderSpace" />
-          <Typography>
-            <IconButton
-              href="#Biography"
-              children={<WorkIcon className="NavButtons" />}
-            />
-          </Typography>
-          <Typography>
-            <IconButton
-              href="#Resume"
-              children={<InsertDriveFile className="NavButtons" />}
-            />
-          </Typography>
-          <Typography>
-            <IconButton
-              href="#Programmer"
-              children={<ComputerIcon className="NavButtons" />}
-            />
-          </Typography>
-          <Typography>
-            <IconButton
-              href="#PenTesting"
-              children={<SecurityIcon className="NavButtons" />}
-            />
-          </Typography>
-          <Typography>
-            <IconButton
-              href="#Contact"
-              children={<MailIcon className="NavButtons" />}
-            />
-          </Typography>
+          <IconButton
+            href="#Biography"
+            children={<WorkIcon className="NavButtons" />}
+          />
+          <IconButton
+            href="#Resume"
+            children={<InsertDriveFile className="NavButtons" />}
+          />
+          <IconButton
+            href="#Programmer"
+            children={<ComputerIcon className="NavButtons" />}
+          />
+          <IconButton
+            href="#PenTesting"
+            children={<SecurityIcon className="NavButtons" />}
+          />
+          <IconButton
+            href="#Contact"
+            children={<MailIcon className="NavButtons" />}
+          />
         </Toolbar>
       </AppBar>
     </div>
