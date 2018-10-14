@@ -10,9 +10,7 @@ class App extends Component {
   render() {
     return (
       <div className="App">
-        <section>
           <AppBar />
-        </section>
         <section className="Profile">
           <Landing />
         <section>
@@ -20,9 +18,6 @@ class App extends Component {
         </section>
         <section>
           <div className="page-content" />
-{/*
-             Main
-*/}
         </section>
         <section>
           <ControlledExpansionPanels />
