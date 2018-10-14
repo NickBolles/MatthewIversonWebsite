@@ -11,14 +11,8 @@ class App extends Component {
     return (
       <div className="App">
           <AppBar />
-        <section className="Profile">
           <Landing />
-        <section>
           <BioButton />
-        </section>
-        <section>
-          <div className="page-content" />
-        </section>
         <section>
           <ControlledExpansionPanels />
         </section>
@@ -26,7 +20,6 @@ class App extends Component {
           <Contact />
         </section>
         <section>
-        </section>
         </section>
       </div>
     );

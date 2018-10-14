@@ -9,10 +9,6 @@ class HeadPhoto extends Component {
           alt="avatar"
           className="avatar-img"
         />
-        <h2 className="curiosity">
-          "Always be curious."
-        </h2>
-        <br />
       </div>
     );
   }
