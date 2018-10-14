@@ -20,7 +20,7 @@ class Landing extends Component {
                   className="PersonalDescriptors"
                 >
                   Shaper
-                </a>{" "}
+                </a>
                 |
                 <a
                   href="https://donaldrobertson.name/diagram-the-influence-of-socrates-on-stoicism/"
@@ -29,7 +29,7 @@ class Landing extends Component {
                   className="PersonalDescriptors"
                 >
                   Stoic
-                </a>{" "}
+                </a>
                 |
                 <a
                   href="https://www.16personalities.com/intj-personality"
@@ -38,7 +38,7 @@ class Landing extends Component {
                   className="PersonalDescriptors"
                 >
                   INTJ-A
-                </a>{" "}
+                </a>
                 |
                 <a
                   href="https://youtu.be/h-KHWUq3B7I"
@@ -47,7 +47,7 @@ class Landing extends Component {
                   className="PersonalDescriptors"
                 >
                   Entreprenuer
-                </a>{" "}
+                </a>
                 |
                 <a
                   href="https://www.biography.com/people/nikola-tesla-9504443"
@@ -56,7 +56,7 @@ class Landing extends Component {
                   className="PersonalDescriptors"
                 >
                   Inventor
-                </a>{" "}
+                </a>
                 |
                 <a
                   href="https://www.matthewiver.com"
